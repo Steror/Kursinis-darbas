@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.6960 64-bit) (preloaded format=xelatex 2019.3.11)  18 MAR 2019 10:39
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.6960 64-bit) (preloaded format=xelatex 2019.3.11)  18 MAR 2019 22:12
 entering extended mode
 **./kursinis.tex
 (kursinis.tex
@@ -1262,7 +1262,7 @@ Package logreq Info: Writing requests to 'kursinis.run.xml'.
 Here is how much of TeX's memory you used:
  25638 strings out of 427748
  503044 string characters out of 3146822
- 997696 words of memory out of 3000000
+ 996684 words of memory out of 3000000
  29420 multiletter control sequences out of 15000+200000
  546857 words of font info for 100 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
