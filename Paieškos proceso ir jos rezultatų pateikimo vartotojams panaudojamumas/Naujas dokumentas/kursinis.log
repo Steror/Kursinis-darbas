@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.6960 64-bit) (preloaded format=xelatex 2019.3.11)  18 MAR 2019 22:12
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.6960 64-bit) (preloaded format=xelatex 2019.3.11)  8 APR 2019 11:50
 entering extended mode
 **./kursinis.tex
 (kursinis.tex
@@ -1185,15 +1185,15 @@ Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
 
 
 Package biblatex Warning: Bibliography string 'and' untranslated
-(biblatex)                at entry 'PvzKonfLt' on input line 116.
+(biblatex)                at entry 'PvzKonfLt' on input line 117.
 
 
 Package biblatex Warning: Bibliography string 'in' untranslated
-(biblatex)                at entry 'PvzKonfLt' on input line 116.
+(biblatex)                at entry 'PvzKonfLt' on input line 117.
 
 
 Package biblatex Warning: Bibliography string 'pages' untranslated
-(biblatex)                at entry 'PvzKonfLt' on input line 116.
+(biblatex)                at entry 'PvzKonfLt' on input line 117.
 
 
 Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
@@ -1201,7 +1201,7 @@ Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
 
 
 Package biblatex Warning: Bibliography string 'and' untranslated
-(biblatex)                at entry 'PvzStraipsnLt' on input line 116.
+(biblatex)                at entry 'PvzStraipsnLt' on input line 117.
 
 
 Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
@@ -1209,7 +1209,7 @@ Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
 
 
 Package biblatex Warning: Bibliography string 'and' untranslated
-(biblatex)                at entry 'PvzKnygLt' on input line 116.
+(biblatex)                at entry 'PvzKnygLt' on input line 117.
 
 
 Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
@@ -1217,7 +1217,7 @@ Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
 
 
 Package biblatex Warning: Bibliography string 'and' untranslated
-(biblatex)                at entry 'PvzElPubLt' on input line 116.
+(biblatex)                at entry 'PvzElPubLt' on input line 117.
 
 
 Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
