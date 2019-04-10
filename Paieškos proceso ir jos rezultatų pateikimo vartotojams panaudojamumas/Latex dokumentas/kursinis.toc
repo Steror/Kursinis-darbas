@@ -2,30 +2,30 @@
 \defcounter {refsection}{0}\relax 
 \select@language {lithuanian}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Sąvokų apibrėžimai}{2}% 
-\defcounter {refsection}{0}\relax 
 \contentsline {section}{Įvadas}{3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.}Pagrindinė tiriamoji dalis}{4}% 
+\contentsline {section}{\numberline {1.}Medžiagos darbo tema dėstymo skyriai}{4}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.1.}Poskyris}{4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.1.1.}Skirsnis}{4}% 
+\contentsline {subsubsection}{\numberline {1.1.1.}Skirsnis}{5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\numberline {1.1.1.1.}Straipsnis}{4}% 
+\contentsline {paragraph}{\numberline {1.1.1.1.}Straipsnis}{5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.1.2.}Skirsnis}{4}% 
+\contentsline {subsubsection}{\numberline {1.1.2.}Skirsnis}{5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.}Skyrius}{5}% 
+\contentsline {section}{\numberline {2.}Skyrius}{6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.}Poskyris}{5}% 
+\contentsline {subsection}{\numberline {2.1.}Poskyris}{6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.}Poskyris}{5}% 
+\contentsline {subsection}{\numberline {2.2.}Poskyris}{6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Išvados}{6}% 
+\contentsline {section}{Rezultatai ir išvados}{7}% 
 \defcounter {refsection}{0}\relax 
-\def \@dotsep {1000}
+\contentsline {section}{Santrumpos}{8}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Priedas Nr.1}{}
+\contentsline {section}{\MakeUppercase {Priedai}}{8}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Priedas Nr.2}{}
+\contentsline {subsection}{1 priedas.\nobreakspace {}Neuroninio tinklo struktūra}{9}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{2 priedas.\nobreakspace {}Eksperimentinio palyginimo rezultatai}{10}% 
