@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.6960 64-bit) (preloaded format=xelatex 2019.3.11)  9 APR 2019 21:26
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.6960 64-bit) (preloaded format=xelatex 2019.3.11)  10 APR 2019 11:20
 entering extended mode
 **./kursinis.tex
 (kursinis.tex
@@ -1133,18 +1133,90 @@ Package biblatex Info: Automatic encoding selection.
 \openout3 = `kursinis.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'kursinis.bbl' not found.
-No file kursinis.bbl.
+Package biblatex Info: ... file 'kursinis.bbl' found.
+(kursinis.bbl
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                PvzElPubEn
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                PvzElPubLt
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                PvzKnygEn
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                PvzKnygLt
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                PvzKonfEn
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                PvzKonfLt
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                PvzMagistrLt
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                PvzPhdEn
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                PvzStraipsnEn
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                PvzStraipsnLt
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+)
 Package biblatex Info: Reference section=0 on input line 38.
 Package biblatex Info: Reference segment=0 on input line 38.
 \c@lstlisting=\count437
 LaTeX Font Info:    Try loading font information for U+msa on input line 41.
-("C:\Users\Steror\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
+ ("C:\Users\Steror\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd
+"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 41.
- ("C:\Users\Steror\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd
-"
+
+("C:\Users\Steror\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
@@ -1158,37 +1230,6 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ] [3
 
 ]
-
-LaTeX Warning: Citation 'PvzStraipsnLt' on page 4 undefined on input line 88.
-
-
-LaTeX Warning: Citation 'PvzStraipsnEn' on page 4 undefined on input line 90.
-
-
-LaTeX Warning: Citation 'PvzKonfLt' on page 4 undefined on input line 90.
-
-
-LaTeX Warning: Citation 'PvzKonfEn' on page 4 undefined on input line 90.
-
-
-LaTeX Warning: Citation 'PvzKnygLt' on page 4 undefined on input line 90.
-
-
-LaTeX Warning: Citation 'PvzKnygEn' on page 4 undefined on input line 90.
-
-
-LaTeX Warning: Citation 'PvzElPubLt' on page 4 undefined on input line 90.
-
-
-LaTeX Warning: Citation 'PvzElPubEn' on page 4 undefined on input line 90.
-
-
-LaTeX Warning: Citation 'PvzMagistrLt' on page 4 undefined on input line 90.
-
-
-LaTeX Warning: Citation 'PvzPhdEn' on page 4 undefined on input line 90.
-
-
 Underfull \hbox (badness 1394) in paragraph at lines 88--91
 []\TU/texgyretermes(0)/m/n/12 Citavimo pavyzdžiai: cituojamas vienas šaltinis [
 []]; cituojami keli šal-
@@ -1203,41 +1244,40 @@ Underfull \hbox (badness 1231) in paragraph at lines 88--91
 
 ] [5] [6
 
+] [7
+
 ]
 
-LaTeX Warning: Empty bibliography on input line 122.
+Package biblatex Warning: No hyphenation patterns for 'lietuvių' on input line 
+122.
 
-[7
 
-] [8
+Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
+(biblatex)                Please use '\mkdaterangeiso'.
+
+[8
+
+] [9
 
 ]
 File: img/MLP.png Graphic file (type bmp)
 <img/MLP.png>
- [9
+ [10
 
-] [10
+] [11
 
 ] (kursinis.aux)
-
-LaTeX Warning: There were undefined references.
-
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                kursinis
-(biblatex)                and rerun LaTeX afterwards.
-
 Package logreq Info: Writing requests to 'kursinis.run.xml'.
 \openout1 = `kursinis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25591 strings out of 427748
- 501434 string characters out of 3146822
+ 25613 strings out of 427748
+ 502036 string characters out of 3146822
  997818 words of memory out of 3000000
- 29376 multiletter control sequences out of 15000+200000
- 546841 words of font info for 98 fonts, out of 3000000 for 9000
+ 29392 multiletter control sequences out of 15000+200000
+ 546857 words of font info for 100 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
- 67i,11n,96p,906b,2529s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 67i,11n,96p,906b,6098s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on kursinis.pdf (10 pages).
+Output written on kursinis.pdf (11 pages).

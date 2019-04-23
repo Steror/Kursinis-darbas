@@ -1,16 +1,26 @@
-[0] Config.pm:354> INFO - This is Biber 2.7
-[0] Config.pm:357> INFO - Logfile is 'kursinis.blg'
-[52] biber-darwin:303> INFO - === Thu Jun 15, 2017, 12:15:41
-[76] Biber.pm:359> INFO - Reading 'kursinis.bcf'
-[188] Biber.pm:835> INFO - Found 10 citekeys in bib section 0
-[207] Biber.pm:3670> INFO - Processing section 0
-[227] Biber.pm:3840> INFO - Looking for bibtex format file 'bibliografija.bib' for section 0
-[234] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
-[240] bibtex.pm:1292> INFO - Found BibTeX data source 'bibliografija.bib'
-[260] Utils.pm:164> WARN - BibTeX subsystem: /var/folders/j8/qwlnc49j4kbbx20w86gh27r80000gn/T/gEcP202KbA/bibliografija.bib_8070.utf8, line 4, warning: 148 characters of junk seen at toplevel
-[288] UCollate.pm:68> INFO - Overriding locale 'lt-LT' defaults 'variable = shifted' with 'variable = non-ignorable'
-[289] UCollate.pm:68> INFO - Overriding locale 'lt-LT' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[289] Biber.pm:3499> INFO - Sorting list 'anyt/global/' of type 'entry' with scheme 'anyt' and locale 'lt-LT'
-[301] bbl.pm:608> INFO - Writing 'kursinis.bbl' with encoding 'UTF-8'
-[303] bbl.pm:712> INFO - Output to kursinis.bbl
-[303] Biber.pm:109> INFO - WARNINGS: 1
+[0] Config.pm:304> INFO - This is Biber 2.12
+[0] Config.pm:307> INFO - Logfile is 'kursinis.blg'
+[21] biber-MSWIN64:315> INFO - === 
+[42] Biber.pm:371> INFO - Reading 'kursinis.bcf'
+[107] Biber.pm:889> INFO - Found 11 citekeys in bib section 0
+[118] Biber.pm:4093> INFO - Processing section 0
+[128] Biber.pm:4254> INFO - Looking for bibtex format file 'bibliografija.bib' for section 0
+[130] bibtex.pm:1523> INFO - LaTeX decoding ...
+[134] bibtex.pm:1340> INFO - Found BibTeX data source 'bibliografija.bib'
+[137] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\Steror\AppData\Local\Temp\8roOUMPO9j\bibliografija.bib_9616.utf8, line 4, warning: 148 characters of junk seen at toplevel
+[138] Utils.pm:193> WARN - I didn't find a database entry for 'PvzStraipsnLt' (section 0)
+[138] Utils.pm:193> WARN - I didn't find a database entry for 'PvzStraipsnEn' (section 0)
+[138] Utils.pm:193> WARN - I didn't find a database entry for 'PvzKonfLt' (section 0)
+[138] Utils.pm:193> WARN - I didn't find a database entry for 'PvzKonfEn' (section 0)
+[138] Utils.pm:193> WARN - I didn't find a database entry for 'PvzKnygLt' (section 0)
+[138] Utils.pm:193> WARN - I didn't find a database entry for 'PvzKnygEn' (section 0)
+[138] Utils.pm:193> WARN - I didn't find a database entry for 'PvzElPubLt' (section 0)
+[138] Utils.pm:193> WARN - I didn't find a database entry for 'PvzElPubEn' (section 0)
+[139] Utils.pm:193> WARN - I didn't find a database entry for 'PvzMagistrLt' (section 0)
+[139] Utils.pm:193> WARN - I didn't find a database entry for 'PvzPhdEn' (section 0)
+[145] UCollate.pm:68> INFO - Overriding locale 'lt-LT' defaults 'variable = shifted' with 'variable = non-ignorable'
+[145] UCollate.pm:68> INFO - Overriding locale 'lt-LT' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[145] Biber.pm:3921> INFO - Sorting list 'anyt/global//global/global' of type 'entry' with template 'anyt' and locale 'lt-LT'
+[150] bbl.pm:636> INFO - Writing 'kursinis.bbl' with encoding 'UTF-8'
+[150] bbl.pm:739> INFO - Output to kursinis.bbl
+[153] Biber.pm:110> INFO - WARNINGS: 11
