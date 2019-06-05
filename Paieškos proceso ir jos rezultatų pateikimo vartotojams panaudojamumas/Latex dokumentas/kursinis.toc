@@ -4,7 +4,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{Įvadas}{3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.}Medžiagos darbo tema dėstymo skyriai}{4}% 
+\contentsline {section}{\numberline {1.}Ligonių poreikių analizė}{4}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.1.}Poskyris}{4}% 
 \defcounter {refsection}{0}\relax 

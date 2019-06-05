@@ -23,8 +23,8 @@
 \faculty{Matematikos ir informatikos fakultetas}
 \department{Programų sistemų katedra}
 \papertype{Kursinis darbas}
-\title{Paieškos proceso ir jos rezultatų pateikimo vartotojams panaudojamumas medicinos srityje}
-\titleineng{The Usability of the Search Process and Presenting its Results to the User in the Medical Field}
+\title{Paieškos proceso ir jos rezultatų pateikimo vartotojams panaudojamumas VUL Santaros klinikų puslapyje}
+\titleineng{The Usability of the Search Process and Presenting its Results to the User for VUH Santaros klinikos website}
 \status{3 kurso 3 grupės studentas}
 \author{Tomas Kiziela}
 % \secondauthor{Vardonis Pavardonis}   % Pridėti antrą autorių
@@ -48,41 +48,47 @@
 \sectionnonum{Įvadas}
 %Įvade apibūdinamas darbo tikslas, temos aktualumas ir siekiami rezultatai.
 %Darbo įvadas neturi būti dėstymo santrauka. Įvado apimtis 1–2 puslapiai.
-Šiame darbe tiriami informacijos paieškos sprendimai leidžiantys palengvinti Vilniaus universiteto ligoninės (VUL) Santaros klinikų internetinio puslapio santa.lt naudojimą. Tyrime bus atsižvelgta į navigaciją, informacijos paieškos procesą bei gautų rezultatų pateikimą.
+Šiame darbe tiriami informacijos paieškos sprendimai leidžiantys palengvinti Vilniaus universiteto ligoninės (VUL) Santaros klinikų internetinio puslapio santa.lt naudojimą. Tyrime bus atsižvelgta į puslapio navigaciją, informacijos paieškos procesą bei gautų rezultatų pateikimą.
 
-VUL Santaros klinikos yra viena didžiausių Lietuvos ligoninių. Joje dirba virš 5000 darbuotojų, o per metus gydoma apie 1 milijonas ambulatorinių (ateinančių iš namų) pacientų\cite{VulSkApieMusLt}. Šiais laikais darosi vis populiariau ieškoti informacijos ir registruotis internetu, taigi santa.lt puslapyje turėtų būti lengva surasti reikiamą informaciją. Tačiau dabartinė puslapio architektūra turi spragų informacijos paieškos srityje ir naudotojas gali nerasti reikiamos informacijos.
+Kadangi pacientams internetas lengvai prieinamas, darosi įprasta ieškoti informacijos ir registruotis internetu. Tačiau „Trūksta apibendrintos, susistemintos informacijos, kuri pacientui būtų nuolat lengvai prieinama, nes jiems sudėtinga susiorientuoti įstaigų ir interneto svetainių gausoje, rasti ir suprasti skirtingai teikiamą informaciją“\cite{AukšAudInstLt}. VUL Santaros klinikos yra viena didžiausių Lietuvos ligoninių. Joje dirba virš 5000 darbuotojų, o per metus gydoma apie 1 milijonas ambulatorinių (ateinančių iš namų) pacientų\cite{VulSkApieMusLt}. Taigi santa.lt puslapis yra vienas iš pirmųjų internetinių resursų, kurį pasiekia vartotojai. Puslapyje turėtų būti lengva surasti ieškomą informaciją, nes tai padės pacientams priimti sprendimus apie savo sveikatą. Tačiau dabartinė puslapio architektūra turi spragų informacijos paieškos srityje ir naudotojas gali nerasti reikiamos informacijos.
 
-Šio darbo tikslas yra sukurti geresnę informacijos architektūrą santa.lt puslapiui. Tam reikės išanalizuoti vartotojų poreikius, pergalvoti navigacijos sistemą, patobulinti paieškos procesą ir rezultatų pateikimą. Viso to pasekoje tikimasi gauti puslapį, kuriame informacija bus lengvai surandama ir pateikta suprantamu pavidalu.
+Šio darbo tikslas yra suprojektuoti informacijos architektūrą, kuri leistų pacientams lengviau rasti aktualią informaciją santa.lt puslapyje. Pagrindiniai darbo siekiai yra aiškesnė registracija pas gydytoją ir informacijos apie ligoninės prieinamumą bei struktūrą pasiekiamumas. Galutinis darbo rezultatas - puslapio maketas pabrėžiantis naują informacijos architektūrą.
 
 Uždaviniai:
 \begin{enumerate}
-	\item Identifikuoti panaudojamumo siekius
-	\item Išskirti lyginimo kriterijus
+	\item Identifikuoti panaudojamumo siekius remiantis literatūros šaltiniais
+	\item Išskirti lyginimo kriterijus remiantis literatūros šaltiniais
+	\renewcommand*{\theenumii}{\theenumi.\arabic{enumii}}
+	\renewcommand{\labelenumii}{\theenumii}
 	\begin{enumerate}
 		\item Navigacijos
 		\item Paieškos
 		\item Rezultatų
 	\end{enumerate}
-	\item Išskirti alternatyvius sprendimus
-	\item Sukurti sprendimo variantų maketus
-	\item Sukurti galutinio sprendimo prototipą
+	\item Paruošti sprendimo variantus
+	\begin{enumerate}
+		\item Remiantis panašiais puslapiais ir literatūros šaltiniais išskirti alternatyvius sprendimus
+		\item Sukurti sprendimo variantų maketus
+		\item Sukurti galutinio sprendimo prototipą
+	\end{enumerate}
 	\item Išskirti detalius reikalavimus galutinio sprendimo įgyvendinimui
-	\item Išskirti technologijas padedančias įgyvendinti galutinį sprendimą
+	\item Atlikus literatūros analizę išskirti technologijas padedančias įgyvendinti galutinį sprendimą
 \end{enumerate}
 
-\section{Medžiagos darbo tema dėstymo skyriai}
-Medžiagos darbo tema dėstymo skyriuose pateikiamos nagrinėjamos temos detalės:
-pradinė medžiaga, jos analizės ir apdorojimo metodai, sprendimų įgyvendinimas,
-gautų rezultatų apibendrinimas. Šios dalies turinys labai priklauso nuo darbo
-temos. Skyriai gali turėti poskyrius ir smulkesnes sudėtines dalis, kaip
-punktus ir papunkčius.
+\section{Ligonių poreikių analizė}
+%Medžiagos darbo tema dėstymo skyriuose pateikiamos nagrinėjamos temos detalės:
+%pradinė medžiaga, jos analizės ir apdorojimo metodai, sprendimų įgyvendinimas,
+%gautų rezultatų apibendrinimas. Šios dalies turinys labai priklauso nuo darbo
+%temos. Skyriai gali turėti poskyrius ir smulkesnes sudėtines dalis, kaip
+%punktus ir papunkčius.
 
-Medžiaga turi būti dėstoma aiškiai, pateikiant argumentus. Tekstas dėstomas
-trečiuoju asmeniu, t.y. rašoma ne „aš manau“, bet „autorius mano“, „autoriaus
-nuomone“. Reikėtų vengti informacijos nesuteikiančių frazių, pvz., „...kaip jau
-buvo minėta...“, „...kaip visiems žinoma...“ ir pan., vengti grožinės literatūros
-ar publicistinio stiliaus, gausių metaforų ar panašių meninės išraiškos
-priemonių.
+%Medžiaga turi būti dėstoma aiškiai, pateikiant argumentus. Tekstas dėstomas
+%trečiuoju asmeniu, t.y. rašoma ne „aš manau“, bet „autorius mano“, „autoriaus
+%nuomone“. Reikėtų vengti informacijos nesuteikiančių frazių, pvz., „...kaip jau
+%buvo minėta...“, „...kaip visiems žinoma...“ ir pan., vengti grožinės literatūros
+%ar publicistinio stiliaus, gausių metaforų ar panašių meninės išraiškos
+%priemonių.
+
 
 \subsection{Poskyris}
 Citavimo pavyzdžiai: cituojamas vienas šaltinis \cite{PvzStraipsnLt}; cituojami
