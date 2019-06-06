@@ -48,7 +48,7 @@
 \sectionnonum{Įvadas}
 %Įvade apibūdinamas darbo tikslas, temos aktualumas ir siekiami rezultatai.
 %Darbo įvadas neturi būti dėstymo santrauka. Įvado apimtis 1–2 puslapiai.
-Šiame darbe tiriami informacijos paieškos sprendimai leidžiantys palengvinti Vilniaus universiteto ligoninės (VUL) Santaros klinikų internetinio puslapio santa.lt naudojimą. Tyrime bus atsižvelgta į puslapio navigaciją, informacijos paieškos procesą bei gautų rezultatų pateikimą.
+Šiame darbe tiriami informacijos paieškos sprendimai leidžiantys palengvinti Vilniaus universiteto ligoninės (VUL) Santaros klinikų internetinio puslapio santa.lt naudojimą. Tyrime bus atsižvelgta į puslapio navigaciją, informacijos paieškos procesą bei gautų rezultatų pateikimą tradiciniuose ir mobiliuose įrenginiuose.
 
 Kadangi pacientams internetas lengvai prieinamas, darosi įprasta ieškoti informacijos ir registruotis internetu. Tačiau „Trūksta apibendrintos, susistemintos informacijos, kuri pacientui būtų nuolat lengvai prieinama, nes jiems sudėtinga susiorientuoti įstaigų ir interneto svetainių gausoje, rasti ir suprasti skirtingai teikiamą informaciją“\cite{AukšAudInstLt}. VUL Santaros klinikos yra viena didžiausių Lietuvos ligoninių. Joje dirba virš 5000 darbuotojų, o per metus gydoma apie 1 milijonas ambulatorinių (ateinančių iš namų) pacientų\cite{VulSkApieMusLt}. Taigi santa.lt puslapis yra vienas iš pirmųjų internetinių resursų, kurį pasiekia vartotojai. Puslapyje turėtų būti lengva surasti ieškomą informaciją, nes tai padės pacientams priimti sprendimus apie savo sveikatą. Tačiau dabartinė puslapio architektūra turi spragų informacijos paieškos srityje ir naudotojas gali nerasti reikiamos informacijos.
 
@@ -56,7 +56,7 @@ Kadangi pacientams internetas lengvai prieinamas, darosi įprasta ieškoti infor
 
 Uždaviniai:
 \begin{enumerate}
-	\item Identifikuoti panaudojamumo siekius remiantis literatūros šaltiniais
+	\item Identifikuoti panaudojamumo siekius remiantis literatūros šaltiniais ir internetinių puslapių lankomumo informacija
 	\item Išskirti lyginimo kriterijus remiantis literatūros šaltiniais
 	\renewcommand*{\theenumii}{\theenumi.\arabic{enumii}}
 	\renewcommand{\labelenumii}{\theenumii}
@@ -75,7 +75,40 @@ Uždaviniai:
 	\item Atlikus literatūros analizę išskirti technologijas padedančias įgyvendinti galutinį sprendimą
 \end{enumerate}
 
-\section{Ligonių poreikių analizė}
+\section{Vartotojų poreikių analizė}
+Tyrimai nurodo, kad Europoje daugiau nei pusė žmonių bent kartą metuose ieško informacijos apie sveikatą internetu \cite{EuCitizDigHealthEn}. Nagrinėjant santa.lt puslapio srautą randama, kad naudotojai dažniausiai ateina iš (5,5\%) ir yra peradresuojami į (10,4\%) sergu.lt (neįskaitant google.com 19,1\% ir 21,8\% atitinkamai)\cite{AlexaSantaEn}. Taigi galima matyti, kad šie puslapiai turi nemažą vartotojų sutapimą ir būtų naudinga atsižvelgti į tai, kokią įtaką daro vienas kitam. Sergu.lt puslapis skirtas išankstinei visų Lietuvos pacientų registracijai internetu. Tai, kad 1 iš 10 santa.lt vartotojų tiesiogiai pereina į sergu.lt puslapį leidžia tikėti, kad vartotojams yra aktuali registracija pas gydytoją. Santa.lt „Kaip mus rasti?“ skyrelį vartotojai yra aplankę 1,2 milijonus kartų\cite{VulSkKaipMusRastiLt}, 2 kartus daugiau nei skyrelį „Apie mus“\cite{VulSkApieMusLt}, iš to galima daryti prielaidą apie kitą vartotojų siekį - informacijos apie ligoninės klinikų pasiekiamumą.
+
+Atlikus puslapio pažintinę peržvalgą rasti šie panaudojamumo trūkumai:
+\begin{enumerate}
+	\item Navigacija
+	\renewcommand*{\theenumii}{\theenumi.\arabic{enumii}}
+	\renewcommand{\labelenumii}{\theenumii}
+	\begin{enumerate}
+		\item Pasirinktos kategorijos mažo kontrasto, taigi sunku pastebėti esamą kategoriją
+		\item Naviguojant į „Pacientams“, tada „Aktuali informacija“ ir galiausiai „Kaip užsiregistruoti“ pasiekiamas tuščias puslapis
+		\item Ant mobilių įrenginių navigacijos juosta beveik neįskaitoma, mygtukai per maži
+	\end{enumerate}
+	\item Paieškos laukas
+	\renewcommand*{\theenumii}{\theenumi.\arabic{enumii}}
+	\renewcommand{\labelenumii}{\theenumii}
+	\begin{enumerate}
+		\item Paieškos laukas turi 20 simbolių limitą, kas neleidžia įvesti ilgesnių paieškos užklausų
+		\item Vedant simbolius į paiešką nepasiūlomi užklausos variantai
+		\item Nėra filtravimo pagal skirtingas kategorijas
+		\item Nėra filtravimo pagal kalbą
+		\item Ant mobilių įrenginių sunku paspausti ant paieškos elementų
+	\end{enumerate}
+	\item Rezultatų
+	\renewcommand*{\theenumii}{\theenumi.\arabic{enumii}}
+	\renewcommand{\labelenumii}{\theenumii}
+	\begin{enumerate}
+		\item Rezultatai neturi nuorodos į kategorijas iš kurių jie kilę
+		\item Rezultatų lange viskas pateikta teksto pavidalu, nėra grafinių elementų padedančių skirstyti rezultatus pagal kategorijas
+		\item Ant mobilių įrenginių prastai matosi rezultato detalės kaip data ir kategorija
+	\end{enumerate}
+\end{enumerate}
+\vspace{1cm}
+Iš peržvalgos matoma, kad puslapis nepritaikytas mobiliems įrenginiams. Tai yra didelė problema, nes mobilieji įrenginiai vis plačiau naudojami ir šių įrenginių vartotojai turėtų galėti laisvai naudotis puslapiu.
 %Medžiagos darbo tema dėstymo skyriuose pateikiamos nagrinėjamos temos detalės:
 %pradinė medžiaga, jos analizės ir apdorojimo metodai, sprendimų įgyvendinimas,
 %gautų rezultatų apibendrinimas. Šios dalies turinys labai priklauso nuo darbo
@@ -94,21 +127,6 @@ Uždaviniai:
 Citavimo pavyzdžiai: cituojamas vienas šaltinis \cite{PvzStraipsnLt}; cituojami
 keli šaltiniai \cite{PvzStraipsnEn, PvzKonfLt, PvzKonfEn, PvzKnygLt, PvzKnygEn,
 PvzElPubLt, PvzElPubEn, PvzMagistrLt, PvzPhdEn, VulSkApieMusLt}.
-
-\begin{enumerate}
-	\item Pirmas elementas
-	\item Antras elementas
-\end{enumerate}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at mauris sit amet nisi vestibulum tincidunt non vel mi. Pellentesque lacinia, sapien id sollicitudin egestas, diam erat dapibus justo, a cursus arcu nunc feugiat sapien. Mauris elit lorem, egestas at nisl at, consequat tempus nisi. Aliquam congue consectetur lorem ut venenatis. Suspendisse scelerisque eros ac sapien pulvinar, id fermentum sem bibendum. Phasellus rhoncus nec tellus quis gravida. Fusce at nibh porta, sodales ipsum quis, facilisis velit. Phasellus semper laoreet magna, eget eleifend massa. Donec sollicitudin risus risus, sodales dignissim ex bibendum et. Aliquam neque lectus, posuere vitae suscipit et, hendrerit eu mauris. Integer cursus neque ex, sed molestie ex suscipit et. Phasellus eget quam id arcu tincidunt fringilla eget eu tortor. In hac habitasse platea dictumst.
-
-Duis porttitor placerat semper. Fusce in tristique tellus. Cras quis finibus dolor, id cursus enim. Mauris egestas feugiat porta. Donec at augue aliquet, fringilla augue eget, ullamcorper turpis. Integer id tempus risus. Ut pellentesque gravida diam, sit amet euismod libero volutpat at. Integer id rutrum neque. Vivamus a elit hendrerit, facilisis metus nec, cursus diam. Cras condimentum magna at felis suscipit, non gravida magna vestibulum. Aenean sit amet suscipit enim. Donec vitae erat molestie, convallis eros ac, faucibus magna. Duis nulla tellus, gravida eu mauris eu, commodo finibus erat. Donec venenatis erat at turpis porta, eu dignissim diam sodales. Nullam scelerisque pulvinar urna, vel laoreet purus pretium ut.
-
-Nam eget diam sit amet urna rhoncus fringilla ac quis arcu. Sed id rutrum nulla. Nulla facilisi. Donec posuere porttitor tellus, sed semper mauris rhoncus vitae. In hac habitasse platea dictumst. In vestibulum mi eget justo facilisis, eu gravida nulla consequat. Vestibulum ultrices mi a felis consectetur, eget mollis lacus mollis. Suspendisse elementum sem semper mi fermentum, vitae molestie nulla ornare. Donec lacinia, metus vel malesuada imperdiet, elit tortor dictum risus, lacinia commodo magna libero id massa. Pellentesque accumsan erat vel ex cursus, eget posuere nisl efficitur. Ut at rutrum dui. Nullam in aliquet ex, id tincidunt elit.
-
-Praesent dapibus metus dolor, nec rhoncus nunc rutrum id. Quisque quis mauris ante. Duis luctus, orci eu rutrum lobortis, purus nunc convallis diam, ut convallis orci lorem sit amet turpis. In orci sapien, lacinia nec eleifend varius, pellentesque vitae turpis. Duis aliquet elementum dui in convallis. Nunc vel diam tristique, rhoncus arcu eu, sollicitudin dui. Integer in turpis vel turpis rhoncus pretium. Quisque eget venenatis ipsum. Fusce vitae egestas magna. Ut eget elit efficitur, tristique massa vel, tincidunt sapien. Donec convallis arcu vitae libero porta placerat a ac justo. Duis lorem purus, ullamcorper luctus ultrices sit amet, porttitor in est. Donec porttitor efficitur turpis, ut rhoncus massa ullamcorper in. Proin imperdiet est eu pharetra commodo. Integer ac tempor ipsum. Vestibulum facilisis pulvinar ex, ut dignissim mauris congue tempus.
-
-Nullam ullamcorper libero quis mi elementum, vulputate gravida velit faucibus. Nam euismod nibh sit amet nunc pulvinar efficitur. Phasellus facilisis enim tellus, ac sollicitudin lorem semper consectetur. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean vulputate ipsum vitae est vulputate volutpat. Maecenas scelerisque elementum tincidunt. Cras ultricies hendrerit gravida. Nullam ac orci justo. Sed blandit est sit amet neque viverra, et tristique urna dapibus. Donec at ex eu mauris mollis venenatis et vitae dolor. 
 
 \subsubsection{Skirsnis}
 \subsubsubsection{Straipsnis}
