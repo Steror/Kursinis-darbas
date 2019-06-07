@@ -75,6 +75,93 @@
       \verb https://www.vkontrole.lt/failas.aspx?id=3894
       \endverb
     \endentry
+    \entry{NielsenHeuristicsEn}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=753054f71283d85f82cda8e35daf6bac}{%
+           family={Nielsen},
+           familyi={N\bibinitperiod},
+           given={Jakob},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{753054f71283d85f82cda8e35daf6bac}
+      \strng{fullhash}{753054f71283d85f82cda8e35daf6bac}
+      \strng{bibnamehash}{753054f71283d85f82cda8e35daf6bac}
+      \strng{authorbibnamehash}{753054f71283d85f82cda8e35daf6bac}
+      \strng{authornamehash}{753054f71283d85f82cda8e35daf6bac}
+      \strng{authorfullhash}{753054f71283d85f82cda8e35daf6bac}
+      \field{extraname}{1}
+      \field{labelalpha}{Nie94}
+      \field{sortinit}{N}
+      \field{sortinithash}{f7242c3ed3dc50029fca1be76c497c7c}
+      \field{extraalpha}{1}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the SIGCHI conference on Human Factors in Computing Systems}
+      \field{title}{Enhancing the explanatory power of usability heuristics}
+      \field{year}{1994}
+      \field{pages}{152\bibrangedash 158}
+      \range{pages}{7}
+    \endentry
+    \entry{NielsenUsabilityEn}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=753054f71283d85f82cda8e35daf6bac}{%
+           family={Nielsen},
+           familyi={N\bibinitperiod},
+           given={Jakob},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{753054f71283d85f82cda8e35daf6bac}
+      \strng{fullhash}{753054f71283d85f82cda8e35daf6bac}
+      \strng{bibnamehash}{753054f71283d85f82cda8e35daf6bac}
+      \strng{authorbibnamehash}{753054f71283d85f82cda8e35daf6bac}
+      \strng{authornamehash}{753054f71283d85f82cda8e35daf6bac}
+      \strng{authorfullhash}{753054f71283d85f82cda8e35daf6bac}
+      \field{extraname}{2}
+      \field{labelalpha}{Nie94}
+      \field{sortinit}{N}
+      \field{sortinithash}{f7242c3ed3dc50029fca1be76c497c7c}
+      \field{extraalpha}{2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Conference companion on Human factors in computing systems}
+      \field{title}{Usability inspection methods}
+      \field{year}{1994}
+      \field{pages}{413\bibrangedash 414}
+      \range{pages}{2}
+    \endentry
+    \entry{EmergingmHealthEn}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=61835b68ccef417c7b0f4743bc983d0a}{%
+           family={{PwC}},
+           familyi={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{61835b68ccef417c7b0f4743bc983d0a}
+      \strng{fullhash}{61835b68ccef417c7b0f4743bc983d0a}
+      \strng{bibnamehash}{61835b68ccef417c7b0f4743bc983d0a}
+      \strng{authorbibnamehash}{61835b68ccef417c7b0f4743bc983d0a}
+      \strng{authornamehash}{61835b68ccef417c7b0f4743bc983d0a}
+      \strng{authorfullhash}{61835b68ccef417c7b0f4743bc983d0a}
+      \field{labelalpha}{PwC14}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{Emerging mHealth: Paths for growth}
+      \field{year}{2014}
+      \verb{urlraw}
+      \verb https://www.pwc.com/gx/en/healthcare/mhealth/assets/pwc-emerging-mhealth-full.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.pwc.com/gx/en/healthcare/mhealth/assets/pwc-emerging-mhealth-full.pdf
+      \endverb
+    \endentry
     \entry{EuCitizDigHealthEn}{misc}{}
       \name{author}{1}{}{%
         {{hash=316fb4ee28dc43b4836a67fad575f132}{%

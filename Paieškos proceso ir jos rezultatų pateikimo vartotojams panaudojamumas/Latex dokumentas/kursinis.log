@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.6960 64-bit) (preloaded format=xelatex 2019.3.11)  6 JUN 2019 23:29
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.6960 64-bit) (preloaded format=xelatex 2019.3.11)  7 JUN 2019 23:32
 entering extended mode
 **./kursinis.tex
 (kursinis.tex
@@ -1229,20 +1229,27 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ] [3
 
+] [4
+
 ]
-Underfull \hbox (badness 1394) in paragraph at lines 127--130
+Overfull \hbox (14.29755pt too wide) in paragraph at lines 130--144
+ [] 
+ []
+
+
+Underfull \hbox (badness 1394) in paragraph at lines 147--150
 []\TU/texgyretermes(0)/m/n/12 Citavimo pavyzdžiai: cituojamas vienas šaltinis [
 []]; cituojami keli šal-
  []
 
 
-Underfull \hbox (badness 1231) in paragraph at lines 127--130
+Underfull \hbox (badness 1231) in paragraph at lines 147--150
 \TU/texgyretermes(0)/m/n/12 tiniai [[]; []; []; []; []; [];
  []
 
-[4
+[5
 
-] [5] [6
+] [6
 
 ] [7
 
@@ -1253,7 +1260,19 @@ Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
 
 
 Package biblatex Warning: No hyphenation patterns for 'lietuvių' on input line 
-146.
+167.
+
+
+Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
+(biblatex)                Please use '\mkdaterangeiso'.
+
+
+Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
+(biblatex)                Please use '\mkdaterangeiso'.
+
+
+Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
+(biblatex)                Please use '\mkdaterangeiso'.
 
 
 Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
@@ -1265,7 +1284,7 @@ Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
 
 
 Package biblatex Warning: No hyphenation patterns for 'lietuvių' on input line 
-146.
+167.
 
 
 Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
@@ -1273,7 +1292,7 @@ Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
 
 
 Package biblatex Warning: No hyphenation patterns for 'lietuvių' on input line 
-146.
+167.
 
 
 Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
@@ -1291,19 +1310,16 @@ File: img/MLP.png Graphic file (type bmp)
 ] [11
 
 ] (kursinis.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package logreq Info: Writing requests to 'kursinis.run.xml'.
 \openout1 = `kursinis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25635 strings out of 427748
- 502763 string characters out of 3146822
- 997032 words of memory out of 3000000
- 29414 multiletter control sequences out of 15000+200000
- 546857 words of font info for 100 fonts, out of 3000000 for 9000
+ 25644 strings out of 427748
+ 503192 string characters out of 3146822
+ 998238 words of memory out of 3000000
+ 29422 multiletter control sequences out of 15000+200000
+ 546865 words of font info for 101 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
  67i,11n,96p,1066b,7627s stack positions out of 5000i,500n,10000p,200000b,50000s
 

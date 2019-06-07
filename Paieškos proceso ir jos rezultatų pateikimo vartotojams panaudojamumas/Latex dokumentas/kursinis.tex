@@ -77,10 +77,11 @@ Uždaviniai:
 
 \section{Vartotojų poreikių analizė}
 Tyrimai nurodo, kad Europoje daugiau nei pusė žmonių bent kartą metuose ieško informacijos apie sveikatą internetu \cite{EuCitizDigHealthEn}. Nagrinėjant santa.lt puslapio srautą randama, kad naudotojai dažniausiai ateina iš (5,5\%) ir yra peradresuojami į (10,4\%) sergu.lt (neįskaitant google.com 19,1\% ir 21,8\% atitinkamai)\cite{AlexaSantaEn}. Taigi galima matyti, kad šie puslapiai turi nemažą vartotojų sutapimą ir būtų naudinga atsižvelgti į tai, kokią įtaką daro vienas kitam. Sergu.lt puslapis skirtas išankstinei visų Lietuvos pacientų registracijai internetu. Tai, kad 1 iš 10 santa.lt vartotojų tiesiogiai pereina į sergu.lt puslapį leidžia tikėti, kad vartotojams yra aktuali registracija pas gydytoją. Santa.lt „Kaip mus rasti?“ skyrelį vartotojai yra aplankę 1,2 milijonus kartų\cite{VulSkKaipMusRastiLt}, 2 kartus daugiau nei skyrelį „Apie mus“\cite{VulSkApieMusLt}, iš to galima daryti prielaidą apie kitą vartotojų siekį - informacijos apie ligoninės klinikų pasiekiamumą.
+\vspace{0,5cm}
 
 Atlikus puslapio pažintinę peržvalgą rasti šie panaudojamumo trūkumai:
 \begin{enumerate}
-	\item Navigacija
+	\item Navigacijos
 	\renewcommand*{\theenumii}{\theenumi.\arabic{enumii}}
 	\renewcommand{\labelenumii}{\theenumii}
 	\begin{enumerate}
@@ -88,7 +89,7 @@ Atlikus puslapio pažintinę peržvalgą rasti šie panaudojamumo trūkumai:
 		\item Naviguojant į „Pacientams“, tada „Aktuali informacija“ ir galiausiai „Kaip užsiregistruoti“ pasiekiamas tuščias puslapis
 		\item Ant mobilių įrenginių navigacijos juosta beveik neįskaitoma, mygtukai per maži
 	\end{enumerate}
-	\item Paieškos laukas
+	\item Paieškos
 	\renewcommand*{\theenumii}{\theenumi.\arabic{enumii}}
 	\renewcommand{\labelenumii}{\theenumii}
 	\begin{enumerate}
@@ -107,8 +108,8 @@ Atlikus puslapio pažintinę peržvalgą rasti šie panaudojamumo trūkumai:
 		\item Ant mobilių įrenginių prastai matosi rezultato detalės kaip data ir kategorija
 	\end{enumerate}
 \end{enumerate}
-\vspace{1cm}
-Iš peržvalgos matoma, kad puslapis nepritaikytas mobiliems įrenginiams. Tai yra didelė problema, nes mobilieji įrenginiai vis plačiau naudojami ir šių įrenginių vartotojai turėtų galėti laisvai naudotis puslapiu.
+\vspace{0,5cm}
+Iš peržvalgos matoma įvairaus sunkumo trūkumų visose kategorijose ir tai, kad puslapis nepritaikytas mobiliems įrenginiams. Tai yra didelė problema, nes mobilieji įrenginiai vis plačiau naudojami \cite{EmergingmHealthEn} ir šių įrenginių vartotojai turėtų galėti laisvai naudotis puslapiu. Galutinis prototipas turi išspręsti šias problemas, neįvedant naujų panaudojomumo trūkumų.
 %Medžiagos darbo tema dėstymo skyriuose pateikiamos nagrinėjamos temos detalės:
 %pradinė medžiaga, jos analizės ir apdorojimo metodai, sprendimų įgyvendinimas,
 %gautų rezultatų apibendrinimas. Šios dalies turinys labai priklauso nuo darbo
@@ -121,8 +122,27 @@ Iš peržvalgos matoma, kad puslapis nepritaikytas mobiliems įrenginiams. Tai y
 %buvo minėta...“, „...kaip visiems žinoma...“ ir pan., vengti grožinės literatūros
 %ar publicistinio stiliaus, gausių metaforų ar panašių meninės išraiškos
 %priemonių.
+\section{Maketų lyginimo kriterijai}
+Panaudojamumo testavimas gali būti atliktas įvairiais metodais. Empiriniai metodai yra plačiausiai naudojami\cite{NielsenUsabilityEn}, tačiau reikalauja daug laiko ir išteklių, todėl pasirinktas vienas iš analitinių metodų. Dėl patirties ir laiko stokos pasirinkta naudoti neformaliausią metodą - euristinį vertinimą.
 
-
+Maketų palyginimui bus naudojamos laiko patvirtintos Jakob Nielsen euristikos\cite{NielsenHeuristicsEn}. Lentelėje bus išskiriamos 10 euristikų. Kiekvienai euristikai priskiriamas skaičius nuo 0 iki 3 reiškiantis defekto sunkumą, kur 0 - defekto nėra, 1 - smulkus ar kosmetinis defektas, 2 - vidutinio sunkumo defektas, 3 - kritinis defektas. Paskutinis stulpelis nusako, kur ir koks defektas buvo pastebėtas.%\ref{euristikųlentelė}
+\begin{center}
+\begin{tabular}{ |c|c|c| } 
+ \hline
+	Euristika & Defekto sunkumas & Komentaras \\ \hline
+	1) Būsenos matomumas &  &  \\ \hline
+	2) Atitikimas realiam pasauliui  &  &  \\ \hline
+	3) Naudotojo valdomas dialogas &  &  \\ \hline
+	4) Darna ir standartai &  &  \\ \hline
+	5) Klaidų prevencija &  &  \\ \hline
+	6) Atpažinimas geriau nei atsiminimas &  &  \\ \hline
+	7) Naudojimo lankstumas ir efektyvumas &  &  \\ \hline
+	8) Estetiškas ir minimalistinis dizainas &  &  \\ \hline
+	9) Remti klaidų atpažinimą, jų priežasčių nustatymą ir taisymą &  &  \\ \hline
+	10) Parama ir dokumentacija &  &  \\ \hline
+\end{tabular}
+\captionof{table}{Euristinis vertinimas}\label{euristikųlentelė}
+\end{center}
 \subsection{Poskyris}
 Citavimo pavyzdžiai: cituojamas vienas šaltinis \cite{PvzStraipsnLt}; cituojami
 keli šaltiniai \cite{PvzStraipsnEn, PvzKonfLt, PvzKonfEn, PvzKnygLt, PvzKnygEn,
@@ -136,10 +156,11 @@ PvzElPubLt, PvzElPubEn, PvzMagistrLt, PvzPhdEn, VulSkApieMusLt}.
 \subsection{Poskyris}
 
 \sectionnonum{Rezultatai ir išvados}
-Rezultatų ir išvadų dalyje turi būti aiškiai išdėstomi pagrindiniai darbo
-rezultatai (kažkas išanalizuota, kažkas sukurta, kažkas įdiegta) ir pateikiamos
-išvados (daromi nagrinėtų problemų sprendimo metodų palyginimai, teikiamos
-rekomendacijos, akcentuojamos naujovės).
+
+%Rezultatų ir išvadų dalyje turi būti aiškiai išdėstomi pagrindiniai darbo
+%rezultatai (kažkas išanalizuota, kažkas sukurta, kažkas įdiegta) ir pateikiamos
+%išvados (daromi nagrinėtų problemų sprendimo metodų palyginimai, teikiamos
+%rekomendacijos, akcentuojamos naujovės).
 
 
 %% PAKEISTAS PAVADINIMAS Į 'Šaltiniai'

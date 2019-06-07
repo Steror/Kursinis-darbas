@@ -6,23 +6,29 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.}Vartotojų poreikių analizė}{4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.}Poskyris}{4}% 
+\contentsline {section}{\numberline {2.}Maketų lyginimo kriterijai}{5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.1.1.}Skirsnis}{5}% 
+\contentsline {subsection}{\numberline {2.1.}Poskyris}{5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\numberline {1.1.1.1.}Straipsnis}{5}% 
+\contentsline {subsubsection}{\numberline {2.1.1.}Skirsnis}{5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.1.2.}Skirsnis}{5}% 
+\contentsline {paragraph}{\numberline {2.1.1.1.}Straipsnis}{5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.}Skyrius}{6}% 
+\contentsline {subsubsection}{\numberline {2.1.2.}Skirsnis}{5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.}Poskyris}{6}% 
+\contentsline {section}{\numberline {3.}Skyrius}{6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.}Poskyris}{6}% 
+\contentsline {subsection}{\numberline {3.1.}Poskyris}{6}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.}Poskyris}{6}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{Rezultatai ir išvados}{7}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{Šaltiniai}{8}% 
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\select@language {lithuanian}
 \defcounter {refsection}{0}\relax 
 \select@language {english}
 \defcounter {refsection}{0}\relax 
