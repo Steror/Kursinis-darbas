@@ -69,6 +69,7 @@ Uždaviniai:
 	\begin{enumerate}
 		\item Remiantis panašiais puslapiais ir literatūros šaltiniais išskirti alternatyvius sprendimus
 		\item Sukurti sprendimo variantų maketus
+		\item Palyginti maketus
 		\item Sukurti galutinio sprendimo prototipą
 	\end{enumerate}
 	\item Išskirti detalius reikalavimus galutinio sprendimo įgyvendinimui
@@ -76,12 +77,12 @@ Uždaviniai:
 \end{enumerate}
 
 \section{Vartotojų poreikių analizė}
-Tyrimai nurodo, kad Europoje daugiau nei pusė žmonių bent kartą metuose ieško informacijos apie sveikatą internetu \cite{EuCitizDigHealthEn}. Nagrinėjant santa.lt puslapio srautą randama, kad naudotojai dažniausiai ateina iš (5,5\%) ir yra peradresuojami į (10,4\%) sergu.lt (neįskaitant google.com 19,1\% ir 21,8\% atitinkamai)\cite{AlexaSantaEn}. Taigi galima matyti, kad šie puslapiai turi nemažą vartotojų sutapimą ir būtų naudinga atsižvelgti į tai, kokią įtaką daro vienas kitam. Sergu.lt puslapis skirtas išankstinei visų Lietuvos pacientų registracijai internetu. Tai, kad 1 iš 10 santa.lt vartotojų tiesiogiai pereina į sergu.lt puslapį leidžia tikėti, kad vartotojams yra aktuali registracija pas gydytoją. Santa.lt „Kaip mus rasti?“ skyrelį vartotojai yra aplankę 1,2 milijonus kartų\cite{VulSkKaipMusRastiLt}, 2 kartus daugiau nei skyrelį „Apie mus“\cite{VulSkApieMusLt}, iš to galima daryti prielaidą apie kitą vartotojų siekį - informacijos apie ligoninės klinikų pasiekiamumą.
+Tyrimai nurodo, kad Europoje daugiau nei pusė žmonių bent kartą metuose ieško informacijos apie sveikatą internetu \cite{EuCitizDigHealthEn}, taigi naudotojams aktualu internetinių puslapių panaudojamumas. Nagrinėjant santa.lt puslapio srautą randama, kad naudotojai dažniausiai ateina iš (5,5\%) ir yra peradresuojami į (10,4\%) sergu.lt (neįskaitant google.com 19,1\% ir 21,8\% atitinkamai)\cite{AlexaSantaEn}. Taigi galima matyti, kad šie puslapiai turi nemažą vartotojų sutapimą ir būtų naudinga atsižvelgti į tai, kokią įtaką daro vienas kitam. Sergu.lt puslapis skirtas išankstinei visų Lietuvos pacientų registracijai internetu. Tai, kad 1 iš 10 santa.lt vartotojų tiesiogiai pereina į sergu.lt puslapį leidžia tikėti, kad vartotojams yra aktuali registracija pas gydytoją. Santa.lt „Kaip mus rasti?“ skyrelį vartotojai yra aplankę 1,2 milijonus kartų\cite{VulSkKaipMusRastiLt}, 2 kartus daugiau nei skyrelį „Apie mus“\cite{VulSkApieMusLt}, iš to galima daryti prielaidą apie kitą vartotojų siekį - informacijos apie ligoninės klinikų pasiekiamumą.
 \vspace{0,5cm}
 
 Atlikus puslapio pažintinę peržvalgą rasti šie panaudojamumo trūkumai:
 \begin{enumerate}
-	\item Navigacijos
+	\item Navigacijos (\ref{img:registracija} pav.)
 	\renewcommand*{\theenumii}{\theenumi.\arabic{enumii}}
 	\renewcommand{\labelenumii}{\theenumii}
 	\begin{enumerate}
@@ -89,17 +90,17 @@ Atlikus puslapio pažintinę peržvalgą rasti šie panaudojamumo trūkumai:
 		\item Naviguojant į „Pacientams“, tada „Aktuali informacija“ ir galiausiai „Kaip užsiregistruoti“ pasiekiamas tuščias puslapis
 		\item Ant mobilių įrenginių navigacijos juosta beveik neįskaitoma, mygtukai per maži
 	\end{enumerate}
-	\item Paieškos
+	\item Paieškos (\ref{img:paieškarez} pav.)
 	\renewcommand*{\theenumii}{\theenumi.\arabic{enumii}}
 	\renewcommand{\labelenumii}{\theenumii}
 	\begin{enumerate}
 		\item Paieškos laukas turi 20 simbolių limitą, kas neleidžia įvesti ilgesnių paieškos užklausų
 		\item Vedant simbolius į paiešką nepasiūlomi užklausos variantai
-		\item Nėra filtravimo pagal skirtingas kategorijas
+		\item Nėra filtravimo pagal skirtingas kategorijas, pavyzdžiui naujienas atskirti nuo puslapių apie ligoninės skyrius
 		\item Nėra filtravimo pagal kalbą
 		\item Ant mobilių įrenginių sunku paspausti ant paieškos elementų
 	\end{enumerate}
-	\item Rezultatų
+	\item Rezultatų (\ref{img:paieškarez} pav.)
 	\renewcommand*{\theenumii}{\theenumi.\arabic{enumii}}
 	\renewcommand{\labelenumii}{\theenumii}
 	\begin{enumerate}
@@ -109,7 +110,8 @@ Atlikus puslapio pažintinę peržvalgą rasti šie panaudojamumo trūkumai:
 	\end{enumerate}
 \end{enumerate}
 \vspace{0,5cm}
-Iš peržvalgos matoma įvairaus sunkumo trūkumų visose kategorijose ir tai, kad puslapis nepritaikytas mobiliems įrenginiams. Tai yra didelė problema, nes mobilieji įrenginiai vis plačiau naudojami \cite{EmergingmHealthEn} ir šių įrenginių vartotojai turėtų galėti laisvai naudotis puslapiu. Galutinis prototipas turi išspręsti šias problemas, neįvedant naujų panaudojomumo trūkumų.
+
+Iš peržvalgos matoma įvairaus sunkumo trūkumų visose kategorijose ir tai, kad puslapis nepritaikytas mobiliems įrenginiams. Tai yra didelė problema, nes mobilieji įrenginiai vis plačiau naudojami \cite{EmergingmHealthEn} ir šių įrenginių vartotojai turėtų galėti laisvai naudotis puslapiu. Galutinis prototipas turi išspręsti šiuos panaudojomumo trūkumus.
 %Medžiagos darbo tema dėstymo skyriuose pateikiamos nagrinėjamos temos detalės:
 %pradinė medžiaga, jos analizės ir apdorojimo metodai, sprendimų įgyvendinimas,
 %gautų rezultatų apibendrinimas. Šios dalies turinys labai priklauso nuo darbo
@@ -141,19 +143,24 @@ Maketų palyginimui bus naudojamos laiko patvirtintos Jakob Nielsen euristikos\c
 	9) Remti klaidų atpažinimą, jų priežasčių nustatymą ir taisymą &  &  \\ \hline
 	10) Parama ir dokumentacija &  &  \\ \hline
 \end{tabular}
-\captionof{table}{Euristinis vertinimas}\label{euristikųlentelė}
+\captionof{table}{Euristinio vertinimo lentelės pavyzdys}\label{euristikųlentelėpvz}
 \end{center}
-\subsection{Poskyris}
-Citavimo pavyzdžiai: cituojamas vienas šaltinis \cite{PvzStraipsnLt}; cituojami
-keli šaltiniai \cite{PvzStraipsnEn, PvzKonfLt, PvzKonfEn, PvzKnygLt, PvzKnygEn,
-PvzElPubLt, PvzElPubEn, PvzMagistrLt, PvzPhdEn, VulSkApieMusLt}.
 
-\subsubsection{Skirsnis}
-\subsubsubsection{Straipsnis}
-\subsubsection{Skirsnis}
-\section{Skyrius}
-\subsection{Poskyris}
-\subsection{Poskyris}
+\section{Sprendimo variantai}
+
+\subsection{Alternatyvieji sprendimai}
+
+\subsection{Sprendimo maketai}
+
+\subsubsection{Pirmas maketas}
+\subsubsection{Antras maketas}
+\subsubsection{Trečias maketas}
+
+\subsection{Maketų palyginimas}
+\subsection{Galutinio sprendimo prototipas}
+
+\section{Reikalavimai galutinio sprendimo įgyvendinimui}
+\section{Technologijos galutinio sprendimo įgyvendinimui}
 
 \sectionnonum{Rezultatai ir išvados}
 
@@ -172,10 +179,10 @@ PvzElPubLt, PvzElPubEn, PvzMagistrLt, PvzPhdEn, VulSkApieMusLt}.
 % šaltinių, kurie nebuvo paminėti tekste.
 
 % \sectionnonum{Sąvokų apibrėžimai}
-\sectionnonum{Santrumpos}
-Sąvokų apibrėžimai ir santrumpų sąrašas sudaromas tada, kai darbo tekste
-vartojami specialūs paaiškinimo reikalaujantys terminai ir rečiau sutinkamos
-santrumpos.
+%\sectionnonum{Santrumpos}
+%Sąvokų apibrėžimai ir santrumpų sąrašas sudaromas tada, kai darbo tekste
+%vartojami specialūs paaiškinimo reikalaujantys terminai ir rečiau sutinkamos
+%santrumpos.
 
 \appendix  % Priedai
 % Prieduose gali būti pateikiama pagalbinė, ypač darbo autoriaus savarankiškai
@@ -183,28 +190,35 @@ santrumpos.
 % kompaktiniame diske. Priedai taip pat numeruojami ir vadinami. Darbo tekstas
 % su priedais susiejamas nuorodomis.
 
-\section{Neuroninio tinklo struktūra}
+\section{Dabartinio puslapio grafinė vartotojo sąsaja}
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.5]{img/MLP}
-    \caption{Paveikslėlio pavyzdys}
-    \label{img:mlp}
+    \includegraphics[scale=0.6]{img/RegistracijosAklavietė}
+    \caption{Registracijos aklavietė}
+    \label{img:registracija}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.6]{img/PaieškaRezultatai}
+    \caption{Registracijos aklavietė}
+    \label{img:paieškarez}
 \end{figure}
 
 
-\section{Eksperimentinio palyginimo rezultatai}
+%\section{Eksperimentinio palyginimo rezultatai}
 % tablesgenerator.com - converts calculators (e.g. excel) tables to LaTeX
-\begin{table}[H]\footnotesize
-  \centering
-  \caption{Lentelės pavyzdys}
-  {\begin{tabular}{|l|c|c|} \hline
-    Algoritmas & $\bar{x}$ & $\sigma^{2}$ \\
-    \hline
-    Algoritmas A  & 1.6335    & 0.5584       \\
-    Algoritmas B  & 1.7395    & 0.5647       \\
-    \hline
-  \end{tabular}}
-  \label{tab:table example}
-\end{table}
+%\begin{table}[H]\footnotesize
+%  \centering
+%  \caption{Lentelės pavyzdys}
+%  {\begin{tabular}{|l|c|c|} \hline
+%    Algoritmas & $\bar{x}$ & $\sigma^{2}$ \\
+%    \hline
+%    Algoritmas A  & 1.6335    & 0.5584       \\
+%    Algoritmas B  & 1.7395    & 0.5647       \\
+%    \hline
+%  \end{tabular}}
+%  \label{tab:table example}
+%\end{table}
 
 \end{document}

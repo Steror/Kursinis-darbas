@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.6960 64-bit) (preloaded format=xelatex 2019.3.11)  7 JUN 2019 23:32
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.6960 64-bit) (preloaded format=xelatex 2019.3.11)  8 JUN 2019 14:00
 entering extended mode
 **./kursinis.tex
 (kursinis.tex
@@ -1232,19 +1232,8 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ] [4
 
 ]
-Overfull \hbox (14.29755pt too wide) in paragraph at lines 130--144
+Overfull \hbox (14.29755pt too wide) in paragraph at lines 132--146
  [] 
- []
-
-
-Underfull \hbox (badness 1394) in paragraph at lines 147--150
-[]\TU/texgyretermes(0)/m/n/12 Citavimo pavyzdžiai: cituojamas vienas šaltinis [
-[]]; cituojami keli šal-
- []
-
-
-Underfull \hbox (badness 1231) in paragraph at lines 147--150
-\TU/texgyretermes(0)/m/n/12 tiniai [[]; []; []; []; []; [];
  []
 
 [5
@@ -1253,74 +1242,76 @@ Underfull \hbox (badness 1231) in paragraph at lines 147--150
 
 ] [7
 
-]
-
-Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
-(biblatex)                Please use '\mkdaterangeiso'.
-
-
-Package biblatex Warning: No hyphenation patterns for 'lietuvių' on input line 
-167.
-
-
-Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
-(biblatex)                Please use '\mkdaterangeiso'.
-
-
-Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
-(biblatex)                Please use '\mkdaterangeiso'.
-
-
-Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
-(biblatex)                Please use '\mkdaterangeiso'.
-
-
-Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
-(biblatex)                Please use '\mkdaterangeiso'.
-
-
-Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
-(biblatex)                Please use '\mkdaterangeiso'.
-
-
-Package biblatex Warning: No hyphenation patterns for 'lietuvių' on input line 
-167.
-
-
-Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
-(biblatex)                Please use '\mkdaterangeiso'.
-
-
-Package biblatex Warning: No hyphenation patterns for 'lietuvių' on input line 
-167.
-
-
-Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
-(biblatex)                Please use '\mkdaterangeiso'.
-
-[8
+] [8
 
 ] [9
 
 ]
-File: img/MLP.png Graphic file (type bmp)
-<img/MLP.png>
- [10
 
-] [11
+Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
+(biblatex)                Please use '\mkdaterangeiso'.
 
-] (kursinis.aux)
+
+Package biblatex Warning: No hyphenation patterns for 'lietuvių' on input line 
+174.
+
+
+Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
+(biblatex)                Please use '\mkdaterangeiso'.
+
+
+Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
+(biblatex)                Please use '\mkdaterangeiso'.
+
+
+Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
+(biblatex)                Please use '\mkdaterangeiso'.
+
+
+Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
+(biblatex)                Please use '\mkdaterangeiso'.
+
+
+Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
+(biblatex)                Please use '\mkdaterangeiso'.
+
+
+Package biblatex Warning: No hyphenation patterns for 'lietuvių' on input line 
+174.
+
+
+Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
+(biblatex)                Please use '\mkdaterangeiso'.
+
+
+Package biblatex Warning: No hyphenation patterns for 'lietuvių' on input line 
+174.
+
+
+Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
+(biblatex)                Please use '\mkdaterangeiso'.
+
+[10
+
+]
+File: img/RegistracijosAklavietė.png Graphic file (type bmp)
+<img/RegistracijosAklavietė.png>
+File: img/PaieškaRezultatai.png Graphic file (type bmp)
+<img/PaieškaRezultatai.png>
+ [11
+
+] [12] (kursinis.aux)
 Package logreq Info: Writing requests to 'kursinis.run.xml'.
 \openout1 = `kursinis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25644 strings out of 427748
+ 25635 strings out of 427748
  503192 string characters out of 3146822
- 998238 words of memory out of 3000000
- 29422 multiletter control sequences out of 15000+200000
- 546865 words of font info for 101 fonts, out of 3000000 for 9000
+ 999008 words of memory out of 3000000
+ 29418 multiletter control sequences out of 15000+200000
+ 545296 words of font info for 94 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
- 67i,11n,96p,1066b,7627s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 67i,11n,96p,1130b,7629s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on kursinis.pdf (11 pages).
+Output written on kursinis.pdf (12 pages).
