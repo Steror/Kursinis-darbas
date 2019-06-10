@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.6960 64-bit) (preloaded format=xelatex 2019.3.11)  8 JUN 2019 14:00
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.6960 64-bit) (preloaded format=xelatex 2019.3.11)  10 JUN 2019 01:10
 entering extended mode
 **./kursinis.tex
 (kursinis.tex
@@ -1134,89 +1134,18 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'kursinis.bbl' found.
-(kursinis.bbl
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                PvzElPubEn
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                PvzElPubLt
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                PvzKnygEn
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                PvzKnygLt
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                PvzKonfEn
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                PvzKonfLt
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                PvzMagistrLt
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                PvzPhdEn
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                PvzStraipsnEn
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                PvzStraipsnLt
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-)
+(kursinis.bbl)
 Package biblatex Info: Reference section=0 on input line 38.
 Package biblatex Info: Reference segment=0 on input line 38.
 \c@lstlisting=\count437
 LaTeX Font Info:    Try loading font information for U+msa on input line 41.
- ("C:\Users\Steror\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd
-"
+
+("C:\Users\Steror\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 41.
-
-("C:\Users\Steror\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
+ ("C:\Users\Steror\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd
+"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
@@ -1229,10 +1158,20 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ] [3
 
-] [4
+]
+
+LaTeX Warning: Reference `santamobile' on page 4 undefined on input line 92.
+
+
+LaTeX Warning: Reference `santamobile' on page 4 undefined on input line 102.
+
+
+LaTeX Warning: Reference `santamobile' on page 4 undefined on input line 110.
+
+[4
 
 ]
-Overfull \hbox (14.29755pt too wide) in paragraph at lines 132--146
+Overfull \hbox (14.29755pt too wide) in paragraph at lines 133--147
  [] 
  []
 
@@ -1253,7 +1192,11 @@ Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
 
 
 Package biblatex Warning: No hyphenation patterns for 'lietuvių' on input line 
-174.
+178.
+
+
+Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
+(biblatex)                Please use '\mkdaterangeiso'.
 
 
 Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
@@ -1277,7 +1220,7 @@ Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
 
 
 Package biblatex Warning: No hyphenation patterns for 'lietuvių' on input line 
-174.
+178.
 
 
 Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
@@ -1285,7 +1228,7 @@ Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
 
 
 Package biblatex Warning: No hyphenation patterns for 'lietuvių' on input line 
-174.
+178.
 
 
 Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
@@ -1296,22 +1239,36 @@ Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
 ]
 File: img/RegistracijosAklavietė.png Graphic file (type bmp)
 <img/RegistracijosAklavietė.png>
-File: img/PaieškaRezultatai.png Graphic file (type bmp)
-<img/PaieškaRezultatai.png>
+File: img/PaieškosRezultatai.png Graphic file (type bmp)
+<img/PaieškosRezultatai.png>
  [11
 
-] [12] (kursinis.aux)
+] [12]
+File: img/SantaMobile.png Graphic file (type bmp)
+<img/SantaMobile.png>
+File: img/VmklMobile.png Graphic file (type bmp)
+<img/VmklMobile.png>
+File: img/KaunoMobile.png Graphic file (type bmp)
+<img/KaunoMobile.png>
+File: img/NypMobile.png Graphic file (type bmp)
+<img/NypMobile.png>
+ [13
+
+] (kursinis.aux)
+
+LaTeX Warning: There were undefined references.
+
 Package logreq Info: Writing requests to 'kursinis.run.xml'.
 \openout1 = `kursinis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25635 strings out of 427748
- 503192 string characters out of 3146822
- 999008 words of memory out of 3000000
- 29418 multiletter control sequences out of 15000+200000
+ 25657 strings out of 427748
+ 503668 string characters out of 3146822
+ 999075 words of memory out of 3000000
+ 29436 multiletter control sequences out of 15000+200000
  545296 words of font info for 94 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
- 67i,11n,96p,1130b,7629s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 67i,11n,96p,1129b,7629s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on kursinis.pdf (12 pages).
+Output written on kursinis.pdf (13 pages).

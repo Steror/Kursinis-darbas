@@ -44,6 +44,12 @@
 \defcounter {refsection}{0}\relax 
 \select@language {lithuanian}
 \defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\select@language {lithuanian}
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\MakeUppercase {Priedai}}{10}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{1 priedas.\nobreakspace {}Dabartinio puslapio grafinė vartotojo sąsaja}{11}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{2 priedas.\nobreakspace {}Puslapių atvaizdavimas ant mobilaus įrenginio}{13}% 

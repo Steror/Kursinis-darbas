@@ -77,7 +77,7 @@ Uždaviniai:
 \end{enumerate}
 
 \section{Vartotojų poreikių analizė}
-Tyrimai nurodo, kad Europoje daugiau nei pusė žmonių bent kartą metuose ieško informacijos apie sveikatą internetu \cite{EuCitizDigHealthEn}, taigi naudotojams aktualu internetinių puslapių panaudojamumas. Nagrinėjant santa.lt puslapio srautą randama, kad naudotojai dažniausiai ateina iš (5,5\%) ir yra peradresuojami į (10,4\%) sergu.lt (neįskaitant google.com 19,1\% ir 21,8\% atitinkamai)\cite{AlexaSantaEn}. Taigi galima matyti, kad šie puslapiai turi nemažą vartotojų sutapimą ir būtų naudinga atsižvelgti į tai, kokią įtaką daro vienas kitam. Sergu.lt puslapis skirtas išankstinei visų Lietuvos pacientų registracijai internetu. Tai, kad 1 iš 10 santa.lt vartotojų tiesiogiai pereina į sergu.lt puslapį leidžia tikėti, kad vartotojams yra aktuali registracija pas gydytoją. Santa.lt „Kaip mus rasti?“ skyrelį vartotojai yra aplankę 1,2 milijonus kartų\cite{VulSkKaipMusRastiLt}, 2 kartus daugiau nei skyrelį „Apie mus“\cite{VulSkApieMusLt}, iš to galima daryti prielaidą apie kitą vartotojų siekį - informacijos apie ligoninės klinikų pasiekiamumą.
+Tyrimai nurodo, kad Europoje daugiau nei pusė žmonių bent kartą metuose ieško informacijos apie sveikatą internetu \cite{EuCitizDigHealthEn}, taigi naudotojams aktualu internetinių puslapių panaudojamumas. Nagrinėjant santa.lt puslapio srautą randama, kad naudotojai dažniausiai ateina iš (5,5\%) ir yra peradresuojami į (10,4\%) sergu.lt (neįskaitant google.com 19,1\% ir 21,8\% atitinkamai)\cite{AlexaSantaEn}. Taigi galima matyti, kad šie puslapiai turi nemažą vartotojų sutapimą ir būtų naudinga atsižvelgti į tai, kokią įtaką daro vienas kitam. Sergu.lt puslapis skirtas išankstinei visų Lietuvos pacientų registracijai internetu. Tai, kad 1 iš 10 santa.lt vartotojų tiesiogiai pereina į sergu.lt puslapį leidžia tikėti, kad vartotojams yra aktuali registracija pas gydytoją. Santa.lt „Kaip mus rasti“ skyrelį vartotojai yra aplankę 1,2 milijonus kartų\cite{VulSkKaipMusRastiLt}, 2 kartus daugiau nei skyrelį „Apie mus“\cite{VulSkApieMusLt}, iš to galima daryti prielaidą apie kitą vartotojų siekį - informacijos apie ligoninės klinikų pasiekiamumą.
 \vspace{0,5cm}
 
 Atlikus puslapio pažintinę peržvalgą rasti šie panaudojamumo trūkumai:
@@ -86,9 +86,10 @@ Atlikus puslapio pažintinę peržvalgą rasti šie panaudojamumo trūkumai:
 	\renewcommand*{\theenumii}{\theenumi.\arabic{enumii}}
 	\renewcommand{\labelenumii}{\theenumii}
 	\begin{enumerate}
-		\item Pasirinktos kategorijos mažo kontrasto, taigi sunku pastebėti esamą kategoriją
-		\item Naviguojant į „Pacientams“, tada „Aktuali informacija“ ir galiausiai „Kaip užsiregistruoti“ pasiekiamas tuščias puslapis
-		\item Ant mobilių įrenginių navigacijos juosta beveik neįskaitoma, mygtukai per maži
+		\item Pasirinkta kategorija mažo kontrasto, taigi sunku pastebėti esamą kategoriją
+		\item Išskleistos subkategorijos mažai išsiskiria, taigu sunku atskirti kategorijas nuo subkategorijų
+		\item Naviguojant į „Pacientams“, tada „Aktuali informacija“ ir galiausiai „Kaip užsiregistruoti“ pasiekiamas tuščias puslapis. Vietoj to reikia eiti į „Pacientams“ ir „Kaip mus rasti“ arba „e.Paslaugos“ ir „Išankstinė registracija“
+		\item Ant mobilių įrenginių navigacijos juosta beveik neįskaitoma, mygtukai per maži (\ref{santamobile} pav.)
 	\end{enumerate}
 	\item Paieškos (\ref{img:paieškarez} pav.)
 	\renewcommand*{\theenumii}{\theenumi.\arabic{enumii}}
@@ -98,7 +99,7 @@ Atlikus puslapio pažintinę peržvalgą rasti šie panaudojamumo trūkumai:
 		\item Vedant simbolius į paiešką nepasiūlomi užklausos variantai
 		\item Nėra filtravimo pagal skirtingas kategorijas, pavyzdžiui naujienas atskirti nuo puslapių apie ligoninės skyrius
 		\item Nėra filtravimo pagal kalbą
-		\item Ant mobilių įrenginių sunku paspausti ant paieškos elementų
+		\item Ant mobilių įrenginių sunku paspausti ant paieškos elementų (\ref{santamobile} pav.)
 	\end{enumerate}
 	\item Rezultatų (\ref{img:paieškarez} pav.)
 	\renewcommand*{\theenumii}{\theenumi.\arabic{enumii}}
@@ -106,12 +107,12 @@ Atlikus puslapio pažintinę peržvalgą rasti šie panaudojamumo trūkumai:
 	\begin{enumerate}
 		\item Rezultatai neturi nuorodos į kategorijas iš kurių jie kilę
 		\item Rezultatų lange viskas pateikta teksto pavidalu, nėra grafinių elementų padedančių skirstyti rezultatus pagal kategorijas
-		\item Ant mobilių įrenginių prastai matosi rezultato detalės kaip data ir kategorija
+		\item Ant mobilių įrenginių prastai matosi rezultato detalės kaip data ir kategorija (\ref{santamobile} pav.)
 	\end{enumerate}
 \end{enumerate}
 \vspace{0,5cm}
 
-Iš peržvalgos matoma įvairaus sunkumo trūkumų visose kategorijose ir tai, kad puslapis nepritaikytas mobiliems įrenginiams. Tai yra didelė problema, nes mobilieji įrenginiai vis plačiau naudojami \cite{EmergingmHealthEn} ir šių įrenginių vartotojai turėtų galėti laisvai naudotis puslapiu. Galutinis prototipas turi išspręsti šiuos panaudojomumo trūkumus.
+Iš peržvalgos matoma trūkumų visose kategorijose, tačiau didžiausias iš jų yra, kad puslapis nepritaikytas mobiliems įrenginiams. Tai yra didelė problema, nes mobilieji įrenginiai vis plačiau naudojami \cite{EmergingmHealthEn} ir šių įrenginių vartotojai turėtų galėti laisvai naudotis puslapiu. Galutinis prototipas turi išspręsti šiuos panaudojomumo trūkumus.
 %Medžiagos darbo tema dėstymo skyriuose pateikiamos nagrinėjamos temos detalės:
 %pradinė medžiaga, jos analizės ir apdorojimo metodai, sprendimų įgyvendinimas,
 %gautų rezultatų apibendrinimas. Šios dalies turinys labai priklauso nuo darbo
@@ -125,9 +126,9 @@ Iš peržvalgos matoma įvairaus sunkumo trūkumų visose kategorijose ir tai, k
 %ar publicistinio stiliaus, gausių metaforų ar panašių meninės išraiškos
 %priemonių.
 \section{Maketų lyginimo kriterijai}
-Panaudojamumo testavimas gali būti atliktas įvairiais metodais. Empiriniai metodai yra plačiausiai naudojami\cite{NielsenUsabilityEn}, tačiau reikalauja daug laiko ir išteklių, todėl pasirinktas vienas iš analitinių metodų. Dėl patirties ir laiko stokos pasirinkta naudoti neformaliausią metodą - euristinį vertinimą.
+Panaudojamumo testavimas gali būti atliktas įvairiais metodais. Empiriniai metodai yra plačiausiai naudojami\cite{NielsenUsabilityEn}, tačiau reikalauja daugiau žmonių norint gauti patikimą rezultatą, todėl pasirinktas vienas iš analitinių metodų. Dėl patirties ir laiko stokos pasirinkta naudoti neformaliausią metodą - euristinį vertinimą.
 
-Maketų palyginimui bus naudojamos laiko patvirtintos Jakob Nielsen euristikos\cite{NielsenHeuristicsEn}. Lentelėje bus išskiriamos 10 euristikų. Kiekvienai euristikai priskiriamas skaičius nuo 0 iki 3 reiškiantis defekto sunkumą, kur 0 - defekto nėra, 1 - smulkus ar kosmetinis defektas, 2 - vidutinio sunkumo defektas, 3 - kritinis defektas. Paskutinis stulpelis nusako, kur ir koks defektas buvo pastebėtas.%\ref{euristikųlentelė}
+Maketų palyginimui bus naudojamos laiko patvirtintos Jakob Nielsen euristikos\cite{NielsenHeuristicsEn}. Lentelėje bus išskiriamos 10 euristikų. Kiekvienai euristikai priskiriamas skaičius nuo 0 iki 3 reiškiantis defekto sunkumą, kur 0 - defekto nėra, 1 - smulkus ar kosmetinis defektas, 2 - vidutinio sunkumo defektas, 3 - kritinis defektas. Paskutinis stulpelis nusako, kur ir koks defektas buvo pastebėtas (\ref{euristikųlentelėpvz} pav.).
 \begin{center}
 \begin{tabular}{ |c|c|c| } 
  \hline
@@ -149,10 +150,13 @@ Maketų palyginimui bus naudojamos laiko patvirtintos Jakob Nielsen euristikos\c
 \section{Sprendimo variantai}
 
 \subsection{Alternatyvieji sprendimai}
+Bandant sukurti sprendimo maketus bus remiamasi jau egzistuojančiais ligoninių puslapiais, kurie atitinka prisitaikančio dizaino (angl. responsive design) principus. Prisitaikantis dizainas leidžia turėti vieną puslapį, kuris prisitaiko prie įvarių ekrano formų ir dydžių\cite{RWDEn}. Pavyzdiniai puslapiai parinkti iš didmiesčių ligoninių, Vilniaus, Kauno ir Niujorko. Autoriaus subjektyvia nuomone Kauno ligonės puslapis yra ypač geras pavyzdys. Sumuštinio meniu, registracijos mygtukas ir paieška yra geriausiai matomoje vietoje, naudojami dideli mygtukai su aiškiais užrašais bei kontrastingos spalvos, taigi net žmonėms su prastu regėjimu turėtų būti patogu naudotis (\ref{img:kaunomobile} pav.).
+
+Sprendimo maketai bus kuriami naudojant Balsamiq programinę įrangą, nes ji leidžia greitai sukurti grubų maketą ir autoriui jau tekę ja naudotis. Galutinio sprendimo maketas bus kuriamas su Axure RP 9, nes tai leis sukurti maketą, kuris panašesnis į galutinį rezultatą.
 
 \subsection{Sprendimo maketai}
-
 \subsubsection{Pirmas maketas}
+
 \subsubsection{Antras maketas}
 \subsubsection{Trečias maketas}
 
@@ -200,9 +204,42 @@ Maketų palyginimui bus naudojamos laiko patvirtintos Jakob Nielsen euristikos\c
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.6]{img/PaieškaRezultatai}
-    \caption{Registracijos aklavietė}
+    \includegraphics[scale=0.6]{img/PaieškosRezultatai}
+    \caption{Paieška ir rezultatai}
     \label{img:paieškarez}
+\end{figure}
+
+\section{Puslapių atvaizdavimas ant mobilaus įrenginio}
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{.5\textwidth}
+    	\centering
+    	\includegraphics[scale=0.12]{img/SantaMobile}
+    	\caption{Santa.lt ant mobilaus įrenginio}
+    	\label{img:santamobile}
+    \end{minipage}%
+    \begin{minipage}{.5\textwidth}
+    	\centering
+    	\includegraphics[scale=0.12]{img/VmklMobile}
+    	\caption{Vmkl.lt ant mobilaus įrenginio}
+    	\label{img:vmklmobile}
+    \end{minipage}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{.5\textwidth}
+    \centering
+    \includegraphics[scale=0.12]{img/KaunoMobile}
+    \caption{kaunoligonine.lt ant mobilaus įrenginio}
+    \label{img:kaunomobile}
+    \end{minipage}%
+\begin{minipage}{.5\textwidth}
+    \centering
+    \includegraphics[scale=0.12]{img/NypMobile}
+    \caption{nyp.org ant mobilaus įrenginio}
+    \label{img:nypmobile}
+    \end{minipage}
 \end{figure}
 
 

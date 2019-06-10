@@ -75,6 +75,35 @@
       \verb https://www.vkontrole.lt/failas.aspx?id=3894
       \endverb
     \endentry
+    \entry{RWDEn}{online}{}
+      \name{author}{1}{}{%
+        {{hash=ca762f825f70c5a1f00a689ca3e9869e}{%
+           family={Marcotte},
+           familyi={M\bibinitperiod},
+           given={Ethan},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{ca762f825f70c5a1f00a689ca3e9869e}
+      \strng{fullhash}{ca762f825f70c5a1f00a689ca3e9869e}
+      \strng{bibnamehash}{ca762f825f70c5a1f00a689ca3e9869e}
+      \strng{authorbibnamehash}{ca762f825f70c5a1f00a689ca3e9869e}
+      \strng{authornamehash}{ca762f825f70c5a1f00a689ca3e9869e}
+      \strng{authorfullhash}{ca762f825f70c5a1f00a689ca3e9869e}
+      \field{labelalpha}{Mar10}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{Responsive Web Design}
+      \field{year}{2010}
+      \verb{urlraw}
+      \verb http://alistapart.com/article/responsive-web-design/
+      \endverb
+      \verb{url}
+      \verb http://alistapart.com/article/responsive-web-design/
+      \endverb
+    \endentry
     \entry{NielsenHeuristicsEn}{inproceedings}{}
       \name{author}{1}{}{%
         {{hash=753054f71283d85f82cda8e35daf6bac}{%
@@ -251,16 +280,6 @@
       \endverb
     \endentry
   \enddatalist
-  \missing{PvzElPubEn}
-  \missing{PvzElPubLt}
-  \missing{PvzKnygEn}
-  \missing{PvzKnygLt}
-  \missing{PvzKonfEn}
-  \missing{PvzKonfLt}
-  \missing{PvzMagistrLt}
-  \missing{PvzPhdEn}
-  \missing{PvzStraipsnEn}
-  \missing{PvzStraipsnLt}
 \endrefsection
 \endinput
 
