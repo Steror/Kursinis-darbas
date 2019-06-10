@@ -48,24 +48,22 @@
 \sectionnonum{Įvadas}
 %Įvade apibūdinamas darbo tikslas, temos aktualumas ir siekiami rezultatai.
 %Darbo įvadas neturi būti dėstymo santrauka. Įvado apimtis 1–2 puslapiai.
-Šiame darbe tiriami informacijos paieškos sprendimai leidžiantys palengvinti Vilniaus universiteto ligoninės (VUL) Santaros klinikų internetinio puslapio santa.lt naudojimą. Tyrime bus atsižvelgta į puslapio navigaciją, informacijos paieškos procesą bei gautų rezultatų pateikimą tradiciniuose ir mobiliuose įrenginiuose.
+Šiame darbe tiriami informacijos paieškos sprendimai leidžiantys palengvinti Vilniaus universiteto ligoninės (VUL) Santaros klinikų internetinio puslapio santa.lt naudojimą ant mobilaus įrenginio. Tyrime bus atsižvelgta į puslapio navigaciją, informacijos paieškos procesą bei gautų rezultatų pateikimą.
 
-Kadangi pacientams internetas lengvai prieinamas, darosi įprasta ieškoti informacijos ir registruotis internetu. Tačiau „Trūksta apibendrintos, susistemintos informacijos, kuri pacientui būtų nuolat lengvai prieinama, nes jiems sudėtinga susiorientuoti įstaigų ir interneto svetainių gausoje, rasti ir suprasti skirtingai teikiamą informaciją“\cite{AukšAudInstLt}. VUL Santaros klinikos yra viena didžiausių Lietuvos ligoninių. Joje dirba virš 5000 darbuotojų, o per metus gydoma apie 1 milijonas ambulatorinių (ateinančių iš namų) pacientų\cite{VulSkApieMusLt}. Taigi santa.lt puslapis yra vienas iš pirmųjų internetinių resursų, kurį pasiekia vartotojai. Puslapyje turėtų būti lengva surasti ieškomą informaciją, nes tai padės pacientams priimti sprendimus apie savo sveikatą. Tačiau dabartinė puslapio architektūra turi spragų informacijos paieškos srityje ir naudotojas gali nerasti reikiamos informacijos.
+Kadangi pacientams internetas lengvai prieinamas, darosi įprasta ieškoti informacijos apie sveikatą ir registruotis internetu\cite{InternetUseByPublicSAEn}\cite{InternetUseByPublicHKEn}. VUL Santaros klinikos yra viena didžiausių Lietuvos ligoninių. Joje dirba virš 5000 darbuotojų, o per metus gydoma apie 1 milijonas ambulatorinių (ateinančių iš namų) pacientų\cite{VulSkApieMusLt}. Taigi santa.lt puslapis yra vienas iš pirmųjų internetinių resursų, kurį pasiekia vartotojai. Puslapyje turėtų būti lengva surasti ieškomą informaciją, nes tai padės pacientams priimti sprendimus apie savo sveikatą.
 
-Šio darbo tikslas yra suprojektuoti informacijos architektūrą, kuri leistų pacientams lengviau rasti aktualią informaciją santa.lt puslapyje. Pagrindiniai darbo siekiai yra aiškesnė registracija pas gydytoją ir informacijos apie ligoninės prieinamumą bei struktūrą pasiekiamumas. Galutinis darbo rezultatas - puslapio maketas pabrėžiantis naują informacijos architektūrą.
+Tačiau dabartinėje sistemoje vartotojai susiduria su problemomis. Naudojant paieškos sistemą negalima įvesti pilnų žodžių, nes jeigu galūnė bent kažkiek skirsis paieška rezultato negražins. Be to, ieškodamas informacijos apie širdies ligas gauni pilną puslapį padėkų, kurios, nors džiugina, užslepia rezultatus kaip širdies ligų gydymo centro kontaktai. Filtravimas nepadeda, nes gražinti rezultatai yra skirstomi į per plačias kategorijas, kuriose padėkos, naujienos ir puslapio skyriai tokie kaip kontaktai yra vienoje kategorijoje. 
+
+Šio darbo tikslas yra suprojektuoti informacijos architektūrą, kuri leistų pacientams greičiau ir su mažiau paspaudimų rasti aktualią informaciją santa.lt puslapyje. Pacientams aktualu yra registracija pas gydytoją, informacija kaip pasiekti ligoninę ir jos skyrius, informacija apie ligoninės struktūrą. Galutinis darbo rezultatas - puslapio prototipas, kurio informacijos architektūra leidžia greičiau ir su mažiau paspaudimų rasti aktualią informaciją.
 
 Uždaviniai:
 \begin{enumerate}
-	\item Identifikuoti panaudojamumo siekius remiantis literatūros šaltiniais ir internetinių puslapių lankomumo informacija
+	\item Identifikuoti vartotojų poreikius remiantis literatūros šaltiniais ir internetinių puslapių lankomumo informacija
 	\item Išskirti lyginimo kriterijus remiantis literatūros šaltiniais
+	\item Atlikti puslapio panaudojamumo analizę remiantis panaudojamumo testavimu
+	\item Paruošti sprendimo variantus
 	\renewcommand*{\theenumii}{\theenumi.\arabic{enumii}}
 	\renewcommand{\labelenumii}{\theenumii}
-	\begin{enumerate}
-		\item Navigacijos
-		\item Paieškos
-		\item Rezultatų
-	\end{enumerate}
-	\item Paruošti sprendimo variantus
 	\begin{enumerate}
 		\item Remiantis panašiais puslapiais ir literatūros šaltiniais išskirti alternatyvius sprendimus
 		\item Sukurti sprendimo variantų maketus
@@ -77,55 +75,11 @@ Uždaviniai:
 \end{enumerate}
 
 \section{Vartotojų poreikių analizė}
-Tyrimai nurodo, kad Europoje daugiau nei pusė žmonių bent kartą metuose ieško informacijos apie sveikatą internetu \cite{EuCitizDigHealthEn}, taigi naudotojams aktualu internetinių puslapių panaudojamumas. Nagrinėjant santa.lt puslapio srautą randama, kad naudotojai dažniausiai ateina iš (5,5\%) ir yra peradresuojami į (10,4\%) sergu.lt (neįskaitant google.com 19,1\% ir 21,8\% atitinkamai)\cite{AlexaSantaEn}. Taigi galima matyti, kad šie puslapiai turi nemažą vartotojų sutapimą ir būtų naudinga atsižvelgti į tai, kokią įtaką daro vienas kitam. Sergu.lt puslapis skirtas išankstinei visų Lietuvos pacientų registracijai internetu. Tai, kad 1 iš 10 santa.lt vartotojų tiesiogiai pereina į sergu.lt puslapį leidžia tikėti, kad vartotojams yra aktuali registracija pas gydytoją. Santa.lt „Kaip mus rasti“ skyrelį vartotojai yra aplankę 1,2 milijonus kartų\cite{VulSkKaipMusRastiLt}, 2 kartus daugiau nei skyrelį „Apie mus“\cite{VulSkApieMusLt}, iš to galima daryti prielaidą apie kitą vartotojų siekį - informacijos apie ligoninės klinikų pasiekiamumą.
-\vspace{0,5cm}
+Tyrimai nurodo, kad Europoje daugiau nei pusė žmonių bent kartą metuose ieško informacijos apie sveikatą internetu \cite{EuCitizDigHealthEn}, taigi naudotojams aktualu internetinių puslapių panaudojamumas. Nagrinėjant santa.lt puslapio srautą randama, kad naudotojai dažniausiai ateina iš (5,5\%) ir keliauja į (10,4\%) sergu.lt (neįskaitant 19,1\% ateinančių iš google.com ir 21,8\% keliaujančių į google.com)\cite{AlexaSantaEn}. Taigi galima matyti, kad šių puslapių vartotojai iš dalies sutampa ir būtų naudinga atsižvelgti į tai, kokią įtaką daro vienas kitam. Sergu.lt puslapis skirtas išankstinei visų Lietuvos pacientų registracijai internetu. Tai, kad 1 iš 10 santa.lt vartotojų tiesiogiai pereina į sergu.lt puslapį leidžia tikėti, kad vienas iš vartotojų poreikių yra turėti nuorodą į registraciją pas gydytoją. Santa.lt „Kaip mus rasti“ skyrelį vartotojai yra aplankę 1,2 milijonus kartų\cite{VulSkKaipMusRastiLt}, 2 kartus daugiau nei skyrelį „Apie mus“\cite{VulSkApieMusLt}, iš to galima daryti prielaidą apie kitą vartotojų poreikį - sužinoti apie ligoninės klinikų pasiekiamumą.
 
-Atlikus puslapio pažintinę peržvalgą rasti šie panaudojamumo trūkumai:
-\begin{enumerate}
-	\item Navigacijos (\ref{img:registracija} pav.)
-	\renewcommand*{\theenumii}{\theenumi.\arabic{enumii}}
-	\renewcommand{\labelenumii}{\theenumii}
-	\begin{enumerate}
-		\item Pasirinkta kategorija mažo kontrasto, taigi sunku pastebėti esamą kategoriją
-		\item Išskleistos subkategorijos mažai išsiskiria, taigu sunku atskirti kategorijas nuo subkategorijų
-		\item Naviguojant į „Pacientams“, tada „Aktuali informacija“ ir galiausiai „Kaip užsiregistruoti“ pasiekiamas tuščias puslapis. Vietoj to reikia eiti į „Pacientams“ ir „Kaip mus rasti“ arba „e.Paslaugos“ ir „Išankstinė registracija“
-		\item Ant mobilių įrenginių navigacijos juosta beveik neįskaitoma, mygtukai per maži (\ref{santamobile} pav.)
-	\end{enumerate}
-	\item Paieškos (\ref{img:paieškarez} pav.)
-	\renewcommand*{\theenumii}{\theenumi.\arabic{enumii}}
-	\renewcommand{\labelenumii}{\theenumii}
-	\begin{enumerate}
-		\item Paieškos laukas turi 20 simbolių limitą, kas neleidžia įvesti ilgesnių paieškos užklausų
-		\item Vedant simbolius į paiešką nepasiūlomi užklausos variantai
-		\item Nėra filtravimo pagal skirtingas kategorijas, pavyzdžiui naujienas atskirti nuo puslapių apie ligoninės skyrius
-		\item Nėra filtravimo pagal kalbą
-		\item Ant mobilių įrenginių sunku paspausti ant paieškos elementų (\ref{santamobile} pav.)
-	\end{enumerate}
-	\item Rezultatų (\ref{img:paieškarez} pav.)
-	\renewcommand*{\theenumii}{\theenumi.\arabic{enumii}}
-	\renewcommand{\labelenumii}{\theenumii}
-	\begin{enumerate}
-		\item Rezultatai neturi nuorodos į kategorijas iš kurių jie kilę
-		\item Rezultatų lange viskas pateikta teksto pavidalu, nėra grafinių elementų padedančių skirstyti rezultatus pagal kategorijas
-		\item Ant mobilių įrenginių prastai matosi rezultato detalės kaip data ir kategorija (\ref{santamobile} pav.)
-	\end{enumerate}
-\end{enumerate}
-\vspace{0,5cm}
+\section{Sistemų lyginimo kriterijai}
+Paieškos sistemos ir informacijos architektūros panaudojamumo vertinimui naudojamos David Travis gairės\cite{SearchGuidelinesEn}\cite{NavigationAndIAGuidelinesEn}.
 
-Iš peržvalgos matoma trūkumų visose kategorijose, tačiau didžiausias iš jų yra, kad puslapis nepritaikytas mobiliems įrenginiams. Tai yra didelė problema, nes mobilieji įrenginiai vis plačiau naudojami \cite{EmergingmHealthEn} ir šių įrenginių vartotojai turėtų galėti laisvai naudotis puslapiu. Galutinis prototipas turi išspręsti šiuos panaudojomumo trūkumus.
-%Medžiagos darbo tema dėstymo skyriuose pateikiamos nagrinėjamos temos detalės:
-%pradinė medžiaga, jos analizės ir apdorojimo metodai, sprendimų įgyvendinimas,
-%gautų rezultatų apibendrinimas. Šios dalies turinys labai priklauso nuo darbo
-%temos. Skyriai gali turėti poskyrius ir smulkesnes sudėtines dalis, kaip
-%punktus ir papunkčius.
-
-%Medžiaga turi būti dėstoma aiškiai, pateikiant argumentus. Tekstas dėstomas
-%trečiuoju asmeniu, t.y. rašoma ne „aš manau“, bet „autorius mano“, „autoriaus
-%nuomone“. Reikėtų vengti informacijos nesuteikiančių frazių, pvz., „...kaip jau
-%buvo minėta...“, „...kaip visiems žinoma...“ ir pan., vengti grožinės literatūros
-%ar publicistinio stiliaus, gausių metaforų ar panašių meninės išraiškos
-%priemonių.
-\section{Maketų lyginimo kriterijai}
 Panaudojamumo testavimas gali būti atliktas įvairiais metodais. Empiriniai metodai yra plačiausiai naudojami\cite{NielsenUsabilityEn}, tačiau reikalauja daugiau žmonių norint gauti patikimą rezultatą, todėl pasirinktas vienas iš analitinių metodų. Dėl patirties ir laiko stokos pasirinkta naudoti neformaliausią metodą - euristinį vertinimą.
 
 Maketų palyginimui bus naudojamos laiko patvirtintos Jakob Nielsen euristikos\cite{NielsenHeuristicsEn}. Lentelėje bus išskiriamos 10 euristikų. Kiekvienai euristikai priskiriamas skaičius nuo 0 iki 3 reiškiantis defekto sunkumą, kur 0 - defekto nėra, 1 - smulkus ar kosmetinis defektas, 2 - vidutinio sunkumo defektas, 3 - kritinis defektas. Paskutinis stulpelis nusako, kur ir koks defektas buvo pastebėtas (\ref{euristikųlentelėpvz} pav.).
@@ -146,6 +100,58 @@ Maketų palyginimui bus naudojamos laiko patvirtintos Jakob Nielsen euristikos\c
 \end{tabular}
 \captionof{table}{Euristinio vertinimo lentelės pavyzdys}\label{euristikųlentelėpvz}
 \end{center}
+
+\section{Puslapio panaudojamumo analizė}
+Norint išsiaiškinti dabartinės sistemos panaudojamumo būseną buvo atliktas panaudojamumo testavimas, kurio metu stebima per kiek laiko ir paspaudimų naudotojas pasiekia tikslą. Po testavimo naudotojas buvo apklausiamas kaip jam sekėsi naudotis sistema.
+
+
+
+\vspace{0,5cm}
+Atlikus puslapio pažintinę peržvalgą rasti šie panaudojamumo trūkumai:
+\begin{enumerate}
+	\item Navigacijos (\ref{img:registracija} pav.)
+	\renewcommand*{\theenumii}{\theenumi.\arabic{enumii}}
+	\renewcommand{\labelenumii}{\theenumii}
+	\begin{enumerate}
+		\item Pasirinkta kategorija mažo kontrasto, taigi sunku pastebėti esamą kategoriją
+		\item Išskleistos subkategorijos mažai išsiskiria, taigu sunku atskirti kategorijas nuo subkategorijų
+		\item Naviguojant į „Pacientams“, tada „Aktuali informacija“ ir galiausiai „Kaip užsiregistruoti“ pasiekiamas tuščias puslapis. Vietoj to reikia eiti į „Pacientams“ ir „Kaip mus rasti“ arba „e.Paslaugos“ ir „Išankstinė registracija“
+		\item Ant mobilių įrenginių navigacijos juosta beveik neįskaitoma, mygtukai per maži (\ref{img:santamobile} pav.)
+	\end{enumerate}
+	\item Paieškos (\ref{img:paieškarez} pav.)
+	\renewcommand*{\theenumii}{\theenumi.\arabic{enumii}}
+	\renewcommand{\labelenumii}{\theenumii}
+	\begin{enumerate}
+		\item Paieškos laukas turi 20 simbolių limitą, kas neleidžia įvesti ilgesnių paieškos užklausų
+		\item Vedant simbolius į paiešką nepasiūlomi užklausos variantai
+		\item Nėra filtravimo pagal skirtingas kategorijas, pavyzdžiui naujienas atskirti nuo puslapių apie ligoninės skyrius
+		\item Nėra filtravimo pagal kalbą
+		\item Ant mobilių įrenginių sunku paspausti ant paieškos elementų (\ref{img:santamobile} pav.)
+	\end{enumerate}
+	\item Rezultatų (\ref{img:paieškarez} pav.)
+	\renewcommand*{\theenumii}{\theenumi.\arabic{enumii}}
+	\renewcommand{\labelenumii}{\theenumii}
+	\begin{enumerate}
+		\item Rezultatai neturi nuorodos į kategorijas iš kurių jie kilę
+		\item Rezultatų lange viskas pateikta teksto pavidalu, nėra grafinių elementų padedančių skirstyti rezultatus pagal kategorijas
+		\item Ant mobilių įrenginių prastai matosi rezultato detalės kaip data ir kategorija (\ref{img:santamobile} pav.)
+	\end{enumerate}
+\end{enumerate}
+\vspace{0,5cm}
+
+Iš peržvalgos matoma trūkumų visose kategorijose, tačiau didžiausias iš jų yra, kad puslapis nepritaikytas mobiliems įrenginiams. Tai yra didelė problema, nes mobilieji įrenginiai vis plačiau naudojami \cite{EmergingmHealthEn} ir šių įrenginių vartotojai turėtų galėti laisvai naudotis puslapiu. Galutinis prototipas turi išspręsti šiuos panaudojomumo trūkumus.
+%Medžiagos darbo tema dėstymo skyriuose pateikiamos nagrinėjamos temos detalės:
+%pradinė medžiaga, jos analizės ir apdorojimo metodai, sprendimų įgyvendinimas,
+%gautų rezultatų apibendrinimas. Šios dalies turinys labai priklauso nuo darbo
+%temos. Skyriai gali turėti poskyrius ir smulkesnes sudėtines dalis, kaip
+%punktus ir papunkčius.
+
+%Medžiaga turi būti dėstoma aiškiai, pateikiant argumentus. Tekstas dėstomas
+%trečiuoju asmeniu, t.y. rašoma ne „aš manau“, bet „autorius mano“, „autoriaus
+%nuomone“. Reikėtų vengti informacijos nesuteikiančių frazių, pvz., „...kaip jau
+%buvo minėta...“, „...kaip visiems žinoma...“ ir pan., vengti grožinės literatūros
+%ar publicistinio stiliaus, gausių metaforų ar panašių meninės išraiškos
+%priemonių.
 
 \section{Sprendimo variantai}
 

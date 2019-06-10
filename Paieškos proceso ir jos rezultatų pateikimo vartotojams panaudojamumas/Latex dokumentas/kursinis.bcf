@@ -1995,16 +1995,19 @@
     <bcf:datasource type="file" datatype="bibtex">bibliografija.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">AukšAudInstLt</bcf:citekey>
-    <bcf:citekey order="2">VulSkApieMusLt</bcf:citekey>
-    <bcf:citekey order="3">EuCitizDigHealthEn</bcf:citekey>
-    <bcf:citekey order="4">AlexaSantaEn</bcf:citekey>
-    <bcf:citekey order="5">VulSkKaipMusRastiLt</bcf:citekey>
-    <bcf:citekey order="6">VulSkApieMusLt</bcf:citekey>
-    <bcf:citekey order="7">EmergingmHealthEn</bcf:citekey>
-    <bcf:citekey order="8">NielsenUsabilityEn</bcf:citekey>
-    <bcf:citekey order="9">NielsenHeuristicsEn</bcf:citekey>
-    <bcf:citekey order="10">RWDEn</bcf:citekey>
+    <bcf:citekey order="1">InternetUseByPublicSAEn</bcf:citekey>
+    <bcf:citekey order="2">InternetUseByPublicHKEn</bcf:citekey>
+    <bcf:citekey order="3">VulSkApieMusLt</bcf:citekey>
+    <bcf:citekey order="4">EuCitizDigHealthEn</bcf:citekey>
+    <bcf:citekey order="5">AlexaSantaEn</bcf:citekey>
+    <bcf:citekey order="6">VulSkKaipMusRastiLt</bcf:citekey>
+    <bcf:citekey order="7">VulSkApieMusLt</bcf:citekey>
+    <bcf:citekey order="8">SearchGuidelinesEn</bcf:citekey>
+    <bcf:citekey order="9">NavigationAndIAGuidelinesEn</bcf:citekey>
+    <bcf:citekey order="10">NielsenUsabilityEn</bcf:citekey>
+    <bcf:citekey order="11">NielsenHeuristicsEn</bcf:citekey>
+    <bcf:citekey order="12">EmergingmHealthEn</bcf:citekey>
+    <bcf:citekey order="13">RWDEn</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="anyt">
