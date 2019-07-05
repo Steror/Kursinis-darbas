@@ -12,6 +12,7 @@
 \usepackage{listings}
 \usepackage{subfig}
 \usepackage{wrapfig}
+\usepackage{longtable}
 
 \usepackage{enumitem}
 %PAKEISTA, tarpai tarp sąrašo elementų
@@ -78,13 +79,78 @@ Uždaviniai:
 Tyrimai nurodo, kad Europoje daugiau nei pusė žmonių bent kartą metuose ieško informacijos apie sveikatą internetu \cite{EuCitizDigHealthEn}, taigi naudotojams aktualu internetinių puslapių panaudojamumas. Nagrinėjant santa.lt puslapio srautą randama, kad naudotojai dažniausiai ateina iš (5,5\%) ir keliauja į (10,4\%) sergu.lt (neįskaitant 19,1\% ateinančių iš google.com ir 21,8\% keliaujančių į google.com)\cite{AlexaSantaEn}. Taigi galima matyti, kad šių puslapių vartotojai iš dalies sutampa ir būtų naudinga atsižvelgti į tai, kokią įtaką daro vienas kitam. Sergu.lt puslapis skirtas išankstinei visų Lietuvos pacientų registracijai internetu. Tai, kad 1 iš 10 santa.lt vartotojų tiesiogiai pereina į sergu.lt puslapį leidžia tikėti, kad vienas iš vartotojų poreikių yra turėti nuorodą į registraciją pas gydytoją. Santa.lt „Kaip mus rasti“ skyrelį vartotojai yra aplankę 1,2 milijonus kartų\cite{VulSkKaipMusRastiLt}, 2 kartus daugiau nei skyrelį „Apie mus“\cite{VulSkApieMusLt}, iš to galima daryti prielaidą apie kitą vartotojų poreikį - sužinoti apie ligoninės klinikų pasiekiamumą.
 
 \section{Sistemų lyginimo kriterijai}
-Paieškos sistemos ir informacijos architektūros panaudojamumo vertinimui naudojamos David Travis gairės\cite{SearchGuidelinesEn}\cite{NavigationAndIAGuidelinesEn}.
+Paieškos, navigacijos ir informacijos architektūros panaudojamumo vertinimui naudojamos David Travis gairės. Gairės suformuluotos teiginių pavidalu ir vertinant puslapį jos yra žymimos kaip tenkinamos arba netenkinamos\cite{SearchGuidelinesEn}\cite{NavigationAndIAGuidelinesEn}. (\ref{paieškoslentelėpvz} ir \ref{navigacijosirIAlentelėpvz} lentelės).
+\begin{center}
+\begin{tabular}{ |p{13,5cm}|p{2cm}| } 
+ \hline
+	Gairė & Ar tenkina \\ \hline
+	1) Pagrindinė paieška lengvai valdoma & netenkina \\ \hline
+	2) Paieškos rezultatų puslapis naudotojui rodo, ko buvo ieškota, ir yra lengva pakeisti ir pakartoti užklausą & tenkina \\ \hline
+	3) Paieškos rezultatai yra aiškūs, naudingi ir reitinguojami pagal atitikimą užklausai &  \\ \hline
+	4) Paieškos rezultatų puslapis aiškiai parodo kiek rezultatų gražinta ir rezultatų skaičius per puslapį gali būti reguliuojamas naudotojo &  \\ \hline
+	5) Jei negražinamas nei vienas rezultatas, sistema pasiūlo idėjų ar nustatymų pagerinti užklausai atsižvelgiant į atpažįstamas įvesties problemas &  \\ \hline
+	6) Paieška dailiai susitvarko su tuščia užklausa &  \\ \hline
+	7) Dažniausios užklausos gražina naudingus rezultatus &  \\ \hline
+	8) Paieškos sistema turi šabloną arba patarimus kaip ją deramai naudoti &  \\ \hline
+	9) Puslapis turi pajėgesnę  paieškos sąsają leidžiančią naudotojams patikslinti užklausas &  \\ \hline
+	10) Paieškos rezultatų puslapis nerodo besikartojančių rezultatų &  \\ \hline
+	11) Paieškos laukas pakankamai ilgas dažniausių užklausų ilgiams &  \\ \hline
+	12) Paieška apima visą interneto svetainę, o ne tik jos dalį &  \\ \hline
+	13) Jei svetainė leidžia naudotojams sudaryti sudėtingą paiešką, šios paieškos gali būti išsaugojamos ir kartojamos reguliariai &  \\ \hline
+	14) Paieškos sąsaja padėta, naudotojams įprastoje vietoje (viršuje dešinėje) &  \\ \hline
+	15) Paieškos laukas ir jo kontrolės aiškiai pavadintos &  \\ \hline
+	16) Puslapis palaiko paieškos strategiją ir naršymo strategiją &  \\ \hline
+	17) Paieškos sritis aiškiai parašyta paieškos rezultatų puslapyje ir naudotojai gali ją susiaurinti &  \\ \hline
+	18) Paieškos rezultatų puslapis atvaizduoja naudingą meta informaciją (informacija apie informaciją), kaip dokumento dydis, dokumento sukūrimo data ir failo tipas &  \\ \hline
+	19) Paieškos sistema automatiškai patikrina rašybą ir ieško daugiaskaitinių formų ir sinonimų &  \\ \hline
+	20) Paieškos sistema leidžia ieškoti panašių rezultatų („daugiau tokių“) &  \\ \hline
+\end{tabular}
+\captionof{table}{Paieškos panaudojamumo gairių vertinimo lentelės pavyzdys}\label{paieškoslentelėpvz}
+\end{center}
+
+\begin{center}
+\begin{longtable}{ |p{13,5cm}|p{2cm}| } 
+ \hline
+	Gairė & Ar tenkina \\ \hline
+	1) Yra patogus ir akivaizdus būdas judėti tarp susijusių puslapių ir skyrių ir yra lengva grįžti į pagrindinį puslapį & netenkina \\ \hline
+	2) Informacija, kurios naudotojams dažnai prireikia yra lengvai pasiekiama iš daugumos puslapių & tenkina \\ \hline
+	3) Navigacijos pasirinkimai išrikiuoti pačiu racionaliausiu arba užduočiai orientuotu būdu &  \\ \hline
+	4) Navigacijos sistema plati ir sekli (daug meniu elementų), o ne gili (daug meniu lygių)  &  \\ \hline
+	5) Paprasta, aiškaus modelio svetainės struktūra be nereikalingų lygių &  \\ \hline
+	6) Pagrindiniai puslapio skyriai pasiekiami iš bet kurio puslapio ir nėra aklaviečių &  \\ \hline
+	7) Navigacijos skirtukai patalpinti puslapio viršuje ir atrodo kaip paspaudžiamos versijos realaus pasaulio skirtukų &  \\ \hline
+	8) Yra svetainės žemėlapis, kuris suteikia svetainės turinio apžvalgą &  \\ \hline
+	9) Svetainės žemėlapį galima pasiekti iš bet kurio puslapio &  \\ \hline
+	10) Svetainės žemėlapis suteikia glaustą svetainės apžvalgą, o ne pernaudotą navigacijos meniu ar sąrašą kiekvienos temos &  \\ \hline
+	11) Suteikiamas geras navigacijos grįžtamasis ryšys (rodoma, kur randiesi puslapyje) &  \\ \hline
+	12) Kategorijų pavadinimai tiksliai apibūdina informaciją viduje &  \\ \hline
+	13) Nuorodos ir navigacijos pavadinimai susidaro iš raktinių žodžių, kurių naudotojai ieškos bandydami atlikti užduotį &  \\ \hline
+	14) Terminologija ir susitarimai (kaip nuorodų spalvos) (maždaug) atitinka bendrą interneto naudojimą &  \\ \hline
+	15) Nuorodos atrodo taip pačiai skirtingose svetainės dalyse &  \\ \hline
+	16) Produktų puslapiai turi nuorodas į panašius arba papildomus produktus, kad paskatinti kryžminį pardavimą (angl. cross-selling) &  \\ \hline
+	17) Navigacijos elementams ir hiperteksto nuorodoms naudojami terminai yra nedviprasmiški ir be žargono &  \\ \hline
+	18) Naudotojai gali rikiuoti ir filtruoti katalogo puslapius (pagal kainą arba populiarumą) &  \\ \hline
+	19) Matomi pasikeitimai, kai naudotojas užveda kursorių ant kažko paspaudžiamo (neįskaitant kursoriaus pasikeitimų) &  \\ \hline
+	20) Svarbus turinys pasiekiamas iš daugiau nei vienos nuorodos (naudotojams gali reikėt skirtingų nuorodų pavadinimų) &  \\ \hline
+	21) Puslapiai skirti tik navigacijai (pavyzdžiui pradinis puslapis) gali būti peržiūrimi be slinkimo &  \\ \hline
+	22) Hipertekso nuorodos, kurios sukelia veiksmus (pavyzdžiui siuntimą) aiškiai skiriasi nuo nuorodų, kurios veda į kitą puslapį &  \\ \hline
+	23) Svetainė leidžia naudotojui kontroliuoti sąveikos greitį ir eiliškumą &  \\ \hline
+	24) Visuose puslapiuose yra aiškiai pažymėti išėjimai leidžiantys naudotojui pabėgti iš esamos užduoties be papildomo dialogo &  \\ \hline
+	25) Svetainė neišjungia naršyklės „atgal“ mygtuko ir „atgal“ mygtukas visada matomas naršyklės įrankių juostoje &  \\ \hline
+	26) Paspaudus „atgal“ mygtuką naudotojas visada gražinamas į puslapį, iš kurio atėjo &  \\ \hline
+	27) Nuoroda į prekių krepšelį ir atsiskaitymą matomi visuose puslapiuose &  \\ \hline
+	28) Jeigu puslapis sukuria naujus langus, jie neklaidina naudotojo (jie dialogo lango dydžio ir lengvai uždaromi) &  \\ \hline
+	29) Meniu instrukcijos, nurodymai ir žinutės atsiranda toje pačioje vietoje visuose puslapiuose &  \\ \hline
+	\caption{Navigacijos ir informacijos architektūros panaudojamumo gairių vertinimo lentelės pavyzdys}\label{navigacijosirIAlentelėpvz}
+\end{longtable}
+
+\end{center}
 
 Panaudojamumo testavimas gali būti atliktas įvairiais metodais. Empiriniai metodai yra plačiausiai naudojami\cite{NielsenUsabilityEn}, tačiau reikalauja daugiau žmonių norint gauti patikimą rezultatą, todėl pasirinktas vienas iš analitinių metodų. Dėl patirties ir laiko stokos pasirinkta naudoti neformaliausią metodą - euristinį vertinimą.
 
-Maketų palyginimui bus naudojamos laiko patvirtintos Jakob Nielsen euristikos\cite{NielsenHeuristicsEn}. Lentelėje bus išskiriamos 10 euristikų. Kiekvienai euristikai priskiriamas skaičius nuo 0 iki 3 reiškiantis defekto sunkumą, kur 0 - defekto nėra, 1 - smulkus ar kosmetinis defektas, 2 - vidutinio sunkumo defektas, 3 - kritinis defektas. Paskutinis stulpelis nusako, kur ir koks defektas buvo pastebėtas (\ref{euristikųlentelėpvz} pav.).
+Maketų palyginimui bus naudojamos laiko patvirtintos Jakob Nielsen euristikos\cite{NielsenHeuristicsEn}. Lentelėje bus išskiriamos 10 euristikų. Kiekvienai euristikai priskiriamas skaičius nuo 0 iki 3 reiškiantis defekto sunkumą, kur 0 - defekto nėra, 1 - smulkus ar kosmetinis defektas, 2 - vidutinio sunkumo defektas, 3 - kritinis defektas. Paskutinis stulpelis nusako, kur ir koks defektas buvo pastebėtas (\ref{euristikųlentelėpvz} lentelė).
 \begin{center}
-\begin{tabular}{ |c|c|c| } 
+\begin{tabular}{ | p{7cm} | p{2cm} | p{6,5cm} | } 
  \hline
 	Euristika & Defekto sunkumas & Komentaras \\ \hline
 	1) Būsenos matomumas &  &  \\ \hline

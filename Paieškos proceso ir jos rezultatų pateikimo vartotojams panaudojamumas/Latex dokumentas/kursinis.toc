@@ -8,35 +8,31 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.}Sistemų lyginimo kriterijai}{5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.}Puslapio panaudojamumo analizė}{6}% 
+\contentsline {section}{\numberline {3.}Puslapio panaudojamumo analizė}{8}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.}Sprendimo variantai}{7}% 
+\contentsline {section}{\numberline {4.}Sprendimo variantai}{9}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.}Alternatyvieji sprendimai}{7}% 
+\contentsline {subsection}{\numberline {4.1.}Alternatyvieji sprendimai}{9}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.}Sprendimo maketai}{7}% 
+\contentsline {subsection}{\numberline {4.2.}Sprendimo maketai}{9}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.1.}Pirmas maketas}{7}% 
+\contentsline {subsubsection}{\numberline {4.2.1.}Pirmas maketas}{9}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.2.}Antras maketas}{7}% 
+\contentsline {subsubsection}{\numberline {4.2.2.}Antras maketas}{9}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.3.}Trečias maketas}{7}% 
+\contentsline {subsubsection}{\numberline {4.2.3.}Trečias maketas}{9}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.}Maketų palyginimas}{7}% 
+\contentsline {subsection}{\numberline {4.3.}Maketų palyginimas}{9}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.}Galutinio sprendimo prototipas}{7}% 
+\contentsline {subsection}{\numberline {4.4.}Galutinio sprendimo prototipas}{9}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.}Reikalavimai galutinio sprendimo įgyvendinimui}{8}% 
+\contentsline {section}{\numberline {5.}Reikalavimai galutinio sprendimo įgyvendinimui}{10}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.}Technologijos galutinio sprendimo įgyvendinimui}{9}% 
+\contentsline {section}{\numberline {6.}Technologijos galutinio sprendimo įgyvendinimui}{11}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Rezultatai ir išvados}{10}% 
+\contentsline {section}{Rezultatai ir išvados}{12}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Šaltiniai}{11}% 
-\defcounter {refsection}{0}\relax 
-\select@language {english}
-\defcounter {refsection}{0}\relax 
-\select@language {lithuanian}
+\contentsline {section}{Šaltiniai}{13}% 
 \defcounter {refsection}{0}\relax 
 \select@language {english}
 \defcounter {refsection}{0}\relax 
@@ -66,8 +62,12 @@
 \defcounter {refsection}{0}\relax 
 \select@language {lithuanian}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\MakeUppercase {Priedai}}{11}% 
+\select@language {english}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{1 priedas.\nobreakspace {}Dabartinio puslapio grafinė vartotojo sąsaja}{12}% 
+\select@language {lithuanian}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{2 priedas.\nobreakspace {}Puslapių atvaizdavimas ant mobilaus įrenginio}{14}% 
+\contentsline {section}{\MakeUppercase {Priedai}}{13}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{1 priedas.\nobreakspace {}Dabartinio puslapio grafinė vartotojo sąsaja}{14}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{2 priedas.\nobreakspace {}Puslapių atvaizdavimas ant mobilaus įrenginio}{16}% 
