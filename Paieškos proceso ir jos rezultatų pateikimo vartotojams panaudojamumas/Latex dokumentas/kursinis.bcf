@@ -2002,12 +2002,10 @@
     <bcf:citekey order="5">AlexaSantaEn</bcf:citekey>
     <bcf:citekey order="6">VulSkKaipMusRastiLt</bcf:citekey>
     <bcf:citekey order="7">VulSkApieMusLt</bcf:citekey>
-    <bcf:citekey order="8">SearchGuidelinesEn</bcf:citekey>
-    <bcf:citekey order="9">NavigationAndIAGuidelinesEn</bcf:citekey>
-    <bcf:citekey order="10">NielsenUsabilityEn</bcf:citekey>
-    <bcf:citekey order="11">NielsenHeuristicsEn</bcf:citekey>
-    <bcf:citekey order="12">EmergingmHealthEn</bcf:citekey>
-    <bcf:citekey order="13">RWDEn</bcf:citekey>
+    <bcf:citekey order="8">NielsenUsabilityEn</bcf:citekey>
+    <bcf:citekey order="9">SearchGuidelinesEn</bcf:citekey>
+    <bcf:citekey order="10">NavigationAndIAGuidelinesEn</bcf:citekey>
+    <bcf:citekey order="11">RWDEn</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="anyt">

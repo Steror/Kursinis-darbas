@@ -8,7 +8,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.}Sistemų lyginimo kriterijai}{5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.}Puslapio panaudojamumo analizė}{8}% 
+\contentsline {section}{\numberline {3.}Puslapio panaudojamumo analizė}{6}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.}Sprendimo variantai}{9}% 
 \defcounter {refsection}{0}\relax 
@@ -19,8 +19,6 @@
 \contentsline {subsubsection}{\numberline {4.2.1.}Pirmas maketas}{9}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {4.2.2.}Antras maketas}{9}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.3.}Trečias maketas}{9}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.3.}Maketų palyginimas}{9}% 
 \defcounter {refsection}{0}\relax 

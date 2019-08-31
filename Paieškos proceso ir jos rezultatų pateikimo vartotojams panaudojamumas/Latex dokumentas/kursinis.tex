@@ -61,7 +61,7 @@ Uždaviniai:
 \begin{enumerate}
 	\item Identifikuoti vartotojų poreikius remiantis literatūros šaltiniais ir internetinių puslapių lankomumo informacija
 	\item Išskirti lyginimo kriterijus remiantis literatūros šaltiniais
-	\item Atlikti puslapio panaudojamumo analizę remiantis panaudojamumo testavimu
+	\item Atlikti puslapio panaudojamumo analizę
 	\item Paruošti sprendimo variantus
 	\renewcommand*{\theenumii}{\theenumi.\arabic{enumii}}
 	\renewcommand{\labelenumii}{\theenumii}
@@ -75,45 +75,64 @@ Uždaviniai:
 	\item Atlikus literatūros analizę išskirti technologijas padedančias įgyvendinti galutinį sprendimą
 \end{enumerate}
 
+
+
 \section{Vartotojų poreikių analizė}
 Tyrimai nurodo, kad Europoje daugiau nei pusė žmonių bent kartą metuose ieško informacijos apie sveikatą internetu \cite{EuCitizDigHealthEn}, taigi naudotojams aktualu internetinių puslapių panaudojamumas. Nagrinėjant santa.lt puslapio srautą randama, kad naudotojai dažniausiai ateina iš (5,5\%) ir keliauja į (10,4\%) sergu.lt (neįskaitant 19,1\% ateinančių iš google.com ir 21,8\% keliaujančių į google.com)\cite{AlexaSantaEn}. Taigi galima matyti, kad šių puslapių vartotojai iš dalies sutampa ir būtų naudinga atsižvelgti į tai, kokią įtaką daro vienas kitam. Sergu.lt puslapis skirtas išankstinei visų Lietuvos pacientų registracijai internetu. Tai, kad 1 iš 10 santa.lt vartotojų tiesiogiai pereina į sergu.lt puslapį leidžia tikėti, kad vienas iš vartotojų poreikių yra rasti nuorodą į registraciją pas gydytoją. Santa.lt „Kaip mus rasti“ skyrelį vartotojai yra aplankę 1,2 milijonus kartų\cite{VulSkKaipMusRastiLt}, 2 kartus daugiau nei skyrelį „Apie mus“\cite{VulSkApieMusLt}, iš to galima daryti prielaidą apie kitą vartotojų poreikį - sužinoti apie ligoninės klinikų pasiekiamumą.
 
-Norint išsiaiškinti ar sistema turi panaudojamumo problemų buvo atliktas panaudojamumo testavimas su apklausa (n = 5). Iš rezultatų matyti:
+Norint daugiau sužinoti apie vartotojų poreikius buvo atlikta apklausa kartu su panaudojamumo testavimu (n = 5). Dalyvių buvo prašoma atlikti tipinio naudojimo užduotis, o po užduočių buvo užduodami klausimai apie sistemos naudojimą. Iš atsakymų matyti:
 \begin{enumerate}
-\item Naudotojai vidutiniškai užtrunka 1 minutę rasti skyriaus adresą
-\item Naudotojai vidutiniškai užtrunka 52 sekundes rasti registraciją pas gydytoją, kai negalima eiti į pagrindinį puslapį.
-\item Visi naudotojai nerado ligoninės skyrių ir registracijos per paiešką
+%\item Naudotojai vidutiniškai užtrunka 1 minutę rasti skyriaus adresą
+%\item Naudotojai vidutiniškai užtrunka 52 sekundes rasti registraciją pas gydytoją, kai negalima eiti į pagrindinį puslapį.
+%\item Visi naudotojai nerado ligoninės skyrių ir registracijos per paiešką
+\item 4 iš 5 naudotojų mano, kad sistemoje turėtų būti galima greičiau atlikti kai kurias užduotis
+\item 3 iš 5 naudotojų mano, kad informacija galėtų būti geriau struktūrizuota
+\item Visi naudotojai buvo nepatenkinti paieškos sistema
 \end{enumerate}
 
+Apklausa parodė, kad vartotojai nėra patenkinti dabartine sistema. Norint toliau nagrinėti sistemos trūkumus ir privalumus reikia surasti lyginimo kriterijus, pagal kuriuos bus galima palyginti senos ir naujos sistemos panaudojamumą.
+
+
+
 \section{Sistemų lyginimo kriterijai}
-Paieškos, navigacijos ir informacijos architektūros panaudojamumo vertinimui naudojamos David Travis gairės. Gairės suformuluotos teiginių pavidalu ir vertinant puslapį jos yra žymimos kaip tenkinamos arba netenkinamos\cite{SearchGuidelinesEn}\cite{NavigationAndIAGuidelinesEn}. (\ref{paieškoslentelėpvz} ir \ref{navigacijosirIAlentelėpvz} lentelės).
+Panaudojamumo inspekcija gali būti atlikta įvairiais metodais. Empiriniai metodai yra plačiausiai naudojami\cite{NielsenUsabilityEn}, tačiau reikalauja daug žmonių norint gauti patikimą rezultatą, todėl atliktas vienas iš analitinių metodų. Dėl paprastumo pasirinkta naudoti neformaliausią metodą - euristinį vertinimą, šiuo naudojantis nereikia turėti eksperto žinių. Norint surasti optimalų sprendimą reikia turėti objektyvius kriterijus, pagal kuriuos galima lyginti skirtingus sprendimo variantus. Šiam tyrimui naudojamos David Travis gairės, kuris nuo 1989 metų dirba vartotojo patirties srityje ir yra parašęs dvi knygas apie panaudojamumą. Savo tinklapyje jis turi daug gairių, tačiau šiam tyrimui aktualios gairės paieškos ir informacijos architektūros vertinimui. Jo gairės suformuluotos teiginių pavidalu ir vertinant puslapį jos yra žymimos kaip tenkinamos arba netenkinamos\cite{SearchGuidelinesEn}\cite{NavigationAndIAGuidelinesEn} (\ref{PaieškosLentelėPrad} ir \ref{navigacijosirIAlentelėPrad} lentelės). Alternatyviai būtų galima naudoti Jacob Nielsen euristikas, kuris vadinamas tinklapių projektavimo guru, tačiau autoriui atrodo, kad David Travis gairės leidžia objektyviau įvertinti puslapį, nes tereikia atsakyti į taip arba ne klausimus, o ne įvertinti skalėje nuo 0 iki 3. Kitas gairių privalumas yra tai, kad klausimai gan konkretūs ir lengvai patikrinami, o euristikos gan plačios ir reikia gerai žinoti jų prasmę. Gairės vistiek nėra tobulos, nes tinklapio projektavime galima prioritizuoti tam tikras gaires virš kitų, siekant specifiško rezultato, tačiau šį faktą ignoruosime ir vertinsime pagal išpildytų gairių skaičių.
+
+Naudojant pasirinktus kriterijus galima įvertinti dabartinės sistemos panaudojamumo būseną ir palyginti su alternatyviais sprendimo maketais.
+
+
+
+\section{Puslapio panaudojamumo analizė}
+Norint išsiaiškinti dabartinės sistemos panaudojamumo būseną autorius atliko panaudojamumo inspekciją pagal praėjusiame skyriuje išvardintus kriterijus.
+
 \begin{center}
 \begin{tabular}{ |p{13,5cm}|p{2cm}| } 
  \hline
 	Gairė & Ar tenkina \\ \hline
 	1) Pagrindinė paieška lengvai valdoma & netenkina \\ \hline
 	2) Paieškos rezultatų puslapis naudotojui rodo, ko buvo ieškota, ir yra lengva pakeisti ir pakartoti užklausą & tenkina \\ \hline
-	3) Paieškos rezultatai yra aiškūs, naudingi ir reitinguojami pagal atitikimą užklausai &  \\ \hline
-	4) Paieškos rezultatų puslapis aiškiai parodo kiek rezultatų gražinta ir rezultatų skaičius per puslapį gali būti reguliuojamas naudotojo &  \\ \hline
-	5) Jei negražinamas nei vienas rezultatas, sistema pasiūlo idėjų ar nustatymų pagerinti užklausai atsižvelgiant į atpažįstamas įvesties problemas &  \\ \hline
-	6) Paieška dailiai susitvarko su tuščia užklausa &  \\ \hline
-	7) Dažniausios užklausos gražina naudingus rezultatus &  \\ \hline
-	8) Paieškos sistema turi šabloną arba patarimus kaip ją deramai naudoti &  \\ \hline
-	9) Puslapis turi pajėgesnę  paieškos sąsają leidžiančią naudotojams patikslinti užklausas &  \\ \hline
-	10) Paieškos rezultatų puslapis nerodo besikartojančių rezultatų &  \\ \hline
-	11) Paieškos laukas pakankamai ilgas dažniausių užklausų ilgiams &  \\ \hline
-	12) Paieška apima visą interneto svetainę, o ne tik jos dalį &  \\ \hline
-	13) Jei svetainė leidžia naudotojams sudaryti sudėtingą paiešką, šios paieškos gali būti išsaugojamos ir kartojamos reguliariai &  \\ \hline
-	14) Paieškos sąsaja padėta, naudotojams įprastoje vietoje (viršuje dešinėje) &  \\ \hline
-	15) Paieškos laukas ir jo kontrolės aiškiai pavadintos &  \\ \hline
-	16) Puslapis palaiko paieškos strategiją ir naršymo strategiją &  \\ \hline
-	17) Paieškos sritis aiškiai parašyta paieškos rezultatų puslapyje ir naudotojai gali ją susiaurinti &  \\ \hline
-	18) Paieškos rezultatų puslapis atvaizduoja naudingą meta informaciją (informacija apie informaciją), kaip dokumento dydis, dokumento sukūrimo data ir failo tipas &  \\ \hline
-	19) Paieškos sistema automatiškai patikrina rašybą ir ieško daugiaskaitinių formų ir sinonimų &  \\ \hline
+	3) Paieškos rezultatai yra aiškūs, naudingi ir reitinguojami pagal atitikimą užklausai & netenkina \\ \hline
+	4) Paieškos rezultatų puslapis aiškiai parodo kiek rezultatų gražinta ir rezultatų skaičius per puslapį gali būti reguliuojamas naudotojo & tenkina \\ \hline
+	5) Jei negražinamas nei vienas rezultatas, sistema pasiūlo idėjų ar nustatymų pagerinti užklausai atsižvelgiant į atpažįstamas įvesties problemas & netenkina \\ \hline
+	6) Paieška dailiai susitvarko su tuščia užklausa & tenkina \\ \hline
+	7) Dažniausios užklausos gražina naudingus rezultatus & netenkina \\ \hline
+	8) Paieškos sistema turi šabloną arba patarimus kaip ją deramai naudoti & netenkina \\ \hline
+	9) Puslapis turi pajėgesnę paieškos sąsają leidžiančią naudotojams patikslinti užklausas & tenkina \\ \hline
+	10) Paieškos rezultatų puslapis nerodo besikartojančių rezultatų & tenkina \\ \hline
+	11) Paieškos laukas pakankamai ilgas dažniausių užklausų ilgiams & netenkina \\ \hline
+	12) Paieška apima visą interneto svetainę, o ne tik jos dalį & tenkina \\ \hline
+	13) Jei svetainė leidžia naudotojams sudaryti sudėtingą paiešką, šios paieškos gali būti išsaugojamos ir kartojamos reguliariai & tenkina \\ \hline
+	14) Paieškos sąsaja padėta, naudotojams įprastoje vietoje (viršuje dešinėje) & tenkina \\ \hline
+	15) Paieškos laukas ir jo kontrolės aiškiai pavadintos & tenkina \\ \hline
+	16) Puslapis palaiko paieškos strategiją ir naršymo strategiją & netenkina \\ \hline
+	17) Paieškos sritis aiškiai parašyta paieškos rezultatų puslapyje ir naudotojai gali ją susiaurinti & tenkina \\ \hline
+	18) Paieškos rezultatų puslapis atvaizduoja naudingą meta informaciją (informacija apie informaciją), kaip dokumento dydis, dokumento sukūrimo data ir failo tipas & tenkina \\ \hline
+	19) Paieškos sistema automatiškai patikrina rašybą ir ieško daugiaskaitinių formų ir sinonimų & netenkina \\ \hline
 	20) Paieškos sistema leidžia ieškoti panašių rezultatų („daugiau tokių“) &  \\ \hline
 \end{tabular}
-\captionof{table}{Paieškos panaudojamumo gairių vertinimo lentelės pavyzdys}\label{paieškoslentelėpvz}
+\captionof{table}{Paieškos panaudojamumo gairių vertinimo lentelė pradiniam puslapiui}\label{PaieškosLentelėPrad}
 \end{center}
+
+\vspace{1cm}
 
 \begin{center}
 \begin{longtable}{ |p{13,5cm}|p{2cm}| } 
@@ -148,71 +167,10 @@ Paieškos, navigacijos ir informacijos architektūros panaudojamumo vertinimui n
 	27) Nuoroda į prekių krepšelį ir atsiskaitymą matomi visuose puslapiuose &  \\ \hline
 	28) Jeigu puslapis sukuria naujus langus, jie neklaidina naudotojo (jie dialogo lango dydžio ir lengvai uždaromi) &  \\ \hline
 	29) Meniu instrukcijos, nurodymai ir žinutės atsiranda toje pačioje vietoje visuose puslapiuose &  \\ \hline
-	\caption{Navigacijos ir informacijos architektūros panaudojamumo gairių vertinimo lentelės pavyzdys}\label{navigacijosirIAlentelėpvz}
+	\caption{Navigacijos ir informacijos architektūros panaudojamumo gairių vertinimo lentelė pradiniam puslapiui}\label{navigacijosirIAlentelėPrad}
 \end{longtable}
-
 \end{center}
 
-Panaudojamumo testavimas gali būti atliktas įvairiais metodais. Empiriniai metodai yra plačiausiai naudojami\cite{NielsenUsabilityEn}, tačiau reikalauja daugiau žmonių norint gauti patikimą rezultatą, todėl pasirinktas vienas iš analitinių metodų. Dėl patirties ir laiko stokos pasirinkta naudoti neformaliausią metodą - euristinį vertinimą.
-
-Maketų palyginimui bus naudojamos laiko patvirtintos Jakob Nielsen euristikos\cite{NielsenHeuristicsEn}. Lentelėje bus išskiriamos 10 euristikų. Kiekvienai euristikai priskiriamas skaičius nuo 0 iki 3 reiškiantis defekto sunkumą, kur 0 - defekto nėra, 1 - smulkus ar kosmetinis defektas, 2 - vidutinio sunkumo defektas, 3 - kritinis defektas. Paskutinis stulpelis nusako, kur ir koks defektas buvo pastebėtas (\ref{euristikųlentelėpvz} lentelė).
-\begin{center}
-\begin{tabular}{ | p{7cm} | p{2cm} | p{6,5cm} | } 
- \hline
-	Euristika & Defekto sunkumas & Komentaras \\ \hline
-	1) Būsenos matomumas &  &  \\ \hline
-	2) Atitikimas realiam pasauliui  &  &  \\ \hline
-	3) Naudotojo valdomas dialogas &  &  \\ \hline
-	4) Darna ir standartai &  &  \\ \hline
-	5) Klaidų prevencija &  &  \\ \hline
-	6) Atpažinimas geriau nei atsiminimas &  &  \\ \hline
-	7) Naudojimo lankstumas ir efektyvumas &  &  \\ \hline
-	8) Estetiškas ir minimalistinis dizainas &  &  \\ \hline
-	9) Remti klaidų atpažinimą, jų priežasčių nustatymą ir taisymą &  &  \\ \hline
-	10) Parama ir dokumentacija &  &  \\ \hline
-\end{tabular}
-\captionof{table}{Euristinio vertinimo lentelės pavyzdys}\label{euristikųlentelėpvz}
-\end{center}
-
-\section{Puslapio panaudojamumo analizė}
-Norint išsiaiškinti dabartinės sistemos panaudojamumo būseną buvo atliktas panaudojamumo testavimas, kurio metu stebima per kiek laiko ir paspaudimų naudotojas pasiekia tikslą. Po testavimo naudotojas buvo apklausiamas kaip jam sekėsi naudotis sistema.
-
-
-
-\vspace{0,5cm}
-Atlikus puslapio pažintinę peržvalgą rasti šie panaudojamumo trūkumai:
-\begin{enumerate}
-	\item Navigacijos (\ref{img:registracija} pav.)
-	\renewcommand*{\theenumii}{\theenumi.\arabic{enumii}}
-	\renewcommand{\labelenumii}{\theenumii}
-	\begin{enumerate}
-		\item Pasirinkta kategorija mažo kontrasto, taigi sunku pastebėti esamą kategoriją
-		\item Išskleistos subkategorijos mažai išsiskiria, taigu sunku atskirti kategorijas nuo subkategorijų
-		\item Naviguojant į „Pacientams“, tada „Aktuali informacija“ ir galiausiai „Kaip užsiregistruoti“ pasiekiamas tuščias puslapis. Vietoj to reikia eiti į „Pacientams“ ir „Kaip mus rasti“ arba „e.Paslaugos“ ir „Išankstinė registracija“
-		\item Ant mobilių įrenginių navigacijos juosta beveik neįskaitoma, mygtukai per maži (\ref{img:santamobile} pav.)
-	\end{enumerate}
-	\item Paieškos (\ref{img:paieškarez} pav.)
-	\renewcommand*{\theenumii}{\theenumi.\arabic{enumii}}
-	\renewcommand{\labelenumii}{\theenumii}
-	\begin{enumerate}
-		\item Paieškos laukas turi 20 simbolių limitą, kas neleidžia įvesti ilgesnių paieškos užklausų
-		\item Vedant simbolius į paiešką nepasiūlomi užklausos variantai
-		\item Nėra filtravimo pagal skirtingas kategorijas, pavyzdžiui naujienas atskirti nuo puslapių apie ligoninės skyrius
-		\item Nėra filtravimo pagal kalbą
-		\item Ant mobilių įrenginių sunku paspausti ant paieškos elementų (\ref{img:santamobile} pav.)
-	\end{enumerate}
-	\item Rezultatų (\ref{img:paieškarez} pav.)
-	\renewcommand*{\theenumii}{\theenumi.\arabic{enumii}}
-	\renewcommand{\labelenumii}{\theenumii}
-	\begin{enumerate}
-		\item Rezultatai neturi nuorodos į kategorijas iš kurių jie kilę
-		\item Rezultatų lange viskas pateikta teksto pavidalu, nėra grafinių elementų padedančių skirstyti rezultatus pagal kategorijas
-		\item Ant mobilių įrenginių prastai matosi rezultato detalės kaip data ir kategorija (\ref{img:santamobile} pav.)
-	\end{enumerate}
-\end{enumerate}
-\vspace{0,5cm}
-
-Iš peržvalgos matoma trūkumų visose kategorijose, tačiau didžiausias iš jų yra, kad puslapis nepritaikytas mobiliems įrenginiams. Tai yra didelė problema, nes mobilieji įrenginiai vis plačiau naudojami \cite{EmergingmHealthEn} ir šių įrenginių vartotojai turėtų galėti laisvai naudotis puslapiu. Galutinis prototipas turi išspręsti šiuos panaudojomumo trūkumus.
 %Medžiagos darbo tema dėstymo skyriuose pateikiamos nagrinėjamos temos detalės:
 %pradinė medžiaga, jos analizės ir apdorojimo metodai, sprendimų įgyvendinimas,
 %gautų rezultatų apibendrinimas. Šios dalies turinys labai priklauso nuo darbo
@@ -237,7 +195,6 @@ Sprendimo maketai bus kuriami naudojant Balsamiq programinę įrangą, nes ji le
 \subsubsection{Pirmas maketas}
 
 \subsubsection{Antras maketas}
-\subsubsection{Trečias maketas}
 
 \subsection{Maketų palyginimas}
 \subsection{Galutinio sprendimo prototipas}
