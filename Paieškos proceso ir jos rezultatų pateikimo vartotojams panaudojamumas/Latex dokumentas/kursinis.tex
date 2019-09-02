@@ -51,22 +51,22 @@
 %Darbo įvadas neturi būti dėstymo santrauka. Įvado apimtis 1–2 puslapiai.
 Šiame darbe tiriami informacijos paieškos architektūros sprendimai leidžiantys palengvinti Vilniaus universiteto ligoninės (VUL) Santaros klinikų internetinio puslapio santa.lt naudojimą. Tyrime bus atsižvelgta į puslapio navigaciją, paieškos procesą bei gautų rezultatų pateikimą.
 
-Kadangi Lietuvos gyventojams internetas lengvai prieinamas, darosi įprasta ieškoti informacijos apie sveikatą ir registruotis pas gydytoją internetu\cite{InternetUseByPublicSAEn}\cite{InternetUseByPublicHKEn}. VUL Santaros klinikos yra viena didžiausių Lietuvos ligoninių. Joje dirba virš 5000 darbuotojų, o per metus gydoma apie 1 milijonas ambulatorinių (ateinančių iš namų) pacientų\cite{VulSkApieMusLt}. Taigi santa.lt puslapis yra vienas iš pirmųjų internetinių resursų, kurį pasiekia vartotojai. Puslapyje turėtų būti lengva surasti ieškomą informaciją, nes tai padės sergantiems priimti sprendimus apie savo sveikatą.
+Kadangi Lietuvos gyventojams internetas lengvai prieinamas, darosi įprasta ieškoti informacijos apie sveikatą ir registruotis pas gydytoją internetu\cite{InternetUseByPublicSAEn}\cite{InternetUseByPublicHKEn}. VUL Santaros klinikos yra viena didžiausių Lietuvos ligoninių. Joje dirba virš 5000 darbuotojų, o per metus gydoma apie 1 milijonas ambulatorinių (ateinančių iš namų) pacientų\cite{VulSkApieMusLt}. Taigi santa.lt puslapis yra vienas iš pirmųjų internetinių resursų, kurį pasiekia vartotojai. Autoriaus nuomone puslapyje turėtų būti lengva surasti ieškomą informaciją, nes tai padės sergantiems priimti sprendimus apie savo sveikatą.
 
-Tačiau dabartinėje sistemoje vartotojai susiduria su panaudojamumo problemomis. Naudojant paieškos sistemą negalima įvesti pilnų žodžių, nes, jeigu galūnė bent kažkiek skirsis, paieška rezultato negražins. Be to, ieškodamas informacijos apie širdies ligas gauni pilną puslapį padėkų, kurios, nors džiugina, užslepia rezultatus kaip širdies ligų gydymo centro kontaktai. Filtravimas nepadeda, nes gražinti rezultatai yra skirstomi į per plačias kategorijas, kuriose padėkos, naujienos ir svetainės esminiai puslapiai tokie kaip „Kontaktai“ ar „Apie mus“ yra vienoje kategorijoje. 
+Tačiau dabartinėje sistemoje vartotojai susiduria su panaudojamumo problemomis. Naudojant paieškos sistemą negalima įvesti pilnų žodžių, nes, jeigu užklausos galūnė bent šiek tiek skiriasi, paieška rezultato negražina. Be to, ieškant informacijos apie širdies ligas gaunamas pilnas puslapis padėkų, kurios, nors džiugina, užslepia rezultatus kaip širdies ligų gydymo centro kontaktai. Filtravimas nepadeda, nes gražinti rezultatai yra skirstomi į per plačias kategorijas, kuriose padėkos, naujienos ir svetainės esminiai puslapiai tokie kaip „Kontaktai“ ar „Apie mus“ yra vienoje kategorijoje. 
 
-Šio darbo tikslas yra suprojektuoti informacijos architektūrą, kuri leistų pacientams greičiau ir su mažiau paspaudimų rasti aktualią informaciją santa.lt puslapyje. Pacientams aktualu yra registracija pas gydytoją, informacija kaip pasiekti ligoninę ir jos skyrius, informacija apie ligoninės personalą. Galutinis darbo rezultatas - puslapio prototipas, kurio informacijos architektūra leidžia greičiau ir su mažiau paspaudimų rasti aktualią informaciją.
+Šio darbo tikslas yra išnagrinėti tinklapio trūkumus ir remiantis literatūros šaltiniais sukurti prototipą su nauja informacijos architektūra, kuri leistų pacientams greičiau rasti aktualią informaciją santa.lt puslapyje. Galutinis darbo rezultatas - puslapio prototipas ir reikalavimai galutiniam tinklapio įgyvendinimui.
 
 Uždaviniai:
 \begin{enumerate}
 	\item Identifikuoti vartotojų poreikius remiantis literatūros šaltiniais ir internetinių puslapių lankomumo informacija
 	\item Išskirti lyginimo kriterijus remiantis literatūros šaltiniais
-	\item Atlikti puslapio panaudojamumo analizę
+	\item Atlikti puslapio panaudojamumo analizę pagal išskirtus kriterijus
 	\item Paruošti sprendimo variantus
 	\renewcommand*{\theenumii}{\theenumi.\arabic{enumii}}
 	\renewcommand{\labelenumii}{\theenumii}
 	\begin{enumerate}
-		\item Remiantis panašiais puslapiais ir literatūros šaltiniais išskirti alternatyvius sprendimus
+		\item Remiantis lyginimo kriterijais ir literatūros šaltiniais išskirti alternatyvius sprendimus
 		\item Sukurti sprendimo variantų maketus
 		\item Palyginti maketus
 		\item Sukurti galutinio sprendimo prototipą
@@ -85,9 +85,9 @@ Norint daugiau sužinoti apie vartotojų poreikius autorius atliko apklausą kar
 %\item Naudotojai vidutiniškai užtrunka 1 minutę rasti skyriaus adresą
 %\item Naudotojai vidutiniškai užtrunka 52 sekundes rasti registraciją pas gydytoją, kai negalima eiti į pagrindinį puslapį.
 %\item Visi naudotojai nerado ligoninės skyrių ir registracijos per paiešką
-\item 4 iš 5 naudotojų mano, kad sistemoje turėtų būti galima greičiau atlikti kai kurias užduotis
-\item 3 iš 5 naudotojų mano, kad informacija galėtų būti geriau struktūrizuota
-\item Visi naudotojai buvo nepatenkinti paieškos sistema
+\item 4 iš 5 dalyvių mano, kad sistemoje turėtų būti galima greičiau atlikti duotas užduotis
+\item 3 iš 5 dalyvių mano, kad informacija galėtų būti geriau struktūrizuota
+\item Visi dalyviai buvo nepatenkinti paieškos sistema
 \end{enumerate}
 
 Apklausa parodo, kad vartotojai nėra patenkinti dabartine sistema. Norint toliau nagrinėti sistemos trūkumus ir privalumus reikia surasti lyginimo kriterijus, pagal kuriuos bus galima palyginti senos ir naujos sistemos panaudojamumą.
@@ -146,6 +146,8 @@ Paieškos sistema turi gana skūpų 20 simbolių limitą, tačiau atsižvelgiant
 Kita problema yra gausybė neaktualių rezultatų virš tų, kurių iš tikro ieškoma. Tai sukelia numatytasis paieškos rūšiavimas pagal puslapio naujumą. Pakeitus rūšiavimą į rūšiavimą pagal  populiarumą, gaunami daug naudingesni rezultatai.
 
 Autoriaus nuomone nėra prasminga pritaikyti „santa.lt“ tinklapį ekspertams, nes šio tinklapio lankytojai dažniausiai naudojasi tinklapiu pirmą kartą arba labai retai ir nežino sudėtingų funkcijų. Dauguma vartotojų labai greitai nusprendžia ar tinklapis vertas jų dėmesio\cite{WebBehaviorsEn} ir nepavykusi paieška gali būti viena iš priežasčių palikti tinklapį, todėl paieškos numatytosios funkcijos turėtų įtikti naujam naudotojui.
+
+\pagebreak
 
 \begin{center}
 \begin{longtable}{ |p{13,5cm}|p{2cm}| } 
@@ -261,38 +263,7 @@ Sprendimo maketai bus kuriami naudojant Balsamiq programinę įrangą, nes ji le
     \label{img:paieškarez}
 \end{figure}
 
-\section{Puslapių atvaizdavimas ant mobilaus įrenginio}
-\begin{figure}[H]
-    \centering
-    \begin{minipage}{.5\textwidth}
-    	\centering
-    	\includegraphics[scale=0.12]{img/SantaMobile}
-    	\caption{Santa.lt ant mobilaus įrenginio}
-    	\label{img:santamobile}
-    \end{minipage}%
-    \begin{minipage}{.5\textwidth}
-    	\centering
-    	\includegraphics[scale=0.12]{img/VmklMobile}
-    	\caption{Vmkl.lt ant mobilaus įrenginio}
-    	\label{img:vmklmobile}
-    \end{minipage}
-\end{figure}
 
-\begin{figure}[H]
-    \centering
-    \begin{minipage}{.5\textwidth}
-    \centering
-    \includegraphics[scale=0.12]{img/KaunoMobile}
-    \caption{kaunoligonine.lt ant mobilaus įrenginio}
-    \label{img:kaunomobile}
-    \end{minipage}%
-\begin{minipage}{.5\textwidth}
-    \centering
-    \includegraphics[scale=0.12]{img/NypMobile}
-    \caption{nyp.org ant mobilaus įrenginio}
-    \label{img:nypmobile}
-    \end{minipage}
-\end{figure}
 
 
 %\section{Eksperimentinio palyginimo rezultatai}
