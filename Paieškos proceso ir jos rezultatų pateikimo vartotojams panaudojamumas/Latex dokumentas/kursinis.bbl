@@ -151,33 +151,43 @@
       \verb https://www.sciencedirect.com/science/article/pii/S1386505611002644
       \endverb
     \endentry
-    \entry{RWDEn}{online}{}
-      \name{author}{1}{}{%
-        {{hash=ca762f825f70c5a1f00a689ca3e9869e}{%
-           family={Marcotte},
-           familyi={M\bibinitperiod},
-           given={Ethan},
-           giveni={E\bibinitperiod}}}%
+    \entry{WebBehaviorsEn}{online}{}
+      \name{author}{3}{}{%
+        {{hash=09896aa5fbccc018f8f5276bd3c2cc51}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Chao},
+           giveni={C\bibinitperiod}}}%
+        {{hash=49ccf4fc1a94855e04184746e8caed94}{%
+           family={White},
+           familyi={W\bibinitperiod},
+           given={Ryen\bibnamedelima W.},
+           giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=d5f0f6887b60158e68525c49071c2a73}{%
+           family={Dumais},
+           familyi={D\bibinitperiod},
+           given={Susan},
+           giveni={S\bibinitperiod}}}%
       }
-      \strng{namehash}{ca762f825f70c5a1f00a689ca3e9869e}
-      \strng{fullhash}{ca762f825f70c5a1f00a689ca3e9869e}
-      \strng{bibnamehash}{ca762f825f70c5a1f00a689ca3e9869e}
-      \strng{authorbibnamehash}{ca762f825f70c5a1f00a689ca3e9869e}
-      \strng{authornamehash}{ca762f825f70c5a1f00a689ca3e9869e}
-      \strng{authorfullhash}{ca762f825f70c5a1f00a689ca3e9869e}
-      \field{labelalpha}{Mar10}
-      \field{sortinit}{M}
-      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \strng{namehash}{86541fb4f62715fb58f3843d0d71adbc}
+      \strng{fullhash}{86541fb4f62715fb58f3843d0d71adbc}
+      \strng{bibnamehash}{86541fb4f62715fb58f3843d0d71adbc}
+      \strng{authorbibnamehash}{86541fb4f62715fb58f3843d0d71adbc}
+      \strng{authornamehash}{86541fb4f62715fb58f3843d0d71adbc}
+      \strng{authorfullhash}{86541fb4f62715fb58f3843d0d71adbc}
+      \field{labelalpha}{LWD10}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{langid}{english}
-      \field{title}{Responsive Web Design}
+      \field{title}{Understanding web browsing behaviors through Weibull analysis of dwell time}
       \field{year}{2010}
       \verb{urlraw}
-      \verb http://alistapart.com/article/responsive-web-design/
+      \verb https://www.microsoft.com/en-us/research/wp-content/uploads/2010/10/SIGIR2010-DwellTimeModel.pdf
       \endverb
       \verb{url}
-      \verb http://alistapart.com/article/responsive-web-design/
+      \verb https://www.microsoft.com/en-us/research/wp-content/uploads/2010/10/SIGIR2010-DwellTimeModel.pdf
       \endverb
     \endentry
     \entry{NielsenHeuristicsEn}{inproceedings}{}
@@ -239,33 +249,6 @@
       \field{year}{1994}
       \field{pages}{413\bibrangedash 414}
       \range{pages}{2}
-    \endentry
-    \entry{EmergingmHealthEn}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=61835b68ccef417c7b0f4743bc983d0a}{%
-           family={{PwC}},
-           familyi={P\bibinitperiod}}}%
-      }
-      \strng{namehash}{61835b68ccef417c7b0f4743bc983d0a}
-      \strng{fullhash}{61835b68ccef417c7b0f4743bc983d0a}
-      \strng{bibnamehash}{61835b68ccef417c7b0f4743bc983d0a}
-      \strng{authorbibnamehash}{61835b68ccef417c7b0f4743bc983d0a}
-      \strng{authornamehash}{61835b68ccef417c7b0f4743bc983d0a}
-      \strng{authorfullhash}{61835b68ccef417c7b0f4743bc983d0a}
-      \field{labelalpha}{PwC14}
-      \field{sortinit}{P}
-      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{langid}{english}
-      \field{title}{Emerging mHealth: Paths for growth}
-      \field{year}{2014}
-      \verb{urlraw}
-      \verb https://www.pwc.com/gx/en/healthcare/mhealth/assets/pwc-emerging-mhealth-full.pdf
-      \endverb
-      \verb{url}
-      \verb https://www.pwc.com/gx/en/healthcare/mhealth/assets/pwc-emerging-mhealth-full.pdf
-      \endverb
     \endentry
     \entry{EuCitizDigHealthEn}{misc}{}
       \name{author}{1}{}{%

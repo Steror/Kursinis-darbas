@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.6960 64-bit) (preloaded format=xelatex 2019.3.11)  31 AUG 2019 13:01
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.6960 64-bit) (preloaded format=xelatex 2019.3.11)  2 SEP 2019 20:49
 entering extended mode
 **./kursinis.tex
 (kursinis.tex
@@ -1188,13 +1188,13 @@ Package biblatex Info: Reference segment=0 on input line 39.
 
 ] [5
 
+] [6
+
 ]
-Underfull \vbox (badness 10000) detected at line 159
+Underfull \vbox (badness 10000) detected at line 172
  []
 
-[6
-
-] [7] [8] [9
+[7] [8] [9
 
 ] [10
 
@@ -1240,20 +1240,16 @@ Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
 (biblatex)                Please use '\mkdaterangeiso'.
 
 
+Package biblatex Warning: No hyphenation patterns for 'lietuvių' on input line 
+230.
+
+
 Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
 (biblatex)                Please use '\mkdaterangeiso'.
 
 
 Package biblatex Warning: No hyphenation patterns for 'lietuvių' on input line 
-214.
-
-
-Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
-(biblatex)                Please use '\mkdaterangeiso'.
-
-
-Package biblatex Warning: No hyphenation patterns for 'lietuvių' on input line 
-214.
+230.
 
 
 Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
@@ -1285,12 +1281,12 @@ Package logreq Info: Writing requests to 'kursinis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25791 strings out of 427748
- 505742 string characters out of 3146822
- 1019706 words of memory out of 3000000
- 29564 multiletter control sequences out of 15000+200000
+ 25789 strings out of 427748
+ 505660 string characters out of 3146822
+ 1013736 words of memory out of 3000000
+ 29562 multiletter control sequences out of 15000+200000
  545296 words of font info for 94 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
- 67i,11n,96p,1731b,7668s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 67i,11n,96p,1167b,7666s stack positions out of 5000i,500n,10000p,200000b,50000s
 
 Output written on kursinis.pdf (16 pages).
