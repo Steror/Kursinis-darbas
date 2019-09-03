@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.6960 64-bit) (preloaded format=xelatex 2019.3.11)  3 SEP 2019 01:31
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.6960 64-bit) (preloaded format=xelatex 2019.3.11)  4 SEP 2019 00:15
 entering extended mode
 **./kursinis.tex
 (kursinis.tex
@@ -1241,7 +1241,7 @@ Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
 
 
 Package biblatex Warning: No hyphenation patterns for 'lietuvių' on input line 
-232.
+235.
 
 
 Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
@@ -1249,7 +1249,7 @@ Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
 
 
 Package biblatex Warning: No hyphenation patterns for 'lietuvių' on input line 
-232.
+235.
 
 
 Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
@@ -1265,18 +1265,15 @@ File: img/PaieškosRezultatai.png Graphic file (type bmp)
  [15
 
 ] [16] (kursinis.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package logreq Info: Writing requests to 'kursinis.run.xml'.
 \openout1 = `kursinis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25770 strings out of 427748
- 505286 string characters out of 3146822
+ 25769 strings out of 427748
+ 505267 string characters out of 3146822
  1011700 words of memory out of 3000000
- 29547 multiletter control sequences out of 15000+200000
+ 29546 multiletter control sequences out of 15000+200000
  545296 words of font info for 94 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
  67i,11n,96p,1167b,7666s stack positions out of 5000i,500n,10000p,200000b,50000s

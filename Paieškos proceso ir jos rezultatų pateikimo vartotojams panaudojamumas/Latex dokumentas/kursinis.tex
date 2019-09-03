@@ -140,12 +140,12 @@ Norint išsiaiškinti dabartinės sistemos panaudojamumo būseną autorius atlik
 
 \pagebreak
 
-\ref{PaieškosLentelėPrad} lentelė apima paieškos panaudojamumo gaires. Iš 20 gairių dabartinė sistema tenkina 12. Autoriaus nuomone paieškos sistemos pagrindiniai trūkumai susiję su vartotojo patirtimi naudojant paieškos sistemą. Paieškos sistema gali būti efektyvi patyrusio vartotojo rankose, tačiau naujas naudotojas greitai susiduria su problemomis.
+\ref{PaieškosLentelėPrad} lentelė apima paieškos panaudojamumo gaires. Iš 20 gairių dabartinė sistema tenkina 12. Autoriaus nuomone paieškos sistemos pagrindiniai trūkumai susiję su neteisinga prielaida apie naudotoją. Paieškos sistema gali būti efektyvi patyrusio vartotojo rankose, tačiau naujas naudotojas greitai susiduria su problemomis.
 
 Paieškos sistema turi gana skūpų 20 simbolių limitą, tačiau atsižvelgiant į tai, kad sistema labai jautri užklausos frazės tikslumui, galima suprasti šio limito priežastį. Jeigu įvestos frazės galūnė ar dalis žodžio bus parašyta netaisyklingai, tai užklausa negražins rezultatų. Žinant šį faktą, patyręs vartotojas gali apeiti problemą vesdamas tik raktažodžio šaknį.
 Kita problema yra gausybė neaktualių rezultatų virš tų, kurių iš tikro ieškoma. Tai sukelia numatytasis paieškos rūšiavimas pagal puslapio naujumą. Pakeitus rūšiavimą į rūšiavimą pagal  populiarumą, gaunami daug naudingesni rezultatai.
 
-Autoriaus nuomone nėra prasminga pritaikyti „santa.lt“ tinklapį ekspertams, nes šio tinklapio lankytojai dažniausiai naudojasi tinklapiu pirmą kartą arba labai retai ir nežino sudėtingų funkcijų. Dauguma vartotojų labai greitai nusprendžia ar tinklapis vertas jų dėmesio\cite{WebBehaviorsEn} ir nepavykusi paieška gali būti viena iš priežasčių palikti tinklapį, todėl paieškos numatytosios funkcijos turėtų įtikti naujam naudotojui.
+Autoriaus nuomone nėra prasminga pritaikyti santa.lt tinklapį ekspertams, nes šio tinklapio lankytojai dažniausiai naudojasi tinklapiu pirmą kartą arba labai retai ir nežino sudėtingų funkcijų. Dauguma vartotojų labai greitai nusprendžia ar tinklapis vertas jų dėmesio\cite{WebBehaviorsEn} ir nepavykusi paieška gali būti viena iš priežasčių palikti tinklapį, todėl paieškos numatytosios funkcijos turėtų įtikti naujam naudotojui.
 
 \pagebreak
 
@@ -154,7 +154,7 @@ Autoriaus nuomone nėra prasminga pritaikyti „santa.lt“ tinklapį ekspertams
  \hline
 	Gairė & Ar tenkina \\ \hline
 	1) Yra patogus ir akivaizdus būdas judėti tarp susijusių puslapių ir skyrių ir yra lengva grįžti į pagrindinį puslapį & tenkina \\ \hline
-	2) Informacija, kurios naudotojams dažnai prireikia yra lengvai pasiekiama iš daugumos puslapių & netenkina \\ \hline
+	2) Informacija, kurios naudotojams dažnai prireikia yra lengvai pasiekiama iš daugumos puslapių & tenkina \\ \hline
 	3) Navigacijos pasirinkimai išrikiuoti pačiu racionaliausiu arba užduočiai orientuotu būdu & tenkina \\ \hline
 	4) Navigacijos sistema plati ir sekli (daug meniu elementų), o ne gili (daug meniu lygių)  & netenkina \\ \hline
 	5) Paprasta, aiškaus modelio svetainės struktūra be nereikalingų lygių & netenkina \\ \hline
@@ -176,7 +176,7 @@ Autoriaus nuomone nėra prasminga pritaikyti „santa.lt“ tinklapį ekspertams
 	21) Visuose puslapiuose yra aiškiai pažymėti išėjimai leidžiantys naudotojui pabėgti iš esamos užduoties be papildomo dialogo & tenkina \\ \hline
 	22) Svetainė neišjungia naršyklės „atgal“ mygtuko ir „atgal“ mygtukas visada matomas naršyklės įrankių juostoje & tenkina \\ \hline
 	23) Paspaudus „atgal“ mygtuką naudotojas visada gražinamas į puslapį, iš kurio atėjo & tenkina \\ \hline
-	24) Jeigu puslapis sukuria naujus langus, jie neklaidina naudotojo (jie dialogo lango dydžio ir lengvai uždaromi) & netenkina \\ \hline
+	24) Jeigu puslapis sukuria naujus langus, jie neklaidina naudotojo (jie dialogo lango dydžio ir lengvai uždaromi) & tenkina \\ \hline
 	25) Meniu instrukcijos, nurodymai ir žinutės atsiranda toje pačioje vietoje visuose puslapiuose & tenkina \\ \hline
 	%16) Produktų puslapiai turi nuorodas į panašius arba papildomus produktus, kad paskatinti kryžminį pardavimą (angl. cross-selling) &  \\ \hline
 	%18) Naudotojai gali rikiuoti ir filtruoti katalogo puslapius (pagal kainą arba populiarumą) & tenkina \\ \hline
@@ -186,7 +186,10 @@ Autoriaus nuomone nėra prasminga pritaikyti „santa.lt“ tinklapį ekspertams
 \end{longtable}
 \end{center}
 
-\ref{navigacijosirIAlentelėPrad} lentelė apima navigacijos ir informacijos architektūros panaudojamumo gaires. Iš 25 gairių dabartinė sistema tenkina 17.
+\ref{navigacijosirIAlentelėPrad} lentelė apima navigacijos ir informacijos architektūros panaudojamumo gaires. Iš 25 gairių dabartinė sistema tenkina 19.
+
+Šioje srityje nedaug klaidų, tačiau kelios iš jų išsiskiria kaip svarbesnės už kitas. Navigacijos sistema yra per siaura pradiniuose lygiuose, todėl į vieną skyrių sueina per daug įvairių elementų. Dėl to kategorijų pavadinimai negali tiksliai apibūdinti informacijos viduje ir sistema turi daugiau lygių, negu galbūt reikėtų.
+Kita problema yra vizualinė, užvedus kursorių ant paspaudžiamų elementų šie turėtų pasikeisti, tačiau pirmasis meniu lygis, nuorodos, puslapio kalbos pasirinkimo mygtukai ir paieška nereaguoja į kursorių.
 
 %Medžiagos darbo tema dėstymo skyriuose pateikiamos nagrinėjamos temos detalės:
 %pradinė medžiaga, jos analizės ir apdorojimo metodai, sprendimų įgyvendinimas,
