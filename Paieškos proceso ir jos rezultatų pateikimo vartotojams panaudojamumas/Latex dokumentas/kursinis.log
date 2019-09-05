@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.6960 64-bit) (preloaded format=xelatex 2019.3.11)  4 SEP 2019 00:15
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.6960 64-bit) (preloaded format=xelatex 2019.3.11)  6 SEP 2019 00:29
 entering extended mode
 **./kursinis.tex
 (kursinis.tex
@@ -1190,17 +1190,28 @@ Package biblatex Info: Reference segment=0 on input line 39.
 
 ] [6
 
-] [7]
-Underfull \vbox (badness 10000) detected at line 174
+]
+File: img/BlogaPaieška.png Graphic file (type bmp)
+<img/BlogaPaieška.png>
+File: img/TuščiaPaieška.png Graphic file (type bmp)
+<img/TuščiaPaieška.png>
+ [7]
+File: img/ProtingaPaieška.png Graphic file (type bmp)
+<img/ProtingaPaieška.png>
+ [8]
+Underfull \vbox (badness 10000) detected at line 198
  []
 
-[8] [9] [10
-
-] [11
+[9]
+File: img/SiauraNavigacija.png Graphic file (type bmp)
+<img/SiauraNavigacija.png>
+ [10] [11
 
 ] [12
 
 ] [13
+
+] [14
 
 ]
 
@@ -1241,7 +1252,7 @@ Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
 
 
 Package biblatex Warning: No hyphenation patterns for 'lietuvių' on input line 
-235.
+265.
 
 
 Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
@@ -1249,33 +1260,33 @@ Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
 
 
 Package biblatex Warning: No hyphenation patterns for 'lietuvių' on input line 
-235.
+265.
 
 
 Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
 (biblatex)                Please use '\mkdaterangeiso'.
 
-[14
+[15
 
 ]
 File: img/RegistracijosAklavietė.png Graphic file (type bmp)
 <img/RegistracijosAklavietė.png>
 File: img/PaieškosRezultatai.png Graphic file (type bmp)
 <img/PaieškosRezultatai.png>
- [15
+ [16
 
-] [16] (kursinis.aux)
+] [17] (kursinis.aux)
 Package logreq Info: Writing requests to 'kursinis.run.xml'.
 \openout1 = `kursinis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25769 strings out of 427748
- 505267 string characters out of 3146822
- 1011700 words of memory out of 3000000
- 29546 multiletter control sequences out of 15000+200000
+ 25789 strings out of 427748
+ 505735 string characters out of 3146822
+ 1011734 words of memory out of 3000000
+ 29562 multiletter control sequences out of 15000+200000
  545296 words of font info for 94 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
- 67i,11n,96p,1167b,7666s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 67i,11n,96p,1167b,7668s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on kursinis.pdf (16 pages).
+Output written on kursinis.pdf (17 pages).

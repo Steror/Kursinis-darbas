@@ -8,37 +8,33 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.}Sistemų lyginimo kriterijai}{5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.}Puslapio panaudojamumo analizė}{6}% 
+\contentsline {section}{\numberline {3.}Tinklapio panaudojamumo analizė}{6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.}Sprendimo variantai}{10}% 
+\contentsline {subsection}{\numberline {3.1.}Paieškos sistemos panaudojamumo analizė}{6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.}Alternatyvieji sprendimai}{10}% 
+\contentsline {subsection}{\numberline {3.2.}Navigacijos ir informacijos architektūros panaudojamumo analizė}{9}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.}Sprendimo maketai}{10}% 
+\contentsline {section}{\numberline {4.}Sprendimo variantai}{11}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.1.}Pirmas maketas}{10}% 
+\contentsline {subsection}{\numberline {4.1.}Alternatyvieji sprendimai}{11}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.2.}Antras maketas}{10}% 
+\contentsline {subsection}{\numberline {4.2.}Sprendimo maketai}{11}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.}Maketų palyginimas}{10}% 
+\contentsline {subsubsection}{\numberline {4.2.1.}Pirmas maketas}{11}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.}Galutinio sprendimo prototipas}{10}% 
+\contentsline {subsubsection}{\numberline {4.2.2.}Antras maketas}{11}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.}Reikalavimai galutinio sprendimo įgyvendinimui}{11}% 
+\contentsline {subsection}{\numberline {4.3.}Maketų palyginimas}{11}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.}Technologijos galutinio sprendimo įgyvendinimui}{12}% 
+\contentsline {subsection}{\numberline {4.4.}Galutinio sprendimo prototipas}{11}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Rezultatai ir išvados}{13}% 
+\contentsline {section}{\numberline {5.}Reikalavimai galutinio sprendimo įgyvendinimui}{12}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Šaltiniai}{14}% 
+\contentsline {section}{\numberline {6.}Technologijos galutinio sprendimo įgyvendinimui}{13}% 
 \defcounter {refsection}{0}\relax 
-\select@language {english}
+\contentsline {section}{Rezultatai ir išvados}{14}% 
 \defcounter {refsection}{0}\relax 
-\select@language {lithuanian}
-\defcounter {refsection}{0}\relax 
-\select@language {english}
-\defcounter {refsection}{0}\relax 
-\select@language {lithuanian}
+\contentsline {section}{Šaltiniai}{15}% 
 \defcounter {refsection}{0}\relax 
 \select@language {english}
 \defcounter {refsection}{0}\relax 
@@ -60,6 +56,14 @@
 \defcounter {refsection}{0}\relax 
 \select@language {lithuanian}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\MakeUppercase {Priedai}}{14}% 
+\select@language {english}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{1 priedas.\nobreakspace {}Dabartinio puslapio grafinė vartotojo sąsaja}{15}% 
+\select@language {lithuanian}
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\select@language {lithuanian}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\MakeUppercase {Priedai}}{15}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{1 priedas.\nobreakspace {}Dabartinio puslapio grafinė vartotojo sąsaja}{16}% 
