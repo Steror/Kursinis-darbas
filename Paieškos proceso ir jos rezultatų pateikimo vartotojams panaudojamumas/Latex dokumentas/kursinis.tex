@@ -55,7 +55,7 @@ Kadangi Lietuvos gyventojams internetas lengvai prieinamas, darosi įprasta ieš
 
 Tačiau dabartinėje sistemoje vartotojai susiduria su panaudojamumo problemomis. Naudojant paieškos sistemą negalima įvesti pilnų žodžių, nes, jeigu užklausos galūnė bent šiek tiek skiriasi, paieška rezultato negražina. Be to, ieškant informacijos apie širdies ligas gaunamas pilnas puslapis padėkų, kurios, nors džiugina, užslepia rezultatus kaip širdies ligų gydymo centro kontaktai. Filtravimas nepadeda, nes gražinti rezultatai yra skirstomi į per plačias kategorijas, kuriose padėkos, naujienos ir svetainės esminiai puslapiai tokie kaip „Kontaktai“ ar „Apie mus“ yra vienoje kategorijoje. 
 
-Šio darbo tikslas yra išnagrinėti tinklapio trūkumus ir remiantis literatūros šaltiniais sukurti prototipą su nauja informacijos architektūra, kuri leistų pacientams greičiau rasti aktualią informaciją santa.lt puslapyje. Galutinis darbo rezultatas - puslapio prototipas ir reikalavimai galutiniam tinklapio įgyvendinimui.
+Šio \textbf{darbo tikslas} yra išnagrinėti tinklapio trūkumus ir remiantis literatūros šaltiniais sukurti prototipą su nauja informacijos architektūra, kuri leistų pacientams greičiau ir patogiau rasti aktualią informaciją santa.lt puslapyje. Galutinis darbo rezultatas - puslapio prototipas ir reikalavimai galutiniam tinklapio įgyvendinimui.
 
 Uždaviniai:
 \begin{enumerate}
@@ -108,7 +108,7 @@ Naudojant pasirinktus kriterijus galima įvertinti dabartinės sistemos panaudoj
 
 
 \section{Tinklapio panaudojamumo analizė}
-Norint išsiaiškinti dabartinės sistemos panaudojamumo būseną autorius atliko panaudojamumo inspekciją pagal praėjusiame skyriuje išvardintus kriterijus (\ref{PaieškosLentelėPrad} ir \ref{navigacijosirIAlentelėPrad} lentelės).
+Norint išsiaiškinti dabartinės sistemos panaudojamumo būseną autorius atliko panaudojamumo inspekciją pagal praėjusiame skyriuje išvardintus kriterijus (\ref{PaieškosLentelėPrad}, \ref{navigacijosirIAlentelėPrad} ir \ref{euristikųlentelėprad} lentelė).
 \subsection{Paieškos sistemos panaudojamumo analizė}
 
 
@@ -220,6 +220,28 @@ Kita problema yra vizualinė, užvedus kursorių ant paspaudžiamų elementų š
     \caption{Navigacija turi tik 3 šakas pirmame lygyje (\ref{navigacijosirIAlentelėPrad}.4), dėl to yra nereikalingų lygių (\ref{navigacijosirIAlentelėPrad}.5) ir kategorijos per daug plačios tiksliai apibūdinti informaciją viduje (\ref{navigacijosirIAlentelėPrad}.12)}
     \label{img:siauranavigacija}
 \end{figure}
+
+\subsection{Euristinis vertinimas}
+
+Antrame stulpelyje yra defekto sunkumas (DS) vertinamas skalėje nuo 0 iki 3, kur 0 - nėra defekto, 1 - kosmetinis defektas, 2 - lengvas defektas, 3 - kritinis defektas trugdantis naudotis sistema.
+
+\begin{center}
+\begin{tabular}{ | p{5cm} | p{0,5cm} | p{10cm} | } 
+ \hline
+	Euristika & DS & Komentaras \\ \hline
+	1) Sistemos būsenos matomumas & 2 & Paspaudus mygtuką „ieškoti“ rodomas tuščias puslapis iki paieškos rezultatų gavimo. Paieška užtrunka apie 3 sekundes, taigi galėtų būti tekstas, animacija ar progreso juosta pranešanti, kad vyksta paieška. Užvedus kursorių ant paspaudžiamų elementų kaip nuorodų ir tam tikrų elementų, šie nepasikeičia, taigi vartotojui sunkiau juos pastebėti \\ \hline
+	2) Atitikimas realiam pasauliui  &  &  \\ \hline
+	3) Naudotojo valdomas dialogas &  &  \\ \hline
+	4) Darna ir standartai &  &  \\ \hline
+	5) Klaidų prevencija &  &  \\ \hline
+	6) Atpažinimas geriau nei atsiminimas &  &  \\ \hline
+	7) Naudojimo lankstumas ir efektyvumas &  &  \\ \hline
+	8) Estetiškas ir minimalistinis dizainas &  &  \\ \hline
+	9) Remti klaidų atpažinimą, jų priežasčių nustatymą ir taisymą &  &  \\ \hline
+	10) Parama ir dokumentacija &  &  \\ \hline
+\end{tabular}
+\captionof{table}{Euristinio vertinimo lentelė}\label{euristikųlentelėprad}
+\end{center}
 
 %Medžiagos darbo tema dėstymo skyriuose pateikiamos nagrinėjamos temos detalės:
 %pradinė medžiaga, jos analizės ir apdorojimo metodai, sprendimų įgyvendinimas,

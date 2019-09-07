@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.6960 64-bit) (preloaded format=xelatex 2019.3.11)  6 SEP 2019 00:29
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.6960 64-bit) (preloaded format=xelatex 2019.3.11)  7 SEP 2019 16:56
 entering extended mode
 **./kursinis.tex
 (kursinis.tex
@@ -1205,13 +1205,23 @@ Underfull \vbox (badness 10000) detected at line 198
 [9]
 File: img/SiauraNavigacija.png Graphic file (type bmp)
 <img/SiauraNavigacija.png>
- [10] [11
+ [10]
+Overfull \hbox (1.10963pt too wide) in paragraph at lines 231--231
+[]\TU/texgyretermes(0)/m/n/12 DS| 
+ []
 
-] [12
+
+Overfull \hbox (7.54721pt too wide) in paragraph at lines 229--243
+ [] 
+ []
+
+[11] [12
 
 ] [13
 
 ] [14
+
+] [15
 
 ]
 
@@ -1252,7 +1262,7 @@ Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
 
 
 Package biblatex Warning: No hyphenation patterns for 'lietuvių' on input line 
-265.
+287.
 
 
 Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
@@ -1260,33 +1270,33 @@ Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
 
 
 Package biblatex Warning: No hyphenation patterns for 'lietuvių' on input line 
-265.
+287.
 
 
 Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
 (biblatex)                Please use '\mkdaterangeiso'.
 
-[15
+[16
 
 ]
 File: img/RegistracijosAklavietė.png Graphic file (type bmp)
 <img/RegistracijosAklavietė.png>
 File: img/PaieškosRezultatai.png Graphic file (type bmp)
 <img/PaieškosRezultatai.png>
- [16
+ [17
 
-] [17] (kursinis.aux)
+] [18] (kursinis.aux)
 Package logreq Info: Writing requests to 'kursinis.run.xml'.
 \openout1 = `kursinis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25789 strings out of 427748
- 505735 string characters out of 3146822
- 1011734 words of memory out of 3000000
- 29562 multiletter control sequences out of 15000+200000
+ 25790 strings out of 427748
+ 505757 string characters out of 3146822
+ 1011743 words of memory out of 3000000
+ 29563 multiletter control sequences out of 15000+200000
  545296 words of font info for 94 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
  67i,11n,96p,1167b,7668s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on kursinis.pdf (17 pages).
+Output written on kursinis.pdf (18 pages).
