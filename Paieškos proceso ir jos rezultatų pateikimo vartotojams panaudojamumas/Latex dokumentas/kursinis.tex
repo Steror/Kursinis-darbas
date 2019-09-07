@@ -46,6 +46,8 @@
 %TURINYS
 \tableofcontents
 
+
+
 \sectionnonum{Įvadas}
 %Įvade apibūdinamas darbo tikslas, temos aktualumas ir siekiami rezultatai.
 %Darbo įvadas neturi būti dėstymo santrauka. Įvado apimtis 1–2 puslapiai.
@@ -95,20 +97,20 @@ Apklausa parodo, kad vartotojai nėra patenkinti dabartine sistema. Norint tolia
 
 
 \section{Sistemų lyginimo kriterijai}
-Panaudojamumo inspekcija gali būti atlikta įvairiais metodais. Empiriniai metodai yra plačiausiai naudojami\cite{NielsenUsabilityEn}, tačiau reikalauja daug žmonių norint gauti patikimą rezultatą, todėl atliktas vienas iš analitinių metodų. Dėl paprastumo pasirinkta naudoti neformaliausią metodą - euristinį vertinimą, šiuo naudojantis nereikia turėti eksperto žinių.
+Panaudojamumo inspekcija gali būti atlikta įvairiais metodais. Empiriniai metodai yra plačiausiai naudojami\cite{NielsenUsabilityEn}, tačiau reikalauja daug žmonių norint gauti patikimą rezultatą, todėl atlikti analitiniai metodai. Dėl paprastumo pasirinkta naudoti neformaliausią metodą - euristinį vertinimą, šis metodas neturi griežtos struktūros ir dėl to greičiau atliekamas.
 
 Norint surasti optimalų sprendimą reikia turėti objektyvius kriterijus, pagal kuriuos galima lyginti skirtingus sprendimo variantus. Vienas iš ekspertų tinklapių projektavimo srityje yra David Travis, kuris nuo 1989 metų dirba vartotojo patirties srityje ir yra parašęs dvi knygas apie panaudojamumą. Savo tinklapyje jis turi daug gairių, tačiau šiam tyrimui aktualios gairės paieškos ir informacijos architektūros vertinimui. Jo gairės suformuluotos teiginių pavidalu ir vertinant puslapį jos yra žymimos kaip tenkinamos arba netenkinamos\cite{SearchGuidelinesEn}\cite{NavigationAndIAGuidelinesEn}. 
 
-Dar vienas ekspertas šioje srityje yra Jakob Nielsen, kuris laikomas tinklapių projektavimo guru. Jakob Nielsen aprašė 10 bendrų euristikų panaudojamumo projektavimui \cite{NielsenHeuristicsEn}. Kiekviena euristika apima keletą taisyklių, o atliekant vertinimą reikia atsižvelgti į jas ir pažymėti, kurios buvo pažeistos.
+Dar vienas ekspertas šioje srityje yra Jakob Nielsen, kuris laikomas tinklapių projektavimo guru. Jakob Nielsen aprašė 10 bendrų euristikų panaudojamumo projektavimui \cite{NielsenHeuristicsEn}. Kiekviena iš 10 euristikų apima keletą taisyklių, taigi kriterijų yra daug daugiau nei 10. Atliekant vertinimą viename stulpelyje yra euristikos, kitame parašomas defekto sunkumas (DS) skalėje nuo 0 iki 3, kur 0 - nėra defekto, 1 - kosmetinis defektas, 2 - smulkus defektas, 3 - kritinis defektas trugdantis naudotis sistema. Trečiame stulpelyje aprašoma kaip pažeista taisyklė.
 
-Autoriui atrodo, kad David Travis gairės leidžia objektyviau įvertinti puslapį, nes tereikia atsakyti į taip arba ne klausimus, o ne įvertinti euristikos išpildymą. Kitas gairių privalumas yra tai, kad klausimai gan konkretūs ir lengvai patikrinami, o euristikos gan plačios ir reikia gerai žinoti jų prasmę. David Travis savo gaires parašė daug vėliau už Jakob Nielsen, taigi tikėtina, kad jos geriau atitinka šiuolaikinius standartus ir vartotojų įpročius. Gairės vistiek nėra tobulos, nes tinklapio projektavime galima prioritizuoti tam tikras gaires virš kitų, siekant specifiško rezultato, tačiau šį faktą autorius pasirinko ignoruoti ir vertina pagal išpildytų gairių skaičių siekiant objektyvumo. Kelios gairės praleistos, nes nėra aktualios tyrinėjamam tinklapiui.
+Autoriui atrodo, kad David Travis gairės leidžia objektyviau įvertinti puslapį, nes tereikia atsakyti į taip arba ne klausimus, o ne įvertinti euristikos išpildymą. Kita vertus Nielsen euristikos leidžia geriau suprasti bendro panaudojamumo trūkumus. Kitas gairių privalumas yra tai, kad klausimai gan konkretūs ir lengvai patikrinami, o euristikos gan plačios ir reikia gerai žinoti jų prasmę. David Travis savo gaires parašė daug vėliau už Jakob Nielsen, taigi tikėtina, kad jos geriau atitinka šiuolaikinius standartus ir vartotojų įpročius. Norint plačiau išnagrinėti tinklapio dabartinę būseną tyrimui naudojami ir David Travis, ir Jakob Nielsen panaudojamumo analizės metodai.
 
-Naudojant pasirinktus kriterijus galima įvertinti dabartinės sistemos panaudojamumo būseną ir palyginti su alternatyviais sprendimo maketais.
+Tinklapio projektavime galima prioritizuoti tam tikras gaires ar euristikas virš kitų, siekant specifiško rezultato, tačiau šį faktą autorius pasirinko ignoruoti ir vertina pagal išpildytų gairių skaičių siekiant objektyvumo. Kelios gairės praleistos, nes nėra aktualios tyrinėjamam tinklapiui. Naudojant pasirinktus kriterijus galima įvertinti dabartinės sistemos panaudojamumo būseną.
 
 
 
 \section{Tinklapio panaudojamumo analizė}
-Norint išsiaiškinti dabartinės sistemos panaudojamumo būseną autorius atliko panaudojamumo inspekciją pagal praėjusiame skyriuje išvardintus kriterijus (\ref{PaieškosLentelėPrad}, \ref{navigacijosirIAlentelėPrad} ir \ref{euristikųlentelėprad} lentelė).
+Norint išsiaiškinti dabartinės sistemos panaudojamumo būseną autorius atliko panaudojamumo inspekciją pagal praėjusiame skyriuje išvardintus kriterijus (\ref{PaieškosLentelėPrad}, \ref{navigacijosirIAlentelėPrad} ir \ref{EuristikųLentelėPrad} lentelė).
 \subsection{Paieškos sistemos panaudojamumo analizė}
 
 
@@ -137,7 +139,8 @@ Norint išsiaiškinti dabartinės sistemos panaudojamumo būseną autorius atlik
 	19) Paieškos sistema automatiškai patikrina rašybą ir ieško daugiaskaitinių formų ir sinonimų & netenkina \\ \hline
 	20) Paieškos sistema leidžia ieškoti panašių rezultatų („daugiau tokių“) & netenkina \\ \hline
 \end{tabular}
-\captionof{table}{Paieškos panaudojamumo gairių vertinimo lentelė pradiniam puslapiui}\label{PaieškosLentelėPrad}
+\captionof{table}{Paieškos panaudojamumo gairių vertinimo lentelė pradiniam puslapiui}
+\label{PaieškosLentelėPrad}
 \end{center}
 
 \pagebreak
@@ -166,7 +169,7 @@ Autoriaus nuomone nėra prasminga pritaikyti santa.lt tinklapį ekspertams, nes 
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.8]{img/ProtingaPaieška}
-    \caption{Paieška netikrina rašybos, taigi reikia gudrauti naudojant žodžių šaknis (\ref{PaieškosLentelėPrad}.19)}
+    \caption{Paieška netikrina panašių galūnių ar rašybos klaidų, taigi reikia gudrauti naudojant žodžių šaknis (\ref{PaieškosLentelėPrad}.19)}
     \label{img:protingapaieška}
 \end{figure}
 
@@ -206,7 +209,8 @@ Autoriaus nuomone nėra prasminga pritaikyti santa.lt tinklapį ekspertams, nes 
 	%18) Naudotojai gali rikiuoti ir filtruoti katalogo puslapius (pagal kainą arba populiarumą) & tenkina \\ \hline
 	%22) Hipertekso nuorodos, kurios sukelia veiksmus (pavyzdžiui siuntimą) aiškiai skiriasi nuo nuorodų, kurios veda į kitą puslapį &  \\ \hline
 	%27) Nuoroda į prekių krepšelį ir atsiskaitymą matomi visuose puslapiuose &  \\ \hline
-	\caption{Navigacijos ir informacijos architektūros panaudojamumo gairių vertinimo lentelė pradiniam puslapiui}\label{navigacijosirIAlentelėPrad}
+	\caption{Navigacijos ir informacijos architektūros panaudojamumo gairių vertinimo lentelė pradiniam puslapiui}
+	\label{navigacijosirIAlentelėPrad}
 \end{longtable}
 \end{center}
 
@@ -221,27 +225,47 @@ Kita problema yra vizualinė, užvedus kursorių ant paspaudžiamų elementų š
     \label{img:siauranavigacija}
 \end{figure}
 
-\subsection{Euristinis vertinimas}
-
-Antrame stulpelyje yra defekto sunkumas (DS) vertinamas skalėje nuo 0 iki 3, kur 0 - nėra defekto, 1 - kosmetinis defektas, 2 - lengvas defektas, 3 - kritinis defektas trugdantis naudotis sistema.
+\subsection{Bendro panaudojamumo analizė}
 
 \begin{center}
-\begin{tabular}{ | p{5cm} | p{0,5cm} | p{10cm} | } 
+\begin{tabular}{ | p{4cm} | p{0,5cm} | p{11cm} | } 
  \hline
 	Euristika & DS & Komentaras \\ \hline
-	1) Sistemos būsenos matomumas & 2 & Paspaudus mygtuką „ieškoti“ rodomas tuščias puslapis iki paieškos rezultatų gavimo. Paieška užtrunka apie 3 sekundes, taigi galėtų būti tekstas, animacija ar progreso juosta pranešanti, kad vyksta paieška. Užvedus kursorių ant paspaudžiamų elementų kaip nuorodų ir tam tikrų elementų, šie nepasikeičia, taigi vartotojui sunkiau juos pastebėti \\ \hline
-	2) Atitikimas realiam pasauliui  &  &  \\ \hline
-	3) Naudotojo valdomas dialogas &  &  \\ \hline
-	4) Darna ir standartai &  &  \\ \hline
-	5) Klaidų prevencija &  &  \\ \hline
-	6) Atpažinimas geriau nei atsiminimas &  &  \\ \hline
-	7) Naudojimo lankstumas ir efektyvumas &  &  \\ \hline
-	8) Estetiškas ir minimalistinis dizainas &  &  \\ \hline
-	9) Remti klaidų atpažinimą, jų priežasčių nustatymą ir taisymą &  &  \\ \hline
-	10) Parama ir dokumentacija &  &  \\ \hline
+	1) Sistemos būsenos matomumas & 2 & Paspaudus mygtuką „ieškoti“ rodomas tuščias puslapis iki paieškos rezultatų gavimo. Paieška užtrunka apie 3 sekundes, taigi galėtų būti tekstas, animacija ar progreso juosta pranešanti, kad vyksta paieška. Užvedus kursorių ant paspaudžiamų elementų kaip nuorodų ir tam tikrų elementų, šie nepasikeičia, taigi vartotojui sunkiau juos pastebėti. \\ \hline
+	2) Atitikimas realiam pasauliui  & 2 & Daugumai vartotojų aktuali registracija pas gydytoją, taigi ji turėtų būti dar lengviau surandama naršant arba ieškant. \\ \hline
+	3) Naudotojo valdomas dialogas & 2 & Dalis puslapių nerodo nukeliauto kelio. \\ \hline
+	4) Darna ir standartai & 1 & Kai kuriuose puslapiuose pranyksta navigacijos elementai \\ \hline
+	5) Klaidų prevencija & 2 & Netinkami numatytieji nustatymai lemia, kad naudotojai dažnai atlieka netinkamą paiešką. Nėra patarimų kaip naudotis paieškos sistema. Vedant užklausą nepasiūlomi paieškos variantai. \\ \hline
+	6) Atpažinimas geriau nei atsiminimas & 2 & Navigacija nerodo gilesnių lygių, kol neatidaromas to lygio puslapis, taigi reikia žinoti, kurioje kategorije ieškomas elementas. Trūksta vaizdų, kurie asocijuojasi su mygtukais. Nėra pagalbos naudotis tinklapiu. \\ \hline
+	7) Naudojimo lankstumas ir našumas & 2 & Nerodomi susiję puslapiai. Negalima nueiti į giliausią kategorijos lygį vienu paspaudimu, reikia eiti per tėvinius elementus. \\ \hline
+	8) Estetiškas ir minimalistinis dizainas & 2 & Pertekliniai paspaudimai bandant naviguoti per kategorijas. \\ \hline
+	9) Remti klaidų atpažinimą, jų priežasčių nustatymą ir taisymą & 0 &  \\ \hline
+	10) Parama ir dokumentacija & 2 & Nėra informacijos ar pavyzdžių kaip naudoti sudėtingas paieškos funkcijas. \\ \hline
 \end{tabular}
-\captionof{table}{Euristinio vertinimo lentelė}\label{euristikųlentelėprad}
+\captionof{table}{Euristinio vertinimo lentelė}
+\label{EuristikųLentelėPrad}
 \end{center}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.6]{img/RegistracijaPagrindinis}
+    \caption{Registracija pas gydytoją yra prastai pastebimoje vietoje (\ref{EuristikųLentelėPrad}.2)}
+    \label{img:RegistracijaPagrindinis}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.8]{img/RegistracijosAklavietė}
+    \caption{Registracijos aklavietė}
+    \label{img:registracija}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.55]{img/AtvaizdavimoKlaida}
+    \caption{Pranykusi didžioji dalis navigacijos ir vizualinė klaida paieškos lange}
+    \label{img:atvaizdavimoklaida}
+\end{figure}
 
 %Medžiagos darbo tema dėstymo skyriuose pateikiamos nagrinėjamos temos detalės:
 %pradinė medžiaga, jos analizės ir apdorojimo metodai, sprendimų įgyvendinimas,
@@ -306,7 +330,7 @@ Sprendimo maketai bus kuriami naudojant Balsamiq programinę įrangą, nes ji le
 \section{Dabartinio puslapio grafinė vartotojo sąsaja}
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.6]{img/RegistracijosAklavietė}
+    \includegraphics[scale=0.8]{img/RegistracijosAklavietė}
     \caption{Registracijos aklavietė}
     \label{img:registracija}
 \end{figure}

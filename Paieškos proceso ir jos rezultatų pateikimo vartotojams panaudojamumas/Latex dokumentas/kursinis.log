@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.6960 64-bit) (preloaded format=xelatex 2019.3.11)  7 SEP 2019 16:56
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.6960 64-bit) (preloaded format=xelatex 2019.3.11)  8 SEP 2019 01:40
 entering extended mode
 **./kursinis.tex
 (kursinis.tex
@@ -1025,7 +1025,11 @@ Package biblatex Warning: Conflicting options.
 (biblatex)                'date=iso' requires 'seconds=true'.
 (biblatex)                Setting 'seconds=true' on input line 39.
 
-(kursinis.aux)
+(kursinis.aux
+
+LaTeX Warning: Label `img:registracija' multiply defined.
+
+)
 \openout1 = `kursinis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
@@ -1199,29 +1203,57 @@ File: img/TuščiaPaieška.png Graphic file (type bmp)
 File: img/ProtingaPaieška.png Graphic file (type bmp)
 <img/ProtingaPaieška.png>
  [8]
-Underfull \vbox (badness 10000) detected at line 198
+Underfull \vbox (badness 10000) detected at line 201
  []
 
 [9]
 File: img/SiauraNavigacija.png Graphic file (type bmp)
 <img/SiauraNavigacija.png>
- [10]
-Overfull \hbox (1.10963pt too wide) in paragraph at lines 231--231
+
+Overfull \hbox (1.10963pt too wide) in paragraph at lines 233--233
 []\TU/texgyretermes(0)/m/n/12 DS| 
  []
 
 
-Overfull \hbox (7.54721pt too wide) in paragraph at lines 229--243
+Underfull \hbox (badness 10000) in paragraph at lines 234--234
+[]\TU/texgyretermes(0)/m/n/12 1) Sistemos būsenos
+ []
+
+
+Underfull \hbox (badness 5460) in paragraph at lines 235--235
+[]\TU/texgyretermes(0)/m/n/12 2) Atitikimas realiam
+ []
+
+
+Underfull \hbox (badness 1540) in paragraph at lines 239--239
+[]\TU/texgyretermes(0)/m/n/12 6) Atpažinimas geriau
+ []
+
+
+Underfull \hbox (badness 5924) in paragraph at lines 243--243
+[]\TU/texgyretermes(0)/m/n/12 10) Parama ir doku-
+ []
+
+
+Overfull \hbox (7.5472pt too wide) in paragraph at lines 231--245
  [] 
  []
 
-[11] [12
-
-] [13
-
-] [14
+[10]
+File: img/RegistracijaPagrindinis.png Graphic file (type bmp)
+<img/RegistracijaPagrindinis.png>
+ [11]
+File: img/RegistracijosAklavietė.png Graphic file (type bmp)
+<img/RegistracijosAklavietė.png>
+File: img/AtvaizdavimoKlaida.png Graphic file (type bmp)
+<img/AtvaizdavimoKlaida.png>
+ [12] [13] [14
 
 ] [15
+
+] [16
+
+] [17
 
 ]
 
@@ -1262,7 +1294,7 @@ Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
 
 
 Package biblatex Warning: No hyphenation patterns for 'lietuvių' on input line 
-287.
+311.
 
 
 Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
@@ -1270,33 +1302,36 @@ Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
 
 
 Package biblatex Warning: No hyphenation patterns for 'lietuvių' on input line 
-287.
+311.
 
 
 Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
 (biblatex)                Please use '\mkdaterangeiso'.
 
-[16
+[18
 
 ]
 File: img/RegistracijosAklavietė.png Graphic file (type bmp)
 <img/RegistracijosAklavietė.png>
 File: img/PaieškosRezultatai.png Graphic file (type bmp)
 <img/PaieškosRezultatai.png>
- [17
+ [19
 
-] [18] (kursinis.aux)
+] [20] (kursinis.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package logreq Info: Writing requests to 'kursinis.run.xml'.
 \openout1 = `kursinis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25790 strings out of 427748
- 505757 string characters out of 3146822
- 1011743 words of memory out of 3000000
- 29563 multiletter control sequences out of 15000+200000
+ 25801 strings out of 427748
+ 506075 string characters out of 3146822
+ 1011762 words of memory out of 3000000
+ 29572 multiletter control sequences out of 15000+200000
  545296 words of font info for 94 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
  67i,11n,96p,1167b,7668s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on kursinis.pdf (18 pages).
+Output written on kursinis.pdf (20 pages).
