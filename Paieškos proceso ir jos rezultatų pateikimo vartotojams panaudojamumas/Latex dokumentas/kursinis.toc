@@ -16,27 +16,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.3.}Bendro panaudojamumo analizė}{11}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.}Sprendimo variantai}{14}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.}Alternatyvieji sprendimai}{14}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.}Sprendimo maketai}{14}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.1.}Pirmas maketas}{14}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.2.}Antras maketas}{14}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.}Maketų palyginimas}{14}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.}Galutinio sprendimo prototipas}{14}% 
+\contentsline {section}{\numberline {4.}Galutinio sprendimo prototipas}{14}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.}Reikalavimai galutinio sprendimo įgyvendinimui}{15}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.}Technologijos galutinio sprendimo įgyvendinimui}{16}% 
+\contentsline {section}{Rezultatai ir išvados}{16}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Rezultatai ir išvados}{17}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{Šaltiniai}{18}% 
+\contentsline {section}{Šaltiniai}{17}% 
 \defcounter {refsection}{0}\relax 
 \select@language {english}
 \defcounter {refsection}{0}\relax 
@@ -65,7 +51,3 @@
 \select@language {english}
 \defcounter {refsection}{0}\relax 
 \select@language {lithuanian}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\MakeUppercase {Priedai}}{18}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{1 priedas.\nobreakspace {}Dabartinio puslapio grafinė vartotojo sąsaja}{19}% 
