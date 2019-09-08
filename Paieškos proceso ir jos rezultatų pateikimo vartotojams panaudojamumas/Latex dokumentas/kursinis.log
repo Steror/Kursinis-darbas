@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.6960 64-bit) (preloaded format=xelatex 2019.3.11)  8 SEP 2019 13:30
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.6960 64-bit) (preloaded format=xelatex 2019.3.11)  9 SEP 2019 00:36
 entering extended mode
 **./kursinis.tex
 (kursinis.tex
@@ -1025,7 +1025,11 @@ Package biblatex Warning: Conflicting options.
 (biblatex)                'date=iso' requires 'seconds=true'.
 (biblatex)                Setting 'seconds=true' on input line 39.
 
-(kursinis.aux)
+(kursinis.aux
+
+LaTeX Warning: Label `img:PaieškosPrototipas' multiply defined.
+
+)
 \openout1 = `kursinis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
@@ -1243,11 +1247,21 @@ File: img/RegistracijosAklavietė.png Graphic file (type bmp)
 <img/RegistracijosAklavietė.png>
 File: img/AtvaizdavimoKlaida.png Graphic file (type bmp)
 <img/AtvaizdavimoKlaida.png>
- [12] [13] [14
+ [12] [13]
+File: img/PaieškosPrototipas.png Graphic file (type bmp)
+<img/PaieškosPrototipas.png>
 
-] [15
+Overfull \hbox (7.62386pt too wide) in paragraph at lines 296--297
+ [][] 
+ []
 
-] [16
+File: img/PaieškosPrototipas.png Graphic file (type bmp)
+<img/PaieškosPrototipas.png>
+[14
+
+] [15] [16
+
+] [17
 
 ]
 
@@ -1288,7 +1302,7 @@ Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
 
 
 Package biblatex Warning: No hyphenation patterns for 'lietuvių' on input line 
-307.
+330.
 
 
 Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
@@ -1296,26 +1310,29 @@ Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
 
 
 Package biblatex Warning: No hyphenation patterns for 'lietuvių' on input line 
-307.
+330.
 
 
 Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
 (biblatex)                Please use '\mkdaterangeiso'.
 
-[17
+[18
 
 ] (kursinis.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package logreq Info: Writing requests to 'kursinis.run.xml'.
 \openout1 = `kursinis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25795 strings out of 427748
- 505927 string characters out of 3146822
- 1011752 words of memory out of 3000000
- 29567 multiletter control sequences out of 15000+200000
+ 25801 strings out of 427748
+ 506083 string characters out of 3146822
+ 1011768 words of memory out of 3000000
+ 29572 multiletter control sequences out of 15000+200000
  545296 words of font info for 94 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
  67i,11n,96p,1167b,7666s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on kursinis.pdf (17 pages).
+Output written on kursinis.pdf (18 pages).

@@ -16,13 +16,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.3.}Bendro panaudojamumo analizė}{11}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.}Galutinio sprendimo prototipas}{14}% 
+\contentsline {section}{\numberline {4.}Galutinio sprendimo maketas}{14}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.}Reikalavimai galutinio sprendimo įgyvendinimui}{15}% 
+\contentsline {section}{\numberline {5.}Reikalavimai galutinio sprendimo įgyvendinimui}{16}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Rezultatai ir išvados}{16}% 
+\contentsline {section}{Rezultatai ir išvados}{17}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Šaltiniai}{17}% 
+\contentsline {section}{Šaltiniai}{18}% 
 \defcounter {refsection}{0}\relax 
 \select@language {english}
 \defcounter {refsection}{0}\relax 
