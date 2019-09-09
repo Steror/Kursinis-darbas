@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.6960 64-bit) (preloaded format=xelatex 2019.3.11)  9 SEP 2019 04:40
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.6960 64-bit) (preloaded format=xelatex 2019.3.11)  9 SEP 2019 04:52
 entering extended mode
 **./kursinis.tex
 (kursinis.tex
@@ -1260,16 +1260,7 @@ Overfull \hbox (10.87383pt too wide) in paragraph at lines 306--307
 
 [14
 
-]
-
-LaTeX Warning: Reference `NavigacijosirIALentelėPrad' on page 15 undefined on i
-nput line 311.
-
-
-LaTeX Warning: Reference `NavigacijosirIALentelėPrad' on page 15 undefined on i
-nput line 311.
-
-[15] [16
+] [15] [16
 
 ]
 
@@ -1335,18 +1326,15 @@ Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
 [17
 
 ] (kursinis.aux)
-
-LaTeX Warning: There were undefined references.
-
 Package logreq Info: Writing requests to 'kursinis.run.xml'.
 \openout1 = `kursinis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25811 strings out of 427748
- 506439 string characters out of 3146822
+ 25809 strings out of 427748
+ 506392 string characters out of 3146822
  1011916 words of memory out of 3000000
- 29581 multiletter control sequences out of 15000+200000
+ 29579 multiletter control sequences out of 15000+200000
  545296 words of font info for 94 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
  67i,11n,96p,1531b,7668s stack positions out of 5000i,500n,10000p,200000b,50000s

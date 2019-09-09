@@ -57,14 +57,14 @@ Kadangi Lietuvos gyventojams internetas lengvai prieinamas, darosi įprasta ieš
 
 Tačiau dabartinėje sistemoje vartotojai susiduria su panaudojamumo problemomis. Naudojant paieškos sistemą negalima įvesti pilnų žodžių, nes, jeigu užklausos galūnė bent šiek tiek skiriasi, paieška rezultato negražina. Be to, ieškant informacijos apie širdies ligas gaunamas pilnas puslapis padėkų, kurios, nors džiugina, užslepia rezultatus kaip širdies ligų gydymo centro kontaktai. Filtravimas nepadeda, nes gražinti rezultatai yra skirstomi į per plačias kategorijas, kuriose padėkos, naujienos ir svetainės esminiai puslapiai tokie kaip „Kontaktai“ ar „Apie mus“ yra vienoje kategorijoje. 
 
-Šio \textbf{darbo tikslas} yra išnagrinėti tinklapio trūkumus ir remiantis literatūros šaltiniais sukurti prototipą su nauja informacijos architektūra, kuri leistų pacientams greičiau ir patogiau rasti aktualią informaciją santa.lt puslapyje. Galutinis darbo rezultatas - puslapio prototipas ir reikalavimai galutiniam tinklapio įgyvendinimui.
+Šio \textbf{darbo tikslas} yra išnagrinėti tinklapio paieškos ir navigacijos panaudojamumo trūkumus ir remiantis literatūros šaltiniais sukurti prototipą su pataisyta informacijos architektūra, kuri leistų naudotojams lengviau rasti aktualią informaciją santa.lt puslapyje. Galutinis darbo rezultatas - išskirti panaudojamumo lyginimo kriterijai, išnagrinėta puslapio panaudojamumo būsena ir galutinio sprendimo maketas.
 
 Uždaviniai:
 \begin{enumerate}
 	\item Identifikuoti vartotojų poreikius remiantis literatūros šaltiniais ir internetinių puslapių lankomumo informacija
 	\item Išskirti lyginimo kriterijus remiantis literatūros šaltiniais
 	\item Atlikti puslapio panaudojamumo analizę pagal išskirtus kriterijus
-	\item Sukurti galutinio sprendimo prototipą
+	\item Sukurti galutinio sprendimo maketą
 	%\item Paruošti sprendimo variantus
 	%\renewcommand*{\theenumii}{\theenumi.\arabic{enumii}}
 	%\renewcommand{\labelenumii}{\theenumii}
@@ -74,7 +74,7 @@ Uždaviniai:
 	%	\item Palyginti maketus
 	%	\item Sukurti galutinio sprendimo prototipą
 	%\end{enumerate}
-	\item Išskirti detalius reikalavimus galutinio sprendimo įgyvendinimui
+	%\item Išskirti detalius reikalavimus galutinio sprendimo įgyvendinimui
 	%\item Atlikus literatūros analizę išskirti technologijas padedančias įgyvendinti galutinį sprendimą
 \end{enumerate}
 
@@ -93,7 +93,7 @@ Norint daugiau sužinoti apie vartotojų poreikius autorius atliko apklausą kar
 \item Visi dalyviai buvo nepatenkinti paieškos sistema
 \end{enumerate}
 
-Apklausa parodo, kad vartotojai nėra patenkinti dabartine sistema. Norint toliau nagrinėti sistemos trūkumus ir privalumus reikia surasti lyginimo kriterijus, pagal kuriuos bus galima palyginti senos ir naujos sistemos panaudojamumą.
+Apklausa parodo, kad vartotojai nėra patenkinti dabartine sistema. Norint toliau nagrinėti sistemos trūkumus ir privalumus reikia surasti lyginimo kriterijus, pagal kuriuos bus galima palyginti dabartinės ir pataisytos sistemos panaudojamumą.
 
 
 
@@ -287,9 +287,9 @@ Kita problema yra vizualinė, užvedus kursorių ant paspaudžiamų elementų š
 
 \section{Galutinio sprendimo maketas}
 %Kuriant sprendimo maketus remiamasi jau egzistuojančiais ligoninių puslapiais, kurie atitinka prisitaikančio dizaino (angl. responsive design) principus. Prisitaikantis dizainas leidžia turėti vieną puslapį, kuris prisitaiko prie įvarių ekrano formų ir dydžių\cite{RWDEn}. Pavyzdiniai puslapiai parinkti iš didmiesčių ligoninių, Vilniaus, Kauno ir Niujorko. Autoriaus subjektyvia nuomone Kauno ligonės puslapis yra ypač geras pavyzdys. Sumuštinio meniu, registracijos mygtukas ir paieška yra geriausiai matomoje vietoje, naudojami dideli mygtukai su aiškiais užrašais bei kontrastingos spalvos, taigi net žmonėms su prastu regėjimu turėtų būti patogu naudotis (\ref{img:kaunomobile} pav.).
-Šiame skyriuje analizuojami autoriaus sukurti maketai skirti išspręsti tinklapio panaudojamumo problemas pastebėtas praėjusiame skyriuje. Maketams kurti galima naudoti vieną iš daugelio įrankių: Adobe XD, Axure RP, Balsamique, Moqups, Justinmind ir kitus. Šiuo atveju naudojamas Moqups vartotojo sąsajos maketų kūrimo įrankis.
+Šiame skyriuje analizuojamas autoriaus sukurtas maketas skirtas išspręsti tinklapio panaudojamumo problemas pastebėtas praėjusiame skyriuje. Maketui kurti galima naudoti vieną iš daugelio įrankių: Adobe XD, Axure RP, Balsamique, Moqups, Justinmind ir kitus. Šiuo atveju naudojamas Moqups vartotojo sąsajos maketų kūrimo įrankis.
 
-Per panaudojamumo analizę aptikta, kad tinklapis daugiau tenkina, nei netenkina gaires. Autoriaus nuomone puslapių projektavimas yra iteracinis procesas, taigi dauguma esamojo tinklapio elementų palikti koki buvo. Pakeitimai atlikti tose vietose, kur pastebėti trūkumai. Maketuose prasmingi pakeitimai pažymėti raudonai.
+Per panaudojamumo analizę aptikta, kad tinklapis daugiau tenkina, nei netenkina gaires. Autoriaus nuomone puslapių projektavimas yra iteracinis procesas, taigi dauguma esamojo tinklapio elementų palikti koki buvo. Pakeitimai atlikti tose vietose, kur pastebėti trūkumai. Makete prasmingi pakeitimai pažymėti raudonai.
 
 \begin{figure}[H]
     \centering
@@ -308,7 +308,7 @@ Per panaudojamumo analizę aptikta, kad tinklapis daugiau tenkina, nei netenkina
     \label{img:NavigacijosPrototipas}
 \end{figure}
 
-\ref{img:NavigacijosPrototipas} paveikslėlyje pavaizduotas navigacijos sistemos maketas. Makete pirmas navigacijos lygis praplatintas viena kategorija, kas leidžia visus elementus logiškai sudėti į antrą lygį (\ref{NavigacijosirIALentelėPrad}.4, \ref{NavigacijosirIALentelėPrad}.5 ir \ref{EuristikųLentelėPrad}.2 defektas). Viršutinėje puslapio dalyje pridėtas mygtukas elektroninei registracijai pas gydytoją (\ref{EuristikųLentelėPrad}.2 defektas). Per navigacijos sistemą visada matoma aktyvi kategorija (kurioje naudotojas dabar naršo) ir nukeliautas kelias, kuris turi nuorodas į tėvinius lygius (\ref{EuristikųLentelėPrad}.3 ir \ref{EuristikųLentelėPrad}.4 defektas). Užvedus pelę ant navigacijos dabar parodomi žemiau esantys lygiai (\ref{EuristikųLentelėPrad}.6, \ref{EuristikųLentelėPrad}.7 ir \ref{EuristikųLentelėPrad}.8 defektas). Pridėti paveiksliukai prie kategorijų, leidžiantys naudotojui lengviau atpažinti kategorijas (\ref{EuristikųLentelėPrad}.6 defektas). Pridėtas D.U.K. (Dažnai užduodamų klausimų) mygtukas, kuris nuvestų naudotoją į pagalbinį puslapį (\ref{EuristikųLentelėPrad}.6 defektas).
+\ref{img:NavigacijosPrototipas} paveikslėlyje pavaizduotas navigacijos sistemos maketas. Makete pirmas navigacijos lygis praplatintas viena kategorija, kas leidžia visus elementus logiškai sudėti į antrą lygį (\ref{navigacijosirIAlentelėPrad}.4, \ref{navigacijosirIAlentelėPrad}.5 ir \ref{EuristikųLentelėPrad}.2 defektas). Viršutinėje puslapio dalyje pridėtas mygtukas elektroninei registracijai pas gydytoją (\ref{EuristikųLentelėPrad}.2 defektas). Per navigacijos sistemą visada matoma aktyvi kategorija (kurioje naudotojas dabar naršo) ir nukeliautas kelias, kuris turi nuorodas į tėvinius lygius (\ref{EuristikųLentelėPrad}.3 ir \ref{EuristikųLentelėPrad}.4 defektas). Užvedus pelę ant navigacijos dabar parodomi žemiau esantys lygiai (\ref{EuristikųLentelėPrad}.6, \ref{EuristikųLentelėPrad}.7 ir \ref{EuristikųLentelėPrad}.8 defektas). Pridėti paveiksliukai prie kategorijų, leidžiantys naudotojui lengviau atpažinti kategorijas (\ref{EuristikųLentelėPrad}.6 defektas). Pridėtas D.U.K. (Dažnai užduodamų klausimų) mygtukas, kuris nuvestų naudotoją į pagalbinį puslapį (\ref{EuristikųLentelėPrad}.6 defektas).
 
 Prieš kuriant galutinį sprendimą reikėtų nepamiršti atkreipti dėmesio į puslapio panaudojamumą ant įvairių įrenginių, kurie nėra kompiuteriai. Čia svarbu išnagrinėti prisitaikančio dizaino (angl. responsive design) principus. Prisitaikantis dizainas leidžia turėti vieną puslapį, kuris prisitaiko prie įvairių ekrano formų ir dydžių\cite{RWDEn}, kas leidžia tinkamai atvaizduoti tinklapį ant didesnio kiekio įrenginių. Tai leistų pasiekti daugiau vartotojų, kurie galbūt neturi kompiuterio ar dėl patogumo naudojasi mobiliu įrenginiu. Tačiau jau vien įgyvendinus aukščiau pateiktus pataisymus puslapio panaudojamumas stipriai pagerėtų.
 
