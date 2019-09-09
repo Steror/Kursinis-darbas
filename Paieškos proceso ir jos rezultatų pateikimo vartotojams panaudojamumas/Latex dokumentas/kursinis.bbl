@@ -190,6 +190,35 @@
       \verb https://www.microsoft.com/en-us/research/wp-content/uploads/2010/10/SIGIR2010-DwellTimeModel.pdf
       \endverb
     \endentry
+    \entry{RWDEn}{online}{}
+      \name{author}{1}{}{%
+        {{hash=ca762f825f70c5a1f00a689ca3e9869e}{%
+           family={Marcotte},
+           familyi={M\bibinitperiod},
+           given={Ethan},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{ca762f825f70c5a1f00a689ca3e9869e}
+      \strng{fullhash}{ca762f825f70c5a1f00a689ca3e9869e}
+      \strng{bibnamehash}{ca762f825f70c5a1f00a689ca3e9869e}
+      \strng{authorbibnamehash}{ca762f825f70c5a1f00a689ca3e9869e}
+      \strng{authornamehash}{ca762f825f70c5a1f00a689ca3e9869e}
+      \strng{authorfullhash}{ca762f825f70c5a1f00a689ca3e9869e}
+      \field{labelalpha}{Mar10}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{Responsive Web Design}
+      \field{year}{2010}
+      \verb{urlraw}
+      \verb http://alistapart.com/article/responsive-web-design/
+      \endverb
+      \verb{url}
+      \verb http://alistapart.com/article/responsive-web-design/
+      \endverb
+    \endentry
     \entry{NielsenHeuristicsEn}{inproceedings}{}
       \name{author}{1}{}{%
         {{hash=753054f71283d85f82cda8e35daf6bac}{%
@@ -249,6 +278,33 @@
       \field{year}{1994}
       \field{pages}{413\bibrangedash 414}
       \range{pages}{2}
+    \endentry
+    \entry{EmergingmHealthEn}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=61835b68ccef417c7b0f4743bc983d0a}{%
+           family={{PwC}},
+           familyi={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{61835b68ccef417c7b0f4743bc983d0a}
+      \strng{fullhash}{61835b68ccef417c7b0f4743bc983d0a}
+      \strng{bibnamehash}{61835b68ccef417c7b0f4743bc983d0a}
+      \strng{authorbibnamehash}{61835b68ccef417c7b0f4743bc983d0a}
+      \strng{authornamehash}{61835b68ccef417c7b0f4743bc983d0a}
+      \strng{authorfullhash}{61835b68ccef417c7b0f4743bc983d0a}
+      \field{labelalpha}{PwC14}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{Emerging mHealth: Paths for growth}
+      \field{year}{2014}
+      \verb{urlraw}
+      \verb https://www.pwc.com/gx/en/healthcare/mhealth/assets/pwc-emerging-mhealth-full.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.pwc.com/gx/en/healthcare/mhealth/assets/pwc-emerging-mhealth-full.pdf
+      \endverb
     \endentry
     \entry{EuCitizDigHealthEn}{misc}{}
       \name{author}{1}{}{%

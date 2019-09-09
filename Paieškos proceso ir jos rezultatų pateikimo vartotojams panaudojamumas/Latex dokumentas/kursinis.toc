@@ -18,11 +18,17 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.}Galutinio sprendimo maketas}{14}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.}Reikalavimai galutinio sprendimo įgyvendinimui}{16}% 
+\contentsline {section}{Rezultatai ir išvados}{16}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Rezultatai ir išvados}{17}% 
+\contentsline {section}{Šaltiniai}{17}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Šaltiniai}{18}% 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\select@language {lithuanian}
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\select@language {lithuanian}
 \defcounter {refsection}{0}\relax 
 \select@language {english}
 \defcounter {refsection}{0}\relax 
