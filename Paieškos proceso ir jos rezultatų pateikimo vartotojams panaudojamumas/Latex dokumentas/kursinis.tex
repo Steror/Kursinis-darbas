@@ -234,7 +234,7 @@ Kita problema yra vizualinė, užvedus kursorių ant paspaudžiamų elementų š
 	Euristika & DS & Komentaras \\ \hline
 	1) Sistemos būsenos matomumas & 2 & Paspaudus mygtuką „ieškoti“ rodomas tuščias puslapis iki paieškos rezultatų gavimo. Paieška užtrunka apie 3 sekundes, taigi galėtų būti tekstas, animacija ar progreso juosta pranešanti, kad vyksta paieška. Užvedus kursorių ant paspaudžiamų elementų kaip nuorodų ir tam tikrų elementų, šie nepasikeičia, taigi vartotojui sunkiau juos pastebėti. \\ \hline
 	2) Atitikimas realiam pasauliui  & 2 & Daugumai vartotojų aktuali registracija pas gydytoją, taigi ji turėtų būti dar lengviau surandama naršant arba ieškant (\ref{img:blogapaieška}, \ref{img:RegistracijaPagrindinis} ir \ref{img:registracija} pav.). \\ \hline
-	3) Naudotojo valdomas dialogas & 2 & Dalis puslapių nerodo nukeliauto kelio (\ref{img:atvaizdavimoklaida} pav.). \\ \hline
+	3) Naudotojo valdomas dialogas & 1 & Dalis puslapių nerodo nukeliauto kelio, kai šie randami per paiešką (\ref{img:atvaizdavimoklaida} pav.). \\ \hline
 	4) Darna ir standartai & 1 & Kai kuriuose puslapiuose pranyksta navigacijos elementai (\ref{img:atvaizdavimoklaida} pav.) \\ \hline
 	5) Klaidų prevencija & 2 & Netinkami numatytieji nustatymai lemia, kad naudotojai dažnai atlieka netinkamą paiešką (\ref{img:blogapaieška}, \ref{img:tuščiapaieška} ir \ref{img:protingapaieška} pav.). Nėra patarimų kaip naudotis paieškos sistema. Vedant užklausą nepasiūlomi paieškos variantai. \\ \hline
 	6) Atpažinimas geriau nei atsiminimas & 2 & Navigacija nerodo gilesnių lygių, kol neatidaromas to lygio puslapis, taigi reikia žinoti, kurioje kategorije ieškomas elementas (\ref{img:siauranavigacija} pav.). Trūksta vaizdų, kurie asocijuojasi su mygtukais. Nėra pagalbos naudotis tinklapiu. \\ \hline
@@ -298,19 +298,18 @@ Per panaudojamumo analizę aptikta, kad tinklapis daugiau tenkina, nei netenkina
     \label{img:PaieškosPrototipas}
 \end{figure}
 
-
-
-
-
-
+\ref{img:PaieškosPrototipas} paveikslėlyje pavaizduotas paieškos sistemos maketas. Šiame makete pakeistas numatytasis paieškos rūšiavimo būdas iš rūšiavimo pagal naujumą į rūšiavimą pagal populiarumą (\ref{PaieškosLentelėPrad}.3, \ref{EuristikųLentelėPrad}.2 ir \ref{EuristikųLentelėPrad}.5 defektas). Maketas turi pagalbos laukelį, kuris duoda patarimų kaip naudotis paieška (\ref{PaieškosLentelėPrad}.5, \ref{PaieškosLentelėPrad}.8, \ref{EuristikųLentelėPrad}.5  ir \ref{EuristikųLentelėPrad}.10 defektas). Defektas \ref{PaieškosLentelėPrad}.7 kyla iš paieškos sistemos suprogramavimo, taigi šis maketas negali jo pataisyti, tačiau jau minėtas rūšiavimo pakeitimas turėtų bent dalinai mitiguoti problemą, nes naudingi rezultatai bus iškelti į viršų, kai tokių yra. Defektas \ref{PaieškosLentelėPrad}.11 vėlgi susijęs su paieškos implementacija. Atlikus šiuos paieškos sistemos pakeitimus turėtų palengvėti naudojimasis paieška, kas skatina paieškos strategiją ieškant informacijos (\ref{PaieškosLentelėPrad}.16 defektas). Defektas \ref{PaieškosLentelėPrad}.19 irgi priklauso nuo paieškos kodo. Makete po kiekvienu paieškos rezultatu pridėtas mygtukas „Daugiau kaip šis“, kuris leistų atlikti panašių elementų paiešką (\ref{PaieškosLentelėPrad}.20 defektas).
 
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.6]{img/PaieškosPrototipas}
-    \caption{Paieškos sistemos maketas su sistemos pataisymais}
-    \label{img:PaieškosPrototipas}
+    \includegraphics[scale=0.65]{img/NavigacijosPrototipas}
+    \caption{Navigacijos sistemos maketas su sistemos pataisymais}
+    \label{img:NavigacijosPrototipas}
 \end{figure}
+
+\ref{img:NavigacijosPrototipas} paveikslėlyje pavaizduotas navigacijos sistemos maketas. Makete pirmas navigacijos lygis praplatintas viena kategorija, kas leidžia visus elementus logiškai sudėti į antrą lygį (\ref{NavigacijosirIALentelėPrad}.4, \ref{NavigacijosirIALentelėPrad}.5 ir \ref{EuristikųLentelėPrad}.2 defektas). Viršutinėje puslapio dalyje pridėtas mygtukas elektroninei registracijai pas gydytoją (\ref{EuristikųLentelėPrad}.2 defektas). Per navigacijos sistemą visada matoma aktyvi kategorija (kurioje naudotojas dabar naršo) ir nukeliautas kelias, kuris turi nuorodas į tėvinius lygius (\ref{EuristikųLentelėPrad}.3 ir \ref{EuristikųLentelėPrad}.4 defektas). Užvedus pelę ant navigacijos dabar parodomi žemiau esantys lygiai (\ref{EuristikųLentelėPrad}.6, \ref{EuristikųLentelėPrad}.7 ir \ref{EuristikųLentelėPrad}.8 defektas). Pridėti paveiksliukai prie kategorijų, leidžiantys naudotojui lengviau atpažinti kategorijas (\ref{EuristikųLentelėPrad}.6 defektas). Pridėtas D.U.K. (Dažnai užduodamų klausimų) mygtukas, kuris nuvestų į pagalbinį puslapį (\ref{EuristikųLentelėPrad}.6 defektas).
+
 
 \section{Reikalavimai galutinio sprendimo įgyvendinimui}
 

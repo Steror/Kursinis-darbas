@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.6960 64-bit) (preloaded format=xelatex 2019.3.11)  9 SEP 2019 00:36
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.6960 64-bit) (preloaded format=xelatex 2019.3.11)  9 SEP 2019 03:03
 entering extended mode
 **./kursinis.tex
 (kursinis.tex
@@ -1025,11 +1025,7 @@ Package biblatex Warning: Conflicting options.
 (biblatex)                'date=iso' requires 'seconds=true'.
 (biblatex)                Setting 'seconds=true' on input line 39.
 
-(kursinis.aux
-
-LaTeX Warning: Label `img:PaieškosPrototipas' multiply defined.
-
-)
+(kursinis.aux)
 \openout1 = `kursinis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
@@ -1251,15 +1247,29 @@ File: img/AtvaizdavimoKlaida.png Graphic file (type bmp)
 File: img/PaieškosPrototipas.png Graphic file (type bmp)
 <img/PaieškosPrototipas.png>
 
-Overfull \hbox (7.62386pt too wide) in paragraph at lines 296--297
+Overfull \hbox (6.32387pt too wide) in paragraph at lines 296--297
  [][] 
  []
 
-File: img/PaieškosPrototipas.png Graphic file (type bmp)
-<img/PaieškosPrototipas.png>
+File: img/NavigacijosPrototipas.png Graphic file (type bmp)
+<img/NavigacijosPrototipas.png>
+
+Overfull \hbox (10.87383pt too wide) in paragraph at lines 306--307
+ [][] 
+ []
+
 [14
 
-] [15] [16
+]
+
+LaTeX Warning: Reference `NavigacijosirIALentelėPrad' on page 15 undefined on i
+nput line 311.
+
+
+LaTeX Warning: Reference `NavigacijosirIALentelėPrad' on page 15 undefined on i
+nput line 311.
+
+[15] [16
 
 ] [17
 
@@ -1302,7 +1312,7 @@ Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
 
 
 Package biblatex Warning: No hyphenation patterns for 'lietuvių' on input line 
-330.
+329.
 
 
 Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
@@ -1310,7 +1320,7 @@ Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
 
 
 Package biblatex Warning: No hyphenation patterns for 'lietuvių' on input line 
-330.
+329.
 
 
 Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
@@ -1320,19 +1330,19 @@ Package biblatex Warning: '\mkdaterangeiso8601' is deprecated.
 
 ] (kursinis.aux)
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: There were undefined references.
 
 Package logreq Info: Writing requests to 'kursinis.run.xml'.
 \openout1 = `kursinis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25801 strings out of 427748
- 506083 string characters out of 3146822
- 1011768 words of memory out of 3000000
- 29572 multiletter control sequences out of 15000+200000
+ 25807 strings out of 427748
+ 506263 string characters out of 3146822
+ 1011770 words of memory out of 3000000
+ 29577 multiletter control sequences out of 15000+200000
  545296 words of font info for 94 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
- 67i,11n,96p,1167b,7666s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 67i,11n,96p,1301b,7666s stack positions out of 5000i,500n,10000p,200000b,50000s
 
 Output written on kursinis.pdf (18 pages).
